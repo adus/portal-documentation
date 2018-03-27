@@ -4,7 +4,7 @@ Users are able to select a route to compare four weeks of travel time data again
 ### Route selection
 * _Routes_ Users can either use the drop down menu select among several predefined routes, or use the map to create a route by selecting several continuous stations.
 
-* _Start Week_ Only four weeks of data can be plotted and downloaded at one time. The start week begins on a Sunday.
+* _Start Week_ Only four weeks of data can be plotted and downloaded at one time which includes the selected start week plus the previous three weeks.
 
 ### Plot selection
 Figure 1 shows a selected route along US-26 WB starting at Frog Lake and ending at Arlie Mitchell Road.
