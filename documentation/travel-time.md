@@ -10,7 +10,7 @@ Users are able to select a route to compare four weeks of travel time data again
 Figure 1 shows a selected route along US-26 WB starting at Frog Lake and ending at Arlie Mitchell Road.
 
 <figure align = "center">
-<img src="portal-documentation/images/transit-time-images/travel-time-img1.png" width="500">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img1.png" width="500">
 <figcaption>Figure 1. Screen shot of <i>Travel Time</i> page for a route selected along US-26 WB.</figcaption>
 </figure>
 
