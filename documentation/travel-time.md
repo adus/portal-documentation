@@ -26,9 +26,7 @@ _Average Travel Time_
 The average travel time is the same as travel time calculated at the 50 percentile over the user selected reliability weeks.
 
 _Sample Count_
-Sample counts show the number of samples used to calculate travel time.
-
-_Average Sample Count_
+Data used to calculate travel time on freeways comes from readings taken every 20 seconds from loop detectors. Data used to calculate travel times from arterials generally comes from bluetooth detectors and taken each time a car is detected, suggesting travel times along arterials might be less precise due to this method. Sample counts show the number of samples used to calculate travel time for each week. Travel time calculated with sample counts less or equal to 30 (and indicated with a red color) is less than ideal. Travel time calculated with sample counts great than 30 and less than 50 is acceptable. And travel times calculated with sample counts greater than 50 is best. There is also an option to see the average sample count for all four weeks.
 
 _Download_
 
