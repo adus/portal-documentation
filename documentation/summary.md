@@ -13,4 +13,4 @@ Archived data dates back to 2004 and has grown from one freeway data feed from O
 * Bluetooth arterial travel times
 * Transit performance
 
-Portal is continuously working towards developing partnerships with other regional and local jurisdictions in providing archival services and expanding resources for transportation practitioners, researchers, and educators. For a more detailed background please refer to Tufte et al. [(2015)](). 
+Portal is continuously working towards developing partnerships with other regional and local jurisdictions in providing archival services and expanding resources for transportation practitioners, researchers, and educators. For a more detailed background please refer to Tufte et al. ([2015](https://github.com/adus/portal-documentation/blob/master/documentation/TufteEtAl_2015.pdf)).
