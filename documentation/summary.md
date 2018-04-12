@@ -1,9 +1,16 @@
 # Purpose
 
-PORTAL is the official Archived Data User Service (ADUS) transportation data archive of the Portland-Vancouver-Hillsboro Metropolitan Area. PORTAL serves as a resource for practitioners, researchers, and other public and private institutions and individuals interested in education, performance measurements, research, and data driven decisions in policy and enforcement.Data archived include the following modes of transportation:
+Portal is the official Archived Data User Service (ADUS) transportation data archive of the Portland-Vancouver-Hillsboro Metropolitan Area. Portal serves as a resource for practitioners, researchers, and other public and private institutions and individuals interested in education, performance measurements, research, and data driven decisions in policy and enforcement.
+
+# Background
+Portal was developed in recognition of the value for archiving data from Intelligent Transportation Systems (ITS).
+
+Archived data dates back to 2004 and has grown from one freeway data feed from Oregon Department of Transportation (ODOT) to include data from Washington County, City of Portland, and Tri-Met in Oregon, and Clark County and C-Tran in southwest Washington state. Types of data that are currently archived include following modes of transportation:
 
 * Freeway speeds and volumes
 * Arterial counts
 * Arterial signal cycle
 * Bluetooth arterial travel times
 * Transit performance
+
+Portal is continuously working towards developing partnerships with other regional and local jurisdictions in providing archival services and expanding resources for transportation practitioners, researchers, and educators. For a more detailed background please refer to Tufte et al. [(2015)](). 
