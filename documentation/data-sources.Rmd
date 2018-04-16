@@ -23,13 +23,17 @@ ds_table_test <- ds_table %>%
   select(Usage, Type, Agency)
 ```
 ```{r pressure, echo=FALSE}
-datatable(ds_table, options = list(
+datatable(ds_table, rownames = F, 
+          caption = "Table 1: Data Sources",
+          width = "600px",
+          options = list(
   searching = F,
   pageLength = 5,
-  lengthMenu = c(5, 10, 15, 20)
+  lengthMenu = c(5, 10, 15, 20),
+  autoWidth = F
 )) %>%
   DT::formatStyle(columns = c("Usage", "Type", "Agency", "Detection.Type", "Available.Granularity",
-                              "Date.Range", "Accessibility", "Location.Availability", "Collection.Frequency",
+                              "Date.Range", "Accessibility", "Location.Availability", "Installation.Type", "Collection.Frequency",
                               "Documentation"), fontSize = '10px')
 ```
 
