@@ -1,0 +1,35 @@
+---
+# title: "Data Sources"
+# author: "Tammy"
+# date: "April 16, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(DT)
+```
+
+# Data Sources
+
+There are many data sources that feed into Portal. The tables below provide a description of each source.
+
+_Last update: 2016-11-03_
+
+```{r data-sources-table.csv, include = F, echo = F}
+ds_table <- read.csv("data-sources-table.csv", colClasses = "character")
+ds_table_test <- ds_table %>%
+  select(Usage, Type, Agency)
+```
+```{r pressure, echo=FALSE}
+datatable(ds_table, options = list(
+  searching = F,
+  pageLength = 5,
+  lengthMenu = c(5, 10, 15, 20)
+)) %>%
+  DT::formatStyle(columns = c("Usage", "Type", "Agency", "Detection.Type", "Available.Granularity",
+                              "Date.Range", "Accessibility", "Location.Availability", "Collection.Frequency",
+                              "Documentation"), fontSize = '10px')
+```
+
