@@ -38,4 +38,4 @@ At a minimum, work in this repo is updated weekly.
 
 ### [Abbreviations](https://github.com/adus/portal-documentation/blob/master/documentation/abbreviations.md)
 
-### [Data Sources](http://htmlpreview.github.io/?https://github.com/adus/portal-documentation/blob/master/documentation/data-sources.html)
+### [Data Sources](https://rawgit.com/adus/portal-documentation/master/documentation/data-sources.html)
