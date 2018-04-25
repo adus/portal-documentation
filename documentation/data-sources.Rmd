@@ -30,7 +30,7 @@ datatable(ds_table, rownames = F,
   searching = F,
   pageLength = 5,
   lengthMenu = c(5, 10, 15, 20),
-  autoWidth = F
+  scrollX = "400px"
 )) %>%
   DT::formatStyle(columns = c("Usage", "Type", "Agency", "Detection.Type", "Available.Granularity",
                               "Date.Range", "Accessibility", "Location.Availability", "Installation.Type", "Collection.Frequency",
