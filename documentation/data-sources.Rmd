@@ -20,7 +20,7 @@ _Last update: 2016-11-03_
 ```{r data-sources-table.csv, include = F, echo = F}
 ds_table <- read.csv("data-sources-table.csv", colClasses = "character")
 ds_table_test <- ds_table %>%
-  select(Usage, Type, Agency)
+  select(Source, Type, Agency)
 ```
 ```{r pressure, echo=FALSE}
 datatable(ds_table, rownames = F, 
@@ -30,9 +30,9 @@ datatable(ds_table, rownames = F,
   searching = F,
   pageLength = 5,
   lengthMenu = c(5, 10, 15, 20),
-  scrollX = "400px"
+  scrollX = "600px"
 )) %>%
-  DT::formatStyle(columns = c("Usage", "Type", "Agency", "Detection.Type", "Available.Granularity",
+  DT::formatStyle(columns = c("Source", "Type", "Agency", "Detection.Type", "Available.Granularity",
                               "Date.Range", "Accessibility", "Location.Availability", "Installation.Type", "Collection.Frequency",
                               "Documentation"), fontSize = '10px')
 ```

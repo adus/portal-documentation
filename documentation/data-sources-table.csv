@@ -1,23 +1,30 @@
-Usage,Type,Agency,Detection Type,Available Granularity,Date Range,Accessibility,Location Availability,Installation Type,Collection Frequency,Documentation
-Freeway,"Speed, Volume, Occupancy",ODOT,"Loops, Radar","20-sec,
+Source,Type,Agency,Detection Type,Available Granularity,Date Range,Accessibility,Location Availability,Installation Type,Collection Frequency,Documentation
+Freeway,"Speed, volume, occupancy",ODOT,"Loops, radar","20-sec,
 5-min,
 15-min,
 Hour","Loops: 2004 - current
-Radar: ~2014 - current",Plots and download in UI[1],"Portland Freeways, Beltline in Lane Cty","On-ramps, infill",Every 2 minutes,Freeway Documentation on FHWA Data Page.
-Freeway,"Speed, Volume, Occupancy",WSDOT,"Loops, Radar","20-sec,
+Radar: ~2014 - current",Plots and download in UI*,"Portland freeways, Beltline in Lane Cty","On-ramps, infill",Every 2 minutes,Freeway Documentation on FHWA Data Page.
+Freeway,"Speed, volume, occupancy",WSDOT,"Loops, radar","20-sec,
 5-min,
 15-min,
-hour",~2012,Plots and download in UI[1],Vancouver Freeways,"On-ramps, infill",Every 20-seconds,Freeway Documentation on FHWA Data Page.
-Freeway,Travel Time,ODOT ,Bluetooth,Individual Traversals,~2014,Database only2,Portland freeways + selected arterials.,as installed,Every 2 minutes,n/a
-Freeway,"VMS, VAS signs",ODOT,n/a,On sign change,~2014,Database only2,"VAS: OR 217, I-5/405 + VMS Signs",as installed,Every 2 minutes,n/a
-Freeway,WIM,ODOT,In-road sensors,Hourly (?),~2011-2013; 2014 and future on hold due to format changes,Plots and download in UI[1],Oregon,as installed,Monthly,n/a
-Freeway,Vehicle length data ,ODOT,Loops (current) Radar (future),TBD,~2015 (planned),Plots and download in UI[1],Currently freeway loops. ,as installed,Every 2 minutes.,User Manual created.
-Freeway,Incidents,ODOT,ATMS Incident Reports,Every Incident,~2014,Plots and download in UI[1],Portland,per incident,Monthly,n/a
-Freeway,TOCS Incident data,ODOT,Incident report,Every incident,tbd,tbd,tbd,tbd,tbd,tbd
-Arterial,Travel Time,ODOT (Other Agencies Planned in 2015),Bluetooth,Individual traversals,~2014,Database only2,Portland freeways + selected arterials.,As installed.,Every 2 minutes,None currently.
-Arterial,Travel Time,City of Portland,Bluetooth,Individual detections,~2012-,Plots in UI2,See map on Portal Travel Time page.,As installed.,Hourly,None currently.
-Arterial,Arterial Volume,City of Portland,Loops,5 min,~2014-,Plots and download in UI1,See map on Portal Arterial page.,As installed.,Hourly,None currently.
-Arterial,"Arterial Speed, Volume",Clark County,High Definition Radar,5 min,~2014-,Plots and download in UI1,See map on Portal Arterial page.,As installed.,Daily; expected to be real-time in near future,None currently.
-Arterial,Traffic Signal Data,"City of Portland (Other agencies  planned 2015, 2016)","TransSuite system (incl. MOE, SCATS)",5 min,~2014-,Database Only2; UI in 2015,"City of Portland.
-Other cities 2015, 2016",At traffic signals.,Hourly,None currently.
-Arterial,Traffic Signal Data (planned),Clark County,ATMS.Now,TBD,~ 2016 planned,Database and UI,"Clark County, possibly City of Vancouver",As installed.,TBD,None currently.
+hour",~2012,Plots and download in UI*,Vancouver freeways,"On-ramps, infill",Every 20-seconds,Freeway Documentation on FHWA Data Page.
+Freeway,Travel time,ODOT ,Bluetooth,Individual traversals,~2014,Database only**,"Portland freeways, selected arterials",As installed,Every 2 minutes,NA
+Freeway,"VMS, VAS signs",ODOT,n/a,On sign change,~2014,Database only**,"VAS: OR 217, I-5/405;  VMS Signs",As installed,Every 2 minutes,NA
+Freeway,WIM,ODOT,In-road sensors,Hourly (?),~2011-2013;  2014 and future on hold due to format changes,Plots and download in UI*,Oregon,As installed,Monthly,NA
+Freeway,Vehicle length data ,ODOT,"Loops (current), radar (future)",TBD,~2015 (planned),Plots and download in UI*,Currently freeway loops,As installed,Every 2 minutes.,User Manual created
+Freeway,Incidents,ODOT,ATMS incident reports,Every incident,~2014,Plots and download in UI*,Portland,per incident,Monthly,NA
+Freeway,TOCS incident data,ODOT,Incident report,Every incident,TBD,TBD,TBD,TBD,TBD,TBD
+Arterial,Travel time,ODOT (other agencies planned in 2015),Bluetooth,Individual traversals,~2014,Database only**,"Portland freeways, selected arterials",As installed,Every 2 minutes,None currently
+Arterial,Travel time,City of Portland,Bluetooth,Individual detections,~2012-,Plots in UI**,See map on PORTAL Travel Time page,As installed,Hourly,None currently
+Arterial,Arterial volume,City of Portland,Loops,5 min,~2014-,Plots and download in UI*,See map on PORTAL Arterial page,As installed,Hourly,None currently
+Arterial,"Arterial speed, volume",Clark County,High definition radar,5 min,~2014-,Plots and download in UI*,See map on PORTAL Arterial page,As installed,Daily; expected to be real-time in near future,None currently
+Arterial,Traffic signal data,"City of Portland (other agencies planned 2015, 2016)","TransSuite system (incl. MOE, SCATS)",5 min,~2014-,Database only**,UI in 2015,"City of Portland.
+Other cities 2015, 2016",At traffic signals; hourly,None currently
+Arterial,Traffic signal data (planned),Clark County,ATMS.Now,TBD,~ 2016 planned,Database and UI,"Clark County, possibly City of Vancouver",As installed,TBD,None currently
+Transit,"Passenger, on-time performance",TriMet,AVL/APC,Quarterly; daily beginning in 2015,~2012-,Plots and UI**,TriMet service area,NA,Quarterly,Transit Documentation on FHWA Data Page
+Transit,"Passenger, on-time performance",C-TRAN,AVL/APC,Daily,~2015 (planned),Plots and UI,C-TRAN service area,NA,TBD,NA
+Other,Weather,NOAA,Unknown,Hourly (?),~2004-,Plots and download in UI,"Portland airport, Hillsboro, Aurora",As installed,Hourly,NOAA
+Other,Air quality,Oregon DEQ,Unknown,Hourly (?),~2014-,Database only**,DEQ site near Powell Blvd,One site,Hourly,DEQ
+Other,Bike counts,City of Portland,Loops,Unknown,~2014-,Plots and download in UI*,~50 locations in City of Portland,As installed,TBD,None currently
+Other,Bike counts,BikePed Portal,Automated counts,TBD,TBD,Plots and download in UI,TBD,As installed,TBD,None currently
+Other,Parking,Port of Portland,Unknown,Unknown,~2015 (planned),Database only,TBD,TBD,TBD,None currently
