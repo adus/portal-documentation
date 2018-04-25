@@ -24,7 +24,7 @@ At a minimum, work in this repo is updated weekly.
 
 ### [Travel Time](https://github.com/adus/portal-documentation/blob/master/documentation/travel-time.md)
 
-### Freight
+### [Freight](https://github.com/adus/portal-documentation/blob/master/documentation/freight.md)
 
 ### Arterial
 
