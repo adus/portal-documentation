@@ -2,19 +2,15 @@
 
 This repo contains working documentation for PORTAL.
 
-The outline below shows the tentative topics covered for PORTAL. Any section that has a link is a work in progress. Sections without links do not have corresponding documentation.
+Last updated: 2018-05-10
 
-At a minimum, work in this repo is updated weekly.
-
-## Preface
+## [Preface]((https://github.com/adus/portal-documentation/blob/master/documentation/summary.md))
 
 ### Purpose
 
 ### Background
 
-### [Summary](https://github.com/adus/portal-documentation/blob/master/documentation/summary.md)
-
-### Further Information
+### Structure of PORTAL Documentation
 
 ## Tutorial and Examples Using PORTAL
 
