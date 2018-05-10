@@ -14,7 +14,7 @@ By the end of the tutorial, users will be able to:
 Users can either use the drop down menu select among several predefined routes, or use the map to create a route by using the zoom buttons in the upper left corner and selecting several continuous stations. After clicking on a starting station a blue star will appear indicating the next available station along a potential route (Figure 1).
 
 <figure align = "center">
-<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img1.png" width="500">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img1.png" width="1000">
 <figcaption>Figure 1. Screen shot of <i>Travel Time</i> page for a route selected along US-26 WB.</figcaption>
 </figure>
 
