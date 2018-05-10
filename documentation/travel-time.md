@@ -1,17 +1,26 @@
 ## Travel Time
-Users are able to select a route to compare four weeks of travel time data against average travel time.
+The _Travel Time_ page allows the user to compare travel times along a specified route.
+
+### Learning Objectives
+By the end of the tutorial, users will be able to:
+
+* select a route
+* understand the selection options for plotting travel time
+* know how to use the plotting tools
+* download data
 
 ### Route Selection
-* _Routes_ Users can either use the drop down menu select among several predefined routes, or use the map to create a route by selecting several continuous stations. After clicking on a starting station a blue dot will appear indicating the next available station along a potential route.
 
-* _Start Week_ Only four weeks of data can be plotted and downloaded at one time which includes the selected start week plus the previous three weeks.
-
-Figure 1 shows a selected route along US-26 WB starting at Frog Lake and ending at Arlie Mitchell Road.
+Users can either use the drop down menu select among several predefined routes, or use the map to create a route by using the zoom buttons in the upper left corner and selecting several continuous stations. After clicking on a starting station a blue star will appear indicating the next available station along a potential route (Figure 1).
 
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img1.png" width="500">
 <figcaption>Figure 1. Screen shot of <i>Travel Time</i> page for a route selected along US-26 WB.</figcaption>
 </figure>
+
+### Travel Time Plotting Options
+Only four weeks of data can be plotted at one time; which includes the selected start week plus the previous three weeks. Figure 1 shows a selected route along I-5 Nyberg SB with the first three available stations and a fourth potential station represented with a blue star.
+
 
 ### Travel Time Options
 _Reliability weeks_
