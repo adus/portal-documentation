@@ -48,14 +48,18 @@ To add sample count data click on the "Add/Remove Sample Count Data". By default
 
 #### _Example_
 <figure align = "center">
-<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img3.png" width="1000">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img4.png" width="1000">
 <figcaption>Figure 4. Screen shot of <i>Travel Time</i> standard plot of average travel time for the week of 2018-04-15 through 2018-05-06 with the associated hourly sample counts.</figcaption>
 </figure>
-
 
 _Zoom in/out_
 For higher resolution data visualization, select a period of time on the plot by clicking and dragging the cursor. Click the "reset zoom" button revert back to the original plot.
 
+#### _Example_
+[insert example here]
+
+### Step 6: Download data
+[insert test here]
 
 ## References
 _Reliability Weeks_
