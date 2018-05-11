@@ -18,7 +18,7 @@ Only four weeks of data can be plotted at one time; which includes the selected 
 ### Step 3: Select the number of reliability weeks
 The default for reliability weeks is 26 weeks and can be increased or decreased based on the user's needs.
 
-### _Example_
+#### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img1.png" width="1000">
 <figcaption>Figure 1. Screen shot of <i>Travel Time</i> page for a route selected along I-5 Nyberg SB with the first three available stations and a fourth potential station represented with a blue star. The start week is set to 2018-05-06, and the default number of selected reliability weeks is selected.</figcaption>
@@ -27,7 +27,7 @@ The default for reliability weeks is 26 weeks and can be increased or decreased 
 ### Step 4: Select the type of data to be plotted or downloaded
 The default for the type of data plotted is set to _standard_ where the standard plot shows detailed travel time for each day per week (Figure 1). The _aggregate_ option shows hourly average travel time per hour aggregated by user-specified days of the week per week (Figure 2). The _yearly_ option shows hourly average travel time per hour aggregated by user-specified days of the week per year. By default, for _aggregate_ and _yearly_ all days are selected. Click on the individual days to unselect/select the days of interest.
 
-### _Example_
+#### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img2.png" width="1000">
 <figcaption>Figure 2. Screen shot of <i>Travel Time</i> page for day of week options for plotting aggregate data where Tuesday, Wednesday, and Thursday selected for aggregation of travel time. If _yearly_ was selected the same option for selecting days of the week would be the same.</figcaption>
@@ -38,7 +38,7 @@ Click on the update button to plot the selected data. The initial plot generated
 
 To add reliability data click on the "Add/Remove Reliability Data". The 80% travel time is plotted by default. Other travel time percentiles are shown in the legend and can be turned off or on by clicking on the respective key.
 
-### _Example_
+#### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img3.png" width="1000">
 <figcaption>Figure 3. Screen shot of <i>Travel Time</i> standard plot with 80% travel time selected.</figcaption>
@@ -46,7 +46,7 @@ To add reliability data click on the "Add/Remove Reliability Data". The 80% trav
 
 To add sample count data click on the "Add/Remove Sample Count Data". By default, none of the options are selected. Hourly sample counts are segmented by week. Click on the legend key to turn on or off sample counts.
 
-### _Example_
+#### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img3.png" width="1000">
 <figcaption>Figure 4. Screen shot of <i>Travel Time</i> standard plot of average travel time for the week of 2018-04-15 through 2018-05-06 with the associated hourly sample counts.</figcaption>
