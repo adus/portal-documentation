@@ -1,30 +1,65 @@
-## Travel Time
+# Travel Time
 The _Travel Time_ page allows the user to compare travel times along a specified route.
 
-### Learning Objectives
+## Learning Objectives
 By the end of the tutorial, users will be able to:
 
-* select a route
+* select a route and four week time frame
 * understand the selection options for plotting travel time
 * know how to use the plotting tools
 * download data
 
-### Route Selection
+### Step 1: Select a route
+Users can either use the drop down menu select among several predefined routes, or use the map to create a route by using the zoom buttons in the upper left corner and selecting several continuous stations. After clicking on a starting station a blue star will appear indicating the next available station along a potential route. If you want to delete the route click on the the "X" button at the bottom left corner of the map.
 
-Users can either use the drop down menu select among several predefined routes, or use the map to create a route by using the zoom buttons in the upper left corner and selecting several continuous stations. After clicking on a starting station a blue star will appear indicating the next available station along a potential route (Figure 1).
+### Step 2: Select a start week
+Only four weeks of data can be plotted at one time; which includes the selected start week plus the previous three weeks. Weeks are measured Sunday through Saturday.
 
+### Step 3: Select the number of reliability weeks
+The default for reliability weeks is 26 weeks and can be increased or decreased based on the user's needs.
+
+### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img1.png" width="1000">
-<figcaption>Figure 1. Screen shot of <i>Travel Time</i> page for a route selected along US-26 WB.</figcaption>
+<figcaption>Figure 1. Screen shot of <i>Travel Time</i> page for a route selected along I-5 Nyberg SB with the first three available stations and a fourth potential station represented with a blue star. The start week is set to 2018-05-06, and the default number of selected reliability weeks is selected.</figcaption>
 </figure>
 
-### Travel Time Plotting Options
-Only four weeks of data can be plotted at one time; which includes the selected start week plus the previous three weeks. Figure 1 shows a selected route along I-5 Nyberg SB with the first three available stations and a fourth potential station represented with a blue star.
+### Step 4: Select the type of data to be plotted or downloaded
+The default for the type of data plotted is set to _standard_ where the standard plot shows detailed travel time for each day per week (Figure 1). The _aggregate_ option shows hourly average travel time per hour aggregated by user-specified days of the week per week (Figure 2). The _yearly_ option shows hourly average travel time per hour aggregated by user-specified days of the week per year. By default, for _aggregate_ and _yearly_ all days are selected. Click on the individual days to unselect/select the days of interest.
+
+### _Example_
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img2.png" width="1000">
+<figcaption>Figure 2. Screen shot of <i>Travel Time</i> page for day of week options for plotting aggregate data where Tuesday, Wednesday, and Thursday selected for aggregation of travel time. If _yearly_ was selected the same option for selecting days of the week would be the same.</figcaption>
+</figure>
+
+### Step 5: Plot the data
+Click on the update button to plot the selected data. The initial plot generated will show the hourly average time for each week. Each week of data can be turned on or off by clicking on the legend key.
+
+To add reliability data click on the "Add/Remove Reliability Data". The 80% travel time is plotted by default. Other travel time percentiles are shown in the legend and can be turned off or on by clicking on the respective key.
+
+### _Example_
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img3.png" width="1000">
+<figcaption>Figure 3. Screen shot of <i>Travel Time</i> standard plot with 80% travel time selected.</figcaption>
+</figure>
+
+To add sample count data click on the "Add/Remove Sample Count Data". By default, none of the options are selected. Hourly sample counts are segmented by week. Click on the legend key to turn on or off sample counts.
+
+### _Example_
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img3.png" width="1000">
+<figcaption>Figure 4. Screen shot of <i>Travel Time</i> standard plot of average travel time for the week of 2018-04-15 through 2018-05-06 with the associated hourly sample counts.</figcaption>
+</figure>
 
 
-### Travel Time Options
-_Reliability weeks_
-The number of reliability weeks chosen determines the number of weeks used to calculate average travel time. Reliability is in reference to the level of consistency of observed average travel time measured daily or for different times of the day. The greater number of reliability weeks selected, the more accurate the travel time. Figure 1 shows the reliability weeks set to six.
+_Zoom in/out_
+For higher resolution data visualization, select a period of time on the plot by clicking and dragging the cursor. Click the "reset zoom" button revert back to the original plot.
+
+
+## References
+_Reliability Weeks_
+The number of reliability weeks chosen determines the number of weeks used to calculate average travel time. Reliability is in reference to the level of consistency of observed average travel time measured daily or for different times of the day. The greater number of reliability weeks selected, the more accurate the travel time.
 
 _Travel Time_
 Travel time reliability is a function of calculating the travel time of cars over five-minute interval periods between two stations, summed across multiple stations along a user defined route, and then averaged over a user defined reliability weeks.
@@ -36,18 +71,3 @@ The average travel time is the same as travel time calculated at the 50 percenti
 
 _Sample Count_
 Data used to calculate travel time on freeways comes from readings taken every 20 seconds from loop detectors. Data used to calculate travel times from arterials generally comes from bluetooth detectors and taken each time a car is detected, suggesting travel times along arterials might be less precise due to this method. Sample counts show the number of samples used to calculate travel time for each week. Travel time calculated with sample counts less or equal to 30 (and indicated with a red color) is less than ideal. Travel time calculated with sample counts great than 30 and less than 50 is acceptable. And travel times calculated with sample counts greater than 50 is best. There is also an option to see the average sample count for all four weeks.
-
-_Download_
-
-### Plotting Options
-_Standard_
-The Standard plot shows detailed travel time for each day per week. Users can zoom in on a specific time frame on the plot by clicking at the start date of interest and drag to the end date of interest (Figure X).
-
-_Aggregate_
-The Aggregate plot shows hourly average travel time per hour aggregated by user-specified days of the week per week. For example, Figure X shows average travel time (y-axis) per hour (x-axis) per week aggregated by Tuesday, Wednesday, and Thursday.
-
-_Yearly_
-The Yearly plot shows hourly average travel time per hour aggregated by user-specified days of the week per year. Figure X shows hourly average travel time per hour aggregated by Tuesday, Wednesday, and Thursday, per year.
-
-_Zoom in/out_
-For higher resolution data visualization, select a period of time on the plot by clicking and dragging the cursor. Click the "reset zoom" button revert back to the original plot.
