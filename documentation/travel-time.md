@@ -67,9 +67,7 @@ For higher resolution data visualization the user can zoom in on the plot by cli
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img6.png" width="1000">
 <figcaption>Figure 6. Screen shot of <i>Travel Time</i> standard plot zoomed to a Tuesday through Thursday time frame.</figcaption>
 </figure>
-
-
-
+\
 ### Step 6: Download data
 [insert test here]
 
