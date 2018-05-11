@@ -69,16 +69,16 @@ For higher resolution data visualization the user can zoom in on the plot by cli
 </figure>
 \
 ### Step 6: Download data
-[insert test here]
+Data used to plot average travel time and sample counts can be downloaded by clicking on the "Download" button. A zip file will be created and contain two files: 1) data used to plot reliability average travel time and the four week average sample count where the given "time" is the day of the week and hour of day; and 2) travel time and sample count per hour with a time stamp (yyyy-mm-dd hh:mm:ss). 
 
 ## References
 _Reliability Weeks_
 The number of reliability weeks chosen determines the number of weeks used to calculate average travel time. Reliability is in reference to the level of consistency of observed average travel time measured daily or for different times of the day. The greater number of reliability weeks selected, the more accurate the travel time.
+\
+PORTAL provides four travel time reliability calculations of 95%, 80%, 20%, and 5%. A 95% reliability time refers to ranked travel time within the 95th percentile, which is equivalent to being late once a month. An 80% reliability time is equivalent to being late once a week. A reliability of 20% is equivalent to XXX. And a reliability of 5% travel time is equivalent to free-flow.
 
 _Travel Time_
 Travel time reliability is a function of calculating the travel time of cars over five-minute interval periods between two stations, summed across multiple stations along a user defined route, and then averaged over a user defined reliability weeks.
-
-PORTAL provides four travel time reliability calculations of 95%, 80%, 20%, and 5%. A 95% reliability time refers to ranked travel time within the 95th percentile, which is equivalent to being late once a month. An 80% reliability time is equivalent to being late once a week. A reliability of 20% is equivalent to XXX. And a reliability of 5% travel time is equivalent to free-flow.
 
 _Average Travel Time_
 The average travel time is the same as travel time calculated at the 50 percentile over the user selected reliability weeks.
