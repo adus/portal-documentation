@@ -19,6 +19,13 @@ Select a start and end date of interest by either entering the date under "Start
 Select the metric of interest by using the drop down menu under "Measure". The two metric options for plotting are either vehicle length or speed.  
 
 ### Step 4: Select a resolution
+Select the time resolution of interest by using the drop down menu under "Resolution". The options are 15 minutes, one hour, and one day.
+
+#### _Example_
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/vehicle-length-images/vehicle-length-img1" width="1000">
+<figcaption>Figure 1. Screen shot of <i>Vehicle Length</i> page showing the following set parameters for the Multnomah (2R304) to NB 1-5 station: start and end week is set to 2018-04-01 and 2018-04-14, respectively, and vehicle length with a resolution of one hour.</figcaption>
+</figure>
 
 
 ## Resources
