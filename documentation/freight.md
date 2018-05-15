@@ -40,6 +40,7 @@ The "Standard" plot option will show daily vehicle length count based on four di
 <figcaption>Figure 2. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" vehicle length plot at hourly resolution for the Multnomah (2R304) to NB 1-5 station from 2018-04-01 through 2018-04-14; the pop-up window shows the counts for each vehicle length range.</figcaption>
 </figure>
 
+
 The "Aggregate" plot option will prompt two additional selection criteria, "Measure Ranges", and "Week Days". "Measure Ranges" provides the option of aggregating the selected ranges. "Week Days" provides the option of selecting which days of the week should be aggregated. The start and end date will default to the month and year of the initial start and end date. The resulting plot will show the total vehicle count of the selected aggregated options over a 24-hour period for an entire month. The default selection is all days of the week and all vehicle length ranges.
 
 #### _Example_
@@ -60,7 +61,18 @@ The "Standard" option will show the daily vehicle speeds binned by 10 mph increm
 #### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/vehicle-length-images/vehicle-length-img5" width="1000">
-<figcaption>Figure 4. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed after zooming in to the selected time frame of 2018-04-05 through 2018-04-08. The resent button in the upper right corner will zoom out to the original plot.</figcaption>
+<figcaption>Figure 5. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed after zooming in to the selected time frame of 2018-04-05 through 2018-04-08. The resent button in the upper right corner will zoom out to the original plot.</figcaption>
 </figure>
 
+The "Aggregate" plot option will prompt two additional selection criteria, "Measure Ranges", and "Week Days". "Measure Ranges" provides the option of aggregating the selected ranges. "Week Days" provides the option of selecting which days of the week should be aggregated. The start and end date will default to the month and year of the initial start and end date. The resulting plot will show the total vehicle count of the selected aggregated options over a 24-hour period for an entire month. The default selection is all days of the week and all vehicle length ranges.
+
+#### _Example_
+Under construction...
+
 ## Resources
+
+
+
+[Feedback](https://github.com/adus/portal-documentation/issues)  
+[Back to Table of Contents](https://github.com/adus/portal-documentation)
+Last updated: 2018-05-15

@@ -88,3 +88,4 @@ Data used to calculate travel time on freeways comes from readings taken every 2
 
 [Feedback](https://github.com/adus/portal-documentation/issues)  
 [Back to Table of Contents](https://github.com/adus/portal-documentation)
+Last updated: 2018-05-15

@@ -18,6 +18,8 @@ Archived data dates back to 2004 and has grown from one freeway data feed from O
 Portal is continuously working towards developing partnerships with other regional and local jurisdictions in providing archival services and expanding resources for transportation practitioners, researchers, and educators. For a more detailed background please refer to Tufte et al. ([2015](https://github.com/adus/portal-documentation/blob/master/documentation/TufteEtAl_2015.pdf)).
 
 ## Structure of PORTAL Documentation
-Each section under "Tutorials and Examples Using Portal" includes a brief introduction with learning objectives, followed by a tutorial with examples on how to use the tools on the page, and lastly additional information and references regarding the information presented for each section.
+For each page on the PORTAL website there is a corresponding section under "Tutorials and Examples Using Portal" that documents how to use the tools on that page. In addition, there is a "Tour" button at the top right corner of each page on the PORTAL website where the user can click on it and take a tour of tools.
 
-Last updated: 2018-05-10
+Each "Tutorials and Examples Using Portal" section includes a brief introduction with learning objectives, followed by a tutorial with examples on how to use the tools on the page, and lastly additional information and references regarding the information presented for each section.
+
+Last updated: 2018-05-15
