@@ -28,6 +28,9 @@ Select the time resolution of interest by using the drop down menu under "Resolu
 </figure>
 
 ### Step 5: Select type of plot
+
+Once a type of plot is selected (description on the types below) then click on the "Update" button to render the plot. Once the plot is rendered, users have the option to zoom in by clicking and dragging the cursor the length of the desired time frame.
+
 #### Vehicle length
 The "Standard" plot option will show daily vehicle length count based on four distinct binned lengths (0, 20] ft, (20, 30] ft, (35, 60] ft, and (60, 120] ft. The plotted vehicle length ranges can be turned on and off by clicking on the individual legend keys. Individual point values will appear in a pop-up window by moving the cursor to the desired point.
 
@@ -37,15 +40,27 @@ The "Standard" plot option will show daily vehicle length count based on four di
 <figcaption>Figure 2. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" vehicle length plot at hourly resolution for the Multnomah (2R304) to NB 1-5 station from 2018-04-01 through 2018-04-14; the pop-up window shows the counts for each vehicle length range.</figcaption>
 </figure>
 
-The "Aggregate" plot option will prompt two additional selection criteria, "Measure Ranges", and "Week Days". "Measure Ranges" provides the option of aggregating the selected ranges. "Week Days" provides the option of selecting which days of the week should be aggregated. The start and end date will default to the month and year of the initial start and end date. The resulting plot will show the total vehicle count of the selected aggregated options over a 24-hour period for an entire month.
+The "Aggregate" plot option will prompt two additional selection criteria, "Measure Ranges", and "Week Days". "Measure Ranges" provides the option of aggregating the selected ranges. "Week Days" provides the option of selecting which days of the week should be aggregated. The start and end date will default to the month and year of the initial start and end date. The resulting plot will show the total vehicle count of the selected aggregated options over a 24-hour period for an entire month. The default selection is all days of the week and all vehicle length ranges.
 
 #### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/vehicle-length-images/vehicle-length-img3" width="1000">
-<figcaption>Figure 3. Screen shot of the <i>Vehicle Length</i> page showing the "Aggregated" selection criteria and plot. The plot shows the total vehicle counts for all the Saturdays and Sundays in the month of 2018-04 for all vehicles in the ranges of (20, 35] and (35, 60] ft over a 24 hour period. </figcaption>
+<figcaption>Figure 3. Screen shot of the <i>Vehicle Length</i> page showing the "Aggregated" selection criteria and plot for vehicle length. The plot shows the total vehicle counts for all the Saturdays and Sundays in the month of 2018-04 for all vehicles in the ranges of (20, 35] and (35, 60] ft over a 24 hour period. </figcaption>
 </figure>
 
 #### Vehicle speed
+The "Standard" option will show the daily vehicle speeds binned by 10 mph increments from (0, 10] to (90, 100] mph. Once plotted, each speed range can be turned on and off by clicking on the desired legend key.
 
+#### _Example_
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/vehicle-length-images/vehicle-length-img4" width="1000">
+<figcaption>Figure 4. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed. The plot shows the total vehicle counts for all speed ranges at 15 minute resolution. To examine data over a finer time scale, a selection is made by clicking and dragging across the plot to highlight 2018-04-05 through 2018-04-08.</figcaption>
+</figure>
+
+#### _Example_
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/vehicle-length-images/vehicle-length-img5" width="1000">
+<figcaption>Figure 4. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed after zooming in to the selected time frame of 2018-04-05 through 2018-04-08. The resent button in the upper right corner will zoom out to the original plot.</figcaption>
+</figure>
 
 ## Resources
