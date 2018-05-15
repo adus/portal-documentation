@@ -22,4 +22,6 @@ For each page on the PORTAL website there is a corresponding section under "Tuto
 
 Each "Tutorials and Examples Using Portal" section includes a brief introduction with learning objectives, followed by a tutorial with examples on how to use the tools on the page, and lastly additional information and references regarding the information presented for each section.
 
+[Feedback](https://github.com/adus/portal-documentation/issues)  
+[Back to Table of Contents](https://github.com/adus/portal-documentation)
 Last updated: 2018-05-15
