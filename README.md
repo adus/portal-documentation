@@ -20,7 +20,7 @@ Last updated: 2018-05-11
 
 ### [Travel Time](https://github.com/adus/portal-documentation/blob/master/documentation/travel-time.md)
 
-### [Freight](https://github.com/adus/portal-documentation/blob/master/documentation/freight.md)
+### [Vehicle Length](https://github.com/adus/portal-documentation/blob/master/documentation/freight.md)
 
 ### Arterial
 
