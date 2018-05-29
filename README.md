@@ -26,7 +26,7 @@ Last updated: 2018-05-29
 
 ### Arterial Signal
 
-### [Downloads](https://github.com/adus/portal-documentation/blob/master/documentation/downloads)
+### [Downloads](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md)
 
 ### FHWA Data
 
