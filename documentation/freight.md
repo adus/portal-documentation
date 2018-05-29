@@ -66,6 +66,7 @@ The "Standard" option will show the daily vehicle speeds binned by 10 mph increm
 <figcaption>Figure 5. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed after zooming in to the selected time frame of 2018-04-05 through 2018-04-08. The resent button in the upper right corner will zoom out to the original plot.</figcaption>
 </figure>  
   
+  
 The "Aggregate" plot option will prompt two additional selection criteria, "Measure Ranges", and "Week Days". "Measure Ranges" provides the option of aggregating the selected ranges. "Week Days" provides the option of selecting which days of the week should be aggregated. The start and end date will default to the month and year of the initial start and end date. The resulting plot will show the total vehicle count of the selected aggregated options over a 24-hour period for an entire month. The default selection is all days of the week and all vehicle speed ranges.
 
 #### _Example_
