@@ -26,11 +26,32 @@ traveltime:
 vht: (vehicle hours traveled) total hours traveled within a segment by all vehicles
 vmt: (vehicle miles traveled) total miles traveled on a segment by all vehicles
 
+To get distance traveled divide vmt by volume.
+
 ### Stations metadata
+
+The following data are provided:
+stationid:
+highwayid:
+milepost:
+locationtext:
+length:
+numberlanes:
+agencyid:
+x_coord:
+y_coord:
+active_dates
 
 ### Detector metadata
 
+
+
 ### Highways metadata
+The following data are provided:
+highwayid:
+direction:
+highwayname:
+oppositehighwayid:
 
 ### Aggregated travel time
 
