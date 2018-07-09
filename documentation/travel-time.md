@@ -30,11 +30,11 @@ The default for the type of data plotted is set to _standard_ where the standard
 #### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img2.png" width="1000">
-<figcaption>Figure 2. Screen shot of <i>Travel Time</i> page for day of week options for plotting aggregate data where Tuesday, Wednesday, and Thursday selected for aggregation of travel time. If _yearly_ was selected the same option for selecting days of the week would be the same.</figcaption>
+<figcaption>Figure 2. Screen shot of <i>Travel Time</i> page for day of week options for plotting aggregate data where Tuesday, Wednesday, and Thursday selected for aggregation of travel time. If <i>yearly</i> was selected the same option for selecting days of the week would be the same.</figcaption>
 </figure>
 
 ### Step 5: Plot the data
-Click on the update button to plot the selected data. The initial plot generated will show the hourly average time for each week. Each week of data can be turned on or off by clicking on the legend key.
+Click on the update button to plot the selected data. The initial plot generated will show the hourly average time for each week. Each week of data can be turned on or off by clicking on the legend key.  
 
 To add reliability data click on the "Add/Remove Reliability Data". The 80% travel time is plotted by default. Other travel time percentiles are shown in the legend and can be turned off or on by clicking on the respective key.
 
@@ -75,10 +75,8 @@ Data used to plot average travel time and sample counts can be downloaded by cli
 _Reliability Weeks_
 The number of reliability weeks chosen determines the number of weeks used to calculate average travel time. Reliability is in reference to the level of consistency of observed average travel time measured daily or for different times of the day. The greater number of reliability weeks selected, the more accurate the travel time.
 
-PORTAL provides four travel time reliability calculations of 95%, 80%, 20%, and 5%. A 95% reliability time refers to ranked travel time within the 95th percentile, which is equivalent to being late once a month. An 80% reliability time is equivalent to being late once a week. A reliability of 20% is equivalent to XXX. And a reliability of 5% travel time is equivalent to free-flow.
-
 _Travel Time_
-Travel time reliability is a function of calculating the travel time of cars over five-minute interval periods between two stations, summed across multiple stations along a user defined route, and then averaged over a user defined reliability weeks.
+PORTAL provides four travel time reliability calculations of 95%, 80%, 20%, and 5%. A 95% reliability time refers to ranked travel time within the 95th percentile, which is equivalent to being late once a month. An 80% reliability time is equivalent to being late once a week. A reliability of 5% travel time is equivalent to free-flow. More information on travel time reliability can be found [here](https://ops.fhwa.dot.gov/publications/tt_reliability/).
 
 _Average Travel Time_
 The average travel time is the same as travel time calculated at the 50 percentile over the user selected reliability weeks.
@@ -88,4 +86,4 @@ Data used to calculate travel time on freeways comes from readings taken every 2
 
 [Feedback](https://github.com/adus/portal-documentation/issues)  
 [Back to Table of Contents](https://github.com/adus/portal-documentation)
-Last updated: 2018-05-15
+Last updated: 2018-07-08
