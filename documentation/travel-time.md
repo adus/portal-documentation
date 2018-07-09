@@ -43,7 +43,7 @@ To add reliability data click on the "Add/Remove Reliability Data". The 80% trav
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img3.png" width="1000">
 <figcaption>Figure 3. Screen shot of <i>Travel Time</i> standard plot with 80% travel time selected.</figcaption>
 </figure>  
-
+\n
 To add sample count data click on the "Add/Remove Sample Count Data". By default, none of the options are selected. Hourly sample counts are segmented by week. Click on the legend key to turn on or off sample counts.
 
 #### _Example_
@@ -52,8 +52,8 @@ To add sample count data click on the "Add/Remove Sample Count Data". By default
 <figcaption>Figure 4. Screen shot of <i>Travel Time</i> standard plot of average travel time for the week of 2018-04-15 through 2018-05-06 with the associated hourly sample counts.</figcaption>
 </figure>  
 
-When the pointer is scrolled over a data point a window will pop up providing the time stamp and average travel time for each of the plotted points selected in the legend.
-
+When the pointer is scrolled over a data point a window will pop up providing the time stamp and average travel time for each of the plotted points selected in the legend.  
+\n
 For higher resolution data visualization the user can zoom in on the plot by clicking at the start point of interest and dragging the cursor to the end point of interest. The time frame of interest will be highlighted and will then zoom into that specific time frame. Click the "reset zoom" button in the upper right corner of the plot to revert back to the original plot.
 
 #### _Example_
@@ -72,18 +72,18 @@ For higher resolution data visualization the user can zoom in on the plot by cli
 Data used to plot average travel time and sample counts can be downloaded by clicking on the "Download" button. A zip file will be created and contain two files: 1) data used to plot reliability average travel time and the four week average sample count where the given "time" is the day of the week and hour of day; and 2) travel time and sample count per hour with a time stamp (yyyy-mm-dd hh:mm:ss).
 
 ## References
-_Reliability Weeks_
+_Reliability Weeks_  
 The number of reliability weeks chosen determines the number of weeks used to calculate average travel time. Reliability is in reference to the level of consistency of observed average travel time measured daily or for different times of the day. The greater number of reliability weeks selected, the more accurate the travel time.
 
-_Travel Time_
+_Travel Time_  
 PORTAL provides four travel time reliability calculations of 95%, 80%, 20%, and 5%. A 95% reliability time refers to ranked travel time within the 95th percentile, which is equivalent to being late once a month. An 80% reliability time is equivalent to being late once a week. A reliability of 5% travel time is equivalent to free-flow. More information on travel time reliability can be found [here](https://ops.fhwa.dot.gov/publications/tt_reliability/).
 
-_Average Travel Time_
+_Average Travel Time_  
 The average travel time is the same as travel time calculated at the 50 percentile over the user selected reliability weeks.
 
-_Sample Count_
+_Sample Count_  
 Data used to calculate travel time on freeways comes from readings taken every 20 seconds from loop detectors. Data used to calculate travel times from arterials generally comes from bluetooth detectors and taken each time a car is detected, suggesting travel times along arterials might be less precise due to this method. Sample counts show the number of samples used to calculate travel time for each week. Travel time calculated with sample counts less or equal to 30 (and indicated with a red color) is less than ideal. Travel time calculated with sample counts great than 30 and less than 50 is acceptable. And travel times calculated with sample counts greater than 50 is best. There is also an option to see the average sample count for all four weeks.  
 
 [Feedback](https://github.com/adus/portal-documentation/issues)  
-[Back to Table of Contents](https://github.com/adus/portal-documentation)
+[Back to Table of Contents](https://github.com/adus/portal-documentation)  
 Last updated: 2018-07-08
