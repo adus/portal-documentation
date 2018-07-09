@@ -50,18 +50,17 @@ To add sample count data click on the "Add/Remove Sample Count Data". By default
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img4.png" width="1000">
 <figcaption>Figure 4. Screen shot of <i>Travel Time</i> standard plot of average travel time for the week of 2018-04-15 through 2018-05-06 with the associated hourly sample counts.</figcaption></figure>
 
-
+#### _Example_
 When the pointer is scrolled over a data point a window will pop up providing the time stamp and average travel time for each of the plotted points selected in the legend.
   
-For higher resolution data visualization the user can zoom in on the plot by clicking at the start point of interest and dragging the cursor to the end point of interest. The time frame of interest will be highlighted and will then zoom into that specific time frame. Click the "reset zoom" button in the upper right corner of the plot to revert back to the original plot.
-
-#### _Example_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img5.png" width="1000">
 <figcaption>Figure 5. Screen shot of <i>Travel Time</i> standard plot showing the information pop up window and highlighting function of zooming into a specified time frame.</figcaption>
 </figure>  
 
 #### _Example_
+For higher resolution data visualization the user can zoom in on the plot by clicking at the start point of interest and dragging the cursor to the end point of interest. The time frame of interest will be highlighted and will then zoom into that specific time frame. Click the "reset zoom" button in the upper right corner of the plot to revert back to the original plot.
+
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img6.png" width="1000">
 <figcaption>Figure 6. Screen shot of <i>Travel Time</i> standard plot zoomed to a Tuesday through Thursday time frame.</figcaption>
