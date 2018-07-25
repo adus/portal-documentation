@@ -30,7 +30,10 @@ The following parameters were selected for the examples of grouped and ungrouped
 * End Time: 19:00
 
 _Grouped/Aggregated_
-
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/highways-images/aggregated_img" width="1000">
+<figcaption>Figure 1. Screen shot of aggregated data visualizations for speed, volume, and VMT.</figcaption>
+</figure>
 
 _Ungrouped/Standard_
 
