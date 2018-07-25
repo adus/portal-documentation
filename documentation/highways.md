@@ -38,7 +38,10 @@ _Grouped/Aggregated_
 The top panel of Figure 1 shows a general trend of decreasing volume and VMT, and increasing speed from 15:00 through 19:00. The bottom panel of Figure 1 is a chloropleth with time on the x-axis and milepost on the y-axis. At 15:00 the speed of traffic is worse at the beginning of I-84 EB, traveling up the y-axis at 15:00 traffic becomes more clear further east. The lower chloropleth panel shows the bulk of congestion occurs within the first few miles of I-84 EB until around 18:00.
 
 _Ungrouped/Standard_
-
+<figure align = "center">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/highways-images/standard_img" width="1000">
+<figcaption>Figure 2. Screen shot of standard (ungrouped) data visualizations for speed, volume, and VMT.  </figcaption>  
+</figure>  
 
 
 ### _Example_
