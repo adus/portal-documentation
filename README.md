@@ -2,7 +2,7 @@
 
 This repo contains working documentation for PORTAL.
 
-Last updated: 2018-06-07
+Last updated: 2018-07-09
 
 ## [Preface](https://github.com/adus/portal-documentation/blob/master/documentation/summary.md)
 
