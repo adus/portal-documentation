@@ -21,7 +21,7 @@ Select the date range of interest by using the _Start_ and _End Date_ options. T
 Data are visualized either aggregated or standard. By default, data are visualized aggregated for all days of the week across all highway lanes.
 
 The following parameters were selected for the examples of grouped and ungrouped plots:
-* Highway: I-84 WB
+* Highway: I-84 EB
 * Start Milepost: 0.45
 * End Milepost: 4.95
 * Start Date: 2018-02-01
@@ -32,8 +32,10 @@ The following parameters were selected for the examples of grouped and ungrouped
 _Grouped/Aggregated_
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/highways-images/aggregated_img" width="1000">
-<figcaption>Figure 1. Screen shot of aggregated data visualizations for speed, volume, and VMT.</figcaption>
-</figure>
+<figcaption>Figure 1. Screen shot of aggregated data visualizations for speed, volume, and VMT.  </figcaption>  
+</figure>  
+
+The top panel of Figure 1 shows a general trend of decreasing volume and VMT, and increasing speed from 15:00 through 19:00. The bottom panel of Figure 1 is a chloropleth with time on the x-axis and milepost on the y-axis. At 15:00 the speed of traffic is worse at the beginning of I-84 EB, traveling up the y-axis at 15:00 traffic becomes more clear further east. The lower chloropleth panel shows the bulk of congestion occurs within the first few miles of I-84 EB until around 18:00.
 
 _Ungrouped/Standard_
 
