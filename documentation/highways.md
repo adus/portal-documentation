@@ -47,4 +47,4 @@ Figure 2 shows data as a continuous time series for only the start and end times
 
 [Feedback](https://github.com/adus/portal-documentation/issues)  
 [Back to Table of Contents](https://github.com/adus/portal-documentation)  
-Last updated: 2018-07-23
+Last updated: 2018-07-25
