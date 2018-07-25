@@ -2,8 +2,6 @@
 
 This repo contains working documentation for PORTAL.
 
-Last updated: 2018-07-09
-
 ## [Preface](https://github.com/adus/portal-documentation/blob/master/documentation/summary.md)
 
 ### Purpose
@@ -14,7 +12,7 @@ Last updated: 2018-07-09
 
 ## Tutorial and Examples Using PORTAL
 
-### Highways
+### [Highways](https://github.com/adus/portal-documentation/blob/master/documentation/highways.md)
 
 ### [Stations](https://github.com/adus/portal-documentation/blob/master/documentation/stations.md)
 
@@ -35,3 +33,6 @@ Last updated: 2018-07-09
 ### [Abbreviations](https://github.com/adus/portal-documentation/blob/master/documentation/abbreviations.md)
 
 ### [Data Sources](https://rawgit.com/adus/portal-documentation/master/documentation/data-sources.html)
+
+Last updated: 2018-07-25  
+[Feedback](https://github.com/adus/portal-documentation/issues)
