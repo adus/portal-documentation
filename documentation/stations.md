@@ -52,11 +52,15 @@ In the direction of travel, the lane number starts from the left and goes to the
 
 _Example_
 <figure align = "center">
-<figcaption>Figure 4. Screen shot of the set parameter options for the two quantity chart (<i>Group</i> is set to <i>Yes</i>).</figcaption>
+<figcaption>Figure 4. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>Yes</i>.</figcaption>
 <img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page3b.png" width="650">
 </figure>
 
-_Example: Group = No_
+_Example_
+<figure align = "center">
+<figcaption>Figure 4. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>No</i>.</figcaption>
+<img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page3c.png" width="650">
+</figure>
 
 ### Step 4: Download data
 There are five types of data available to download:
