@@ -1,12 +1,12 @@
 # Stations
 
-The _Stations_ page allows users to get travel time, vehicle miles traveled, speed, and volume for a specific station.
+The _Stations_ section allows users to get travel time, vehicle miles traveled, speed, and volume for a specific station. There are three different pages associated with this section.
 
 ## Learning objectives
 By the end of the tutorial, users will be able to:
 
 * select a station
-* understand, navigate, and use the _explore_ options
+* understand, navigate, and use the _Explore_ options on the _Two Quantity Chart_ page
 
 ### Step 1: Select a station
 Select any single station on the map. The stations are grouped by the direction of traffic (north, south, east, west). Once a station has been selected a pop-up will provide the name of the station and location, and a link to view more information (Figure 1).
@@ -22,12 +22,24 @@ Clicking on the _Click here to view more_ link will open to a summary of current
 The bottom left panels show the vehicle hours traveled (VHT) and travel time. The bottom right panel shows the speed and volume per lane per hour (VPLPH). Data presented in these two panels shows the current daily information. For historical and additional information click on the _Explore_ buttons located at the upper left corner of either of the plots.
 
 ### Step 3: Explore: Two quantity chart
-The _Two Quantity Chart_ page provides more detailed information about the station, options for plotting different quantities, concomitant weather data, and the option to download data.
+The _Two Quantity Chart_ page provides more detailed information about the station, options for plotting two different quantities, concomitant weather data, and the option to download data. The default quantities plotted are speed and VPLPH; other quantities are average volume, occupancy, vehicle miles traveled (VMT), VHT, travel time, and delay.
+
+_Lanes_
+In the direction of travel, the lane number starts from the left and goes to the right (e.g. the far left lane is lane 1). The options for plotting data is either by one lane at a time or aggregated across all existing lanes. The option for plotting data by lanes is currently unavailable. However, indiviudal lane data can be downloaded by clicking on the _Download All Data_ button at the bottom of the plot.
 
 
 
 ### Step 4: Download data
+There are five types of data available to download:
+Each row of data for the _Download Data_ and _Download All Data_ options is determined by the temporal resolution selected.
 
+_Download Data_ is the data that is shown on the selected plot. (e.g. If plotted data are aggregated hourly for speed and VPLPH, then the data downloaded by this option is the aggregated data for those two quantities).
+
+_Download All Data_ is the unaggregated data used to generate the selected plot. Individual lane data can be found in this dataset.
+
+_Download Stations Metadata_ is metadata for all stations available in PORTAL. Attributes for stations metatdata are station_id, agencyid, highwayid, highwayname, milepost, description, upstreamstation, downstreamstation, oppositestation, longitude, and latitude. More information about stations metadata can be found [here](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md#stations-metadata).
+
+_Download Detectors Metadata_ is metadata for all detectors available in PORTAL. Attributes for detectors metadata are detectorid, stationid, stationname, lanenumber, highwayid, highwayname, and milepost. More information about detectors metadata attributes can be found [here](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md#detector-metadata).
 
 [Feedback](https://github.com/adus/portal-documentation/issues)  
 [Back to Table of Contents](https://github.com/adus/portal-documentation)  

@@ -41,6 +41,8 @@ The following data are provided:
 - y_coord:
 - active_dates
 
+To [_Stations_](https://github.com/adus/portal-documentation/blob/master/documentation/stations.md)
+
 ### Detector metadata
 
 The following data are provided:
@@ -51,7 +53,9 @@ The following data are provided:
 - detectortitle:
 - lanenumber:
 - agency_lane:
-- active_dates"
+- active_dates:
+
+To [_Stations_](https://github.com/adus/portal-documentation/blob/master/documentation/stations.md)
 
 ### Highways metadata
 The following data are provided:
