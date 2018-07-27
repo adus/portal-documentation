@@ -27,10 +27,36 @@ Clicking on the _Click here to view more_ link will open to a summary of current
 The bottom left panels show the vehicle hours traveled (VHT) and travel time. The bottom right panel shows the speed and volume per lane per hour (VPLPH). Data presented in these two panels shows the current daily information. For historical and additional information click on the _Explore_ buttons located at the upper left corner of either of the plots; this will continue to the final _Stations_ page to visualize two different quantities and download data.
 
 ### Step 3: Two quantity chart
-The _Two Quantity Chart_ page provides more detailed information about the station, options for plotting two different quantities, concomitant weather data, and the option to download data. The default quantities plotted are speed and VPLPH; other quantities are average volume, occupancy, vehicle miles traveled (VMT), VHT, travel time, and delay.
+The _Two Quantity Chart_ page provides more detailed information about the station, options for plotting two different quantities, concomitant weather data, and the option to download data.
+
+__Data and visualization parameters__  
+<figure align = "center">
+<figcaption>Figure 3. Screen shot the <i>Stations: Two Quantity Chart</i> page showing all parameter options on top, two quantity chart in the middle, and weather data below.</figcaption>
+<img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page2a.png" width="1000">
+</figure>
+
+_Date Range_
+In addition to the _Start_ and _End_ date options, days of the week can also be selected by clicking on each button. The default selection is all days of the week and today's date for the _Start_ and _End_ date.
+
+_Time Range_
+To select a specific time range of interest use the _Start_ and _End_ inputs (e.g. peak PM traffic or peak AM traffic). The default selection is set to all day.
+
+_Quantities_
+The default quantities plotted are speed and VPLPH; other quantities are average volume, occupancy, vehicle miles traveled (VMT), VHT, travel time, and delay.
+
+_Configuration_
+Select the temporal resolution of interest (20 sec, 5 min, 15 min, 1 hour, 1 day, 1 month, 1 year). Data are originally recorded at 20 second intervals. If the _Group_ parameter is set to _Yes_ then data are aggregated based on day of week selection under _Date Range_. If the _Group_ parameter is set to _No_ then data are visualized as continuous along the x-axis according to the date and time selected.
 
 _Lanes_
 In the direction of travel, the lane number starts from the left and goes to the right (e.g. the far left lane is lane 1). The options for plotting data is either by one lane at a time or aggregated across all existing lanes. The option for plotting data by lanes is currently unavailable. However, indiviudal lane data can be downloaded by clicking on the _Download All Data_ button at the bottom of the plot.
+
+_Example_
+<figure align = "center">
+<figcaption>Figure 3. Screen shot of the set parameter options for the two quantity chart (<i>Group</i> is set to <i>Yes</i>).</figcaption>
+<img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page3b.png" width="1000">
+</figure>
+
+_Example: Group = No_
 
 ### Step 4: Download data
 There are five types of data available to download:
@@ -43,6 +69,10 @@ _Download All Data_ is the unaggregated data used to generate the selected plot.
 _Download Stations Metadata_ is metadata for all stations available in PORTAL. Attributes for stations metatdata are station_id, agencyid, highwayid, highwayname, milepost, description, upstreamstation, downstreamstation, oppositestation, longitude, and latitude. More information about stations metadata can be found [here](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md#stations-metadata).
 
 _Download Detectors Metadata_ is metadata for all detectors available in PORTAL. Attributes for detectors metadata are detectorid, stationid, stationname, lanenumber, highwayid, highwayname, and milepost. More information about detectors metadata attributes can be found [here](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md#detector-metadata).
+
+_Download Weather Data_
+Weather data attributes include temperature (F), windspeed (mph), visibilitymiles, precipitation (1/10 inch), name (null), and displayvalue (null).
+
 
 [Feedback](https://github.com/adus/portal-documentation/issues)  
 [Back to Table of Contents](https://github.com/adus/portal-documentation)  
