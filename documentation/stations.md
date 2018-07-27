@@ -32,7 +32,7 @@ The _Two Quantity Chart_ page provides more detailed information about the stati
 __Data and visualization parameters__  
 <figure align = "center">
 <figcaption>Figure 3. Screen shot the <i>Stations: Two Quantity Chart</i> page showing all parameter options on top, two quantity chart in the middle, and weather data below.</figcaption>
-<img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page3a.png" width="650">
+<img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page3a.png" width="500">
 </figure>
 
 _Date Range_
@@ -58,7 +58,7 @@ _Example_
 
 _Example_
 <figure align = "center">
-<figcaption>Figure 4. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>No</i>.</figcaption>
+<figcaption>Figure 5. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>No</i>.</figcaption>
 <img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page3c.png" width="650">
 </figure>
 
