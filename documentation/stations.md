@@ -12,22 +12,25 @@ By the end of the tutorial, users will be able to:
 Select any single station on the map. The stations are grouped by the direction of traffic (north, south, east, west). Once a station has been selected a pop-up will provide the name of the station and location, and a link to view more information (Figure 1).
 
 <figure align = "center">
-<figcaption>Figure 1. Screen shot of _Stations_ page.  </figcaption>
+<figcaption>Figure 1. Screen shot of <i>Stations</i> page.  </figcaption>
 <img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page1.png" width="1000">
 </figure>
 
 ### Step 2: Current station information
-Clicking on the _Click here to view more_ link will open to a summary of current station information page. Figure 2 shows a screen shot of the summary stations page. The top panel shows a more detailed map and the location of the station designated by a star. Additional information provided on this page include highway name, number of lanes, milepost of the station location, and the length of the station data it represents. If available, the option to click on the downstream station, the station for the opposite direction, or the upstream station will be highlighted available. If these options are unavailable, the buttons will be grayed out.
+<figure align = "center">
+<figcaption>Figure 2. Screen shot of second <i>Stations</i> page with summary information of a selected station. Outlined boxed areas in color are referenced in text.</figcaption>
+<img src="https://github.com/adus/portal-documentation/blob/master/images/stations-images/stations_page2a.png" width="1000">
+</figure>
 
-The bottom left panels show the vehicle hours traveled (VHT) and travel time. The bottom right panel shows the speed and volume per lane per hour (VPLPH). Data presented in these two panels shows the current daily information. For historical and additional information click on the _Explore_ buttons located at the upper left corner of either of the plots.
+Clicking on the _Click here to view more_ link will open to a summary of current station information page. Figure 2 shows a screen shot of the summary stations page. The top panel shows a more detailed map and the location of the station designated by a star. Additional information provided on this page include highway name, number of lanes, milepost of the station location, and the length of the station data it represents. If available, the option to click on the downstream station, the station for the opposite direction, or the upstream station will be highlighted available. If these options are unavailable, the buttons will be grayed out (Figure 2, outlined in red box).
 
-### Step 3: Explore: Two quantity chart
+The bottom left panels show the vehicle hours traveled (VHT) and travel time. The bottom right panel shows the speed and volume per lane per hour (VPLPH). Data presented in these two panels shows the current daily information. For historical and additional information click on the _Explore_ buttons located at the upper left corner of either of the plots; this will continue to the final _Stations_ page to visualize two different quantities and download data.
+
+### Step 3: Two quantity chart
 The _Two Quantity Chart_ page provides more detailed information about the station, options for plotting two different quantities, concomitant weather data, and the option to download data. The default quantities plotted are speed and VPLPH; other quantities are average volume, occupancy, vehicle miles traveled (VMT), VHT, travel time, and delay.
 
 _Lanes_
 In the direction of travel, the lane number starts from the left and goes to the right (e.g. the far left lane is lane 1). The options for plotting data is either by one lane at a time or aggregated across all existing lanes. The option for plotting data by lanes is currently unavailable. However, indiviudal lane data can be downloaded by clicking on the _Download All Data_ button at the bottom of the plot.
-
-
 
 ### Step 4: Download data
 There are five types of data available to download:
