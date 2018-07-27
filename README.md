@@ -34,5 +34,5 @@ This repo contains working documentation for PORTAL.
 
 ### [Data Sources](https://rawgit.com/adus/portal-documentation/master/documentation/data-sources.html)
 
-Last updated: 2018-07-25  
+Last updated: 2018-07-27  
 [Feedback](https://github.com/adus/portal-documentation/issues)
