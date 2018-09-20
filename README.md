@@ -2,7 +2,7 @@
 
 This repo contains working documentation for PORTAL.
 
-Website can be found here:
+Website can be found [here](adus.github.io/portal-documentation).
 
 This website was built using mmistakes/minimal-mistakes.
 
