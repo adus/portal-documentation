@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "About"
+    url: https://adus.github.io/portal-documentation/about/
+  - title: "Documentation"
+    url: https://adus.github.io/portal-documentation/documents/
+  - title: "Updates & Notices"
+    url: https://adus.github.io/portal-documentation/updates-notices/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

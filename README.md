@@ -2,37 +2,8 @@
 
 This repo contains working documentation for PORTAL.
 
-## [Preface](https://github.com/adus/portal-documentation/blob/master/documentation/summary.md)
+Website can be found here:
 
-### Purpose
+This website was built using mmistakes/minimal-mistakes.
 
-### Background
-
-### Structure of PORTAL Documentation
-
-## Tutorial and Examples Using PORTAL
-
-### [Highways](https://github.com/adus/portal-documentation/blob/master/documentation/highways.md)
-
-### [Stations](https://github.com/adus/portal-documentation/blob/master/documentation/stations.md)
-
-### [Travel Time](https://github.com/adus/portal-documentation/blob/master/documentation/travel-time.md)
-
-### [Vehicle Length](https://github.com/adus/portal-documentation/blob/master/documentation/freight.md)
-
-### Arterial
-
-### Arterial Signal
-
-### [Downloads](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md)
-
-### FHWA Data
-
-## References
-
-### [Abbreviations](https://github.com/adus/portal-documentation/blob/master/documentation/abbreviations.md)
-
-### [Data Sources](https://rawgit.com/adus/portal-documentation/master/documentation/data-sources.html)
-
-Last updated: 2018-07-27  
-[Feedback](https://github.com/adus/portal-documentation/issues)
+Last updated: 2018-09-20
