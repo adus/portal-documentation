@@ -10,3 +10,15 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+documents:
+  - title: Documentation
+    children:
+      - title: "Vehicle Length (Freight)"
+        url: /documents/freight/
+      - title: "Highways"
+        url: /documents/highways/
+      - title: "Stations"
+        url: /documents/stations/
+      - title: "Travel Time"
+        url: /documents/travel-time/
