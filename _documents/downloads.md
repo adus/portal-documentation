@@ -1,6 +1,6 @@
-# Downloads
-
-## Introduction
+---
+title: "Downloads"
+---
 In addition to being able to download data from each page in PORTAL, the _Downloads_ page provides the opportunity to download data over longer time frames over multiple locations.
 
 ## Learning objectives

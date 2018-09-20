@@ -1,4 +1,6 @@
-# Travel Time
+---
+title: "Travel Time"
+---
 The _Travel Time_ page allows the user to compare travel times along a specified route.
 
 ## Learning Objectives
@@ -52,7 +54,7 @@ To add sample count data click on the "Add/Remove Sample Count Data". By default
 
 #### _Example_
 When the pointer is scrolled over a data point a window will pop up providing the time stamp and average travel time for each of the plotted points selected in the legend.
-  
+
 <figure align = "center">
 <img src="https://github.com/adus/portal-documentation/blob/master/images/transit-time-images/travel-time-img5.png" width="1000">
 <figcaption>Figure 5. Screen shot of <i>Travel Time</i> standard plot showing the information pop up window and highlighting function of zooming into a specified time frame.</figcaption>

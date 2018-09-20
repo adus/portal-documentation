@@ -1,6 +1,6 @@
-# Highways
-
-## Introduction
+---
+title: Highways
+---
 The _Highways_ page allows users to observe changes in speed, volume, and VMT along a selected length of a highway.
 
 ## Learning objectives
@@ -31,7 +31,7 @@ The following parameters were selected for the examples of grouped and ungrouped
 
 _Grouped/Aggregated_
 <figure align = "center">
-<figcaption>Figure 1. Screen shot of aggregated data visualizations for speed, volume, and VMT.  </figcaption> 
+<figcaption>Figure 1. Screen shot of aggregated data visualizations for speed, volume, and VMT.  </figcaption>
 <img src="https://github.com/adus/portal-documentation/blob/master/images/highways-images/aggregated_img" width="1000">
 </figure>  
 

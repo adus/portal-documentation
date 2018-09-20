@@ -1,5 +1,6 @@
-# Stations
-
+---
+title: "Stations"
+---
 The _Stations_ section allows users to get travel time, vehicle miles traveled, speed, and volume for a specific station. There are three different pages associated with this section.
 
 ## Learning objectives
