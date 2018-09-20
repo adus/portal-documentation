@@ -20,7 +20,7 @@ title                    : "PORTAL: User Documentation"
 title_separator          : "-"
 name                     :
 description              : "User documentation for PORTAL"
-url                      : https://adus.github.io
+url                      : "https://adus.github.io"
 baseurl                  : "/portal-documentation"
 repository               : "adus/portal-documentation"
 teaser                   : #"/assets/images/teaser.jpg"

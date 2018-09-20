@@ -26,8 +26,8 @@ Select the time resolution of interest by using the drop down menu under "Resolu
 
 #### _Example_
 <figure class="align-left">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img1.png" alt = "">
-<figcaption>Figure 1. Screen shot of the <i>Vehicle Length</i> page showing the following set parameters for the Multnomah (2R304) to NB 1-5 station: start and end week is set to 2018-04-01 and 2018-04-14, respectively, and vehicle length with a resolution of one hour.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img1" alt = "">
+  <figcaption>Figure 1. Screen shot of the <i>Vehicle Length</i> page showing the following set parameters for the Multnomah (2R304) to NB 1-5 station: start and end week is set to 2018-04-01 and 2018-04-14, respectively, and vehicle length with a resolution of one hour.</figcaption>
 </figure>
 
 ### Step 5: Select type of plot
@@ -39,16 +39,16 @@ The "Standard" plot option will show daily vehicle length count based on four di
 
 #### _Example_
 <figure class="align-left">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img2.png" alt = "">
-<figcaption>Figure 2. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" vehicle length plot at hourly resolution for the Multnomah (2R304) to NB 1-5 station from 2018-04-01 through 2018-04-14; the pop-up window shows the counts for each vehicle length range.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img2" alt = "">
+  <figcaption>Figure 2. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" vehicle length plot at hourly resolution for the Multnomah (2R304) to NB 1-5 station from 2018-04-01 through 2018-04-14; the pop-up window shows the counts for each vehicle length range.</figcaption>
 </figure>  
 
 The "Aggregate" plot option will prompt two additional selection criteria, "Measure Ranges", and "Week Days". "Measure Ranges" provides the option of aggregating the selected ranges. "Week Days" provides the option of selecting which days of the week should be aggregated. The start and end date will default to the month and year of the initial start and end date. The resulting plot will show the total vehicle count of the selected aggregated options over a 24-hour period for an entire month. The default selection is all days of the week and all vehicle length ranges.
 
 #### _Example_
 <figure class="align-left">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img3.png" alt = "">
-<figcaption>Figure 3. Screen shot of the <i>Vehicle Length</i> page showing the "Aggregated" selection criteria and plot for vehicle length. The plot shows the total vehicle counts for all the Saturdays and Sundays in the month of 2018-04 for all vehicles in the ranges of (20, 35] and (35, 60] ft over a 24 hour period. </figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img3" alt = "">
+  <figcaption>Figure 3. Screen shot of the <i>Vehicle Length</i> page showing the "Aggregated" selection criteria and plot for vehicle length. The plot shows the total vehicle counts for all the Saturdays and Sundays in the month of 2018-04 for all vehicles in the ranges of (20, 35] and (35, 60] ft over a 24 hour period. </figcaption>
 </figure>
 
 #### Vehicle speed
@@ -56,14 +56,14 @@ The "Standard" option will show the daily vehicle speeds binned by 10 mph increm
 
 #### _Example_
 <figure class="align-left">
-<img src=""{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img4.png" alt = "">
-<figcaption>Figure 4. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed. The plot shows the total vehicle counts for all speed ranges at 15 minute resolution. To examine data over a finer time scale, a selection is made by clicking and dragging across the plot to highlight 2018-04-05 through 2018-04-08.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img4" alt = "">
+  <figcaption>Figure 4. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed. The plot shows the total vehicle counts for all speed ranges at 15 minute resolution. To examine data over a finer time scale, a selection is made by clicking and dragging across the plot to highlight 2018-04-05 through 2018-04-08.</figcaption>
 </figure>
 
 #### _Example_
 <figure class="align-left">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img5.png" alt = "">
-<figcaption>Figure 5. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed after zooming in to the selected time frame of 2018-04-05 through 2018-04-08. The resent button in the upper right corner will zoom out to the original plot.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img5" alt = "">
+  <figcaption>Figure 5. Screen shot of the <i>Vehicle Length</i> page showing the "Standard" selection criteria and plot for vehicle speed after zooming in to the selected time frame of 2018-04-05 through 2018-04-08. The resent button in the upper right corner will zoom out to the original plot.</figcaption>
 </figure>  
 
 
@@ -71,8 +71,8 @@ The "Aggregate" plot option will prompt two additional selection criteria, "Meas
 
 #### _Example_
 <figure class="align-left">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img6.png" alt = "">
-<figcaption>Figure 6. Screen shot of the <i>Vehicle Length</i> page showing the "Aggregated" selection criteria and plot of vehicle speeds for 2018-04 with (0, 10] and (80, 100] unselected, and Friday and Saturday selected, over a 24 hour period.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/vehicle-length-img6" alt = "">
+  <figcaption>Figure 6. Screen shot of the <i>Vehicle Length</i> page showing the "Aggregated" selection criteria and plot of vehicle speeds for 2018-04 with (0, 10] and (80, 100] unselected, and Friday and Saturday selected, over a 24 hour period.</figcaption>
 </figure>  
 
 ### Step 6: Download data
