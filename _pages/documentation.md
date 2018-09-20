@@ -1,5 +1,5 @@
 ---
-title: Course Materials
+title: Documentation
 layout: collection
 permalink: /documents/
 collection: documents

@@ -257,7 +257,7 @@ compress_html:
 
 # Adding Collections
 collections:
-  portfolio:
+  documents:
     output: true
     permalink: /:collection/:path/
 
