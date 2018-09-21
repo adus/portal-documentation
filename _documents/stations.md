@@ -71,9 +71,9 @@ _Download Data_ is the data that is shown on the selected plot. (e.g. If plotted
 
 _Download All Data_ is the unaggregated data used to generate the selected plot. Individual lane data can be found in this dataset.
 
-_Download Stations Metadata_ is metadata for all stations available in PORTAL. Attributes for stations metatdata are station_id, agencyid, highwayid, highwayname, milepost, description, upstreamstation, downstreamstation, oppositestation, longitude, and latitude. More information about stations metadata can be found [here](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md#stations-metadata).
+_Download Stations Metadata_ is metadata for all stations available in PORTAL. Attributes for stations metatdata are station_id, agencyid, highwayid, highwayname, milepost, description, upstreamstation, downstreamstation, oppositestation, longitude, and latitude. More information about stations metadata can be found [here]({{ site.url }}{{ site.baseurl }}/documents/downloads#stations-metadata/).
 
-_Download Detectors Metadata_ is metadata for all detectors available in PORTAL. Attributes for detectors metadata are detectorid, stationid, stationname, lanenumber, highwayid, highwayname, and milepost. More information about detectors metadata attributes can be found [here](https://github.com/adus/portal-documentation/blob/master/documentation/downloads.md#detector-metadata).
+_Download Detectors Metadata_ is metadata for all detectors available in PORTAL. Attributes for detectors metadata are detectorid, stationid, stationname, lanenumber, highwayid, highwayname, and milepost. More information about detectors metadata attributes can be found [here]({{ site.url }}{{ site.baseurl }}/documents/downloads#detector-metadata/).
 
 _Download Weather Data_
 Weather data attributes include temperature (F), windspeed (mph), visibilitymiles, precipitation (1/10 inch), name (null), and displayvalue (null).

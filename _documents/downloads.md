@@ -13,12 +13,12 @@ By the end of the tutorial users should be able to:
 Highway data can be downloaded from this section by selecting the start and end date of interest, days of week, format, highway of interest, and temporal resolution. Multiple highway sections can be downloaded by holding the ctrl key and clicking on the desired highway.
 
 The following data are provided:
-- starttime:
+- starttime: start time
 - resolution: temporal resolution of frequency of data collected
 - detector_id: detector id along selected route
 - speed: average speed of vehicles traveling per hour that pass the detector
 - volume: number of vehicles per hour that pass the detector
-- occupancy:
+- occupancy: percent of time cars are being detected
 - countreadings:
 - delay: vht minus the time it would take a vehicle to travel at the maximum permitted speed on a segment.
 - traveltime: the average amount of time spent traveling within a segment.
@@ -30,18 +30,18 @@ To get distance traveled divide vmt by volume.
 ### Stations metadata
 
 The following data are provided:
-- stationid:
-- highwayid:
-- milepost:
+- stationid: station ID
+- highwayid: highway ID
+- milepost: milepost (mi)
 - locationtext:
 - length:
-- numberlanes:
-- agencyid:
-- x_coord:
-- y_coord:
-- active_dates
+- numberlanes: number of lanes at the station
+- agencyid: ID of the agency maintaining the station
+- x_coord: longitude
+- y_coord: latitude
+- active_dates: active date of station
 
-To [_Stations_](https://github.com/adus/portal-documentation/blob/master/documentation/stations.md)
+To [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Detector metadata
 
@@ -55,7 +55,7 @@ The following data are provided:
 - agency_lane:
 - active_dates:
 
-To [_Stations_](https://github.com/adus/portal-documentation/blob/master/documentation/stations.md)
+To [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Highways metadata
 The following data are provided:
@@ -76,6 +76,4 @@ The following data are provided:
 
 ### Voyage Volume
 
-[Feedback](https://github.com/adus/portal-documentation/issues)  
-[Back to Table of Contents](https://github.com/adus/portal-documentation)  
-Last updated: 2018-05-29
+Last updated: 2018-09-20
