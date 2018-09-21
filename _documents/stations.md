@@ -19,8 +19,8 @@ Select any single station on the map. The stations are grouped by the direction 
 
 ### Step 2: Current station information
 <figure class="align-left">
-<figcaption>Figure 2. Screen shot of second <i>Stations</i> page with summary information of a selected station. Outlined boxed areas in color are referenced in text.</figcaption>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page2a.png" alt="">
+  <figcaption>Figure 2. Screen shot of second <i>Stations</i> page with summary information of a selected station. Outlined boxed areas in color are referenced in text.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page2a.png" alt="">
 </figure>
 
 Clicking on the _Click here to view more_ link will open to a summary of current station information page. Figure 2 shows a screen shot of the summary stations page. The top panel shows a more detailed map and the location of the station designated by a star. Additional information provided on this page include highway name, number of lanes, milepost of the station location, and the length of the station data it represents. If available, the option to click on the downstream station, the station for the opposite direction, or the upstream station will be highlighted available. If these options are unavailable, the buttons will be grayed out (Figure 2, outlined in red box).
@@ -32,8 +32,8 @@ The _Two Quantity Chart_ page provides more detailed information about the stati
 
 __Data and visualization parameters__  
 <figure class="align-left">
-<figcaption>Figure 3. Screen shot the <i>Stations: Two Quantity Chart</i> page showing all parameter options on top, two quantity chart in the middle, and weather data below.</figcaption>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page3a.png" alt="">
+  <figcaption>Figure 3. Screen shot the <i>Stations: Two Quantity Chart</i> page showing all parameter options on top, two quantity chart in the middle, and weather data below.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page3a.png" alt="">
 </figure>
 
 _Date Range_
@@ -53,14 +53,14 @@ In the direction of travel, the lane number starts from the left and goes to the
 
 _Example_
 <figure class="align-left">
-<figcaption>Figure 4. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>Yes</i>.</figcaption>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page3b.png" alt="">
+  <figcaption>Figure 4. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>Yes</i>.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page3b.png" alt="">
 </figure>
 
 _Example_
 <figure class="align-left">
-<figcaption>Figure 5. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>No</i>.</figcaption>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page3c.png" alt="">
+  <figcaption>Figure 5. Screen shot of the set parameter options for the two quantity chart where <i>Group</i> is set to <i>No</i>.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page3c.png" alt="">
 </figure>
 
 ### Step 4: Download data

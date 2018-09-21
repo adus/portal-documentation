@@ -30,21 +30,20 @@ The following parameters were selected for the examples of grouped and ungrouped
 * End Time: 19:00
 
 _Grouped/Aggregated_
-<figure align = "center">
-<figcaption>Figure 1. Screen shot of aggregated data visualizations for speed, volume, and VMT.  </figcaption>
-<img src="https://github.com/adus/portal-documentation/blob/master/images/highways-images/aggregated_img" width="1000">
+<figure class="align-left">
+  <figcaption>Figure 1. Screen shot of aggregated data visualizations for speed, volume, and VMT.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/highways_img1" alt="">
 </figure>  
 
 The top panel of Figure 1 shows a general trend of decreasing volume and VMT, and increasing speed from 15:00 through 19:00. The bottom panel of Figure 1 is a chloropleth with time on the x-axis and milepost on the y-axis. At 15:00 the speed of traffic is worse at the beginning of I-84 EB, traveling up the y-axis at 15:00 traffic becomes more clear further east. The lower chloropleth panel shows the bulk of congestion occurs within the first few miles of I-84 EB until around 18:00.
 
 _Ungrouped/Standard_
-<figure align = "center">
-<figcaption>Figure 2. Screen shot of standard (ungrouped) data visualizations for speed, volume, and VMT.  </figcaption>
-<img src="https://github.com/adus/portal-documentation/blob/master/images/highways-images/standard_img" width="1000">
+<figure class="align-left">
+  <figcaption>Figure 2. Screen shot of standard (ungrouped) data visualizations for speed, volume, and VMT.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/highways_img2" alt="">
 </figure>  
 
 Figure 2 shows data as a continuous time series for only the start and end times selected (15:00 through 19:00). Details of each point or chloropleth cell are pop up as you scroll over a data point of interest. Of all the days selected in February, 2018-02-04, is the only date to to show speeds averaging above 50 mph throughout the selected I-84 EB corridor between 15:00 and 19:00. Go Eagles!  
 
-[Feedback](https://github.com/adus/portal-documentation/issues)  
-[Back to Table of Contents](https://github.com/adus/portal-documentation)  
+
 Last updated: 2018-07-25
