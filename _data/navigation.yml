@@ -6,8 +6,8 @@ main:
     url: https://adus.github.io/portal-documentation/documents/
   - title: "Updates & Notices"
     url: https://adus.github.io/portal-documentation/updates-notices/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "PORTAL"
+    url: http://portal.its.pdx.edu/
   # - title: "Sitemap"
   #   url: /sitemap/
 
