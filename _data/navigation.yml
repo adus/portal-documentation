@@ -39,7 +39,6 @@ about:
   - title: VAST
     children:
       - title: "2018 Scope of Work"
-        url: {{ site.url }}{{ site.baseurl }}/assets/pdfs/VAST-2018-SOW.pdf"
+        url: "{{ site.url }}{{ site.baseurl }}/assets/pdfs/VAST-2018-SOW.pdf"
       - title: "2018 Project Update: 2018-09-26"
-        url: {{ site.url }}{{ site.baseurl }}/assets/pdfs/VAST-2018-ProjectUpdate-180926.pdf"
-        
+        url: "{{ site.url }}{{ site.baseurl }}/assets/pdfs/VAST-2018-ProjectUpdate-180926.pdf"
