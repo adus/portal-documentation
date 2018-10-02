@@ -1,7 +1,9 @@
 ---
 title: About
-layout: home
+layout: single
 permalink: /about/
+sidebar:
+  nav: "about"
 ---
 Portal is the official Archived Data User Service (ADUS) transportation data archive of the Portland-Vancouver-Hillsboro Metropolitan Area. Portal serves as a resource for practitioners, researchers, and other public and private institutions and individuals interested in education, performance measurements, research, and data driven decisions in policy and enforcement.
 
