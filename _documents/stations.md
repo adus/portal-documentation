@@ -36,20 +36,20 @@ __Data and visualization parameters__
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/stations_page3a.png" alt="">
 </figure>
 
-_Date Range_
+_Date Range_ <br>
 In addition to the _Start_ and _End_ date options, days of the week can also be selected by clicking on each button. The default selection is all days of the week and today's date for the _Start_ and _End_ date.
 
-_Time Range_
+_Time Range_ <br>
 To select a specific time range of interest use the _Start_ and _End_ inputs (e.g. peak PM traffic or peak AM traffic). The default selection is set to all day.
 
-_Quantities_
+_Quantities_ <br>
 The default quantities plotted are speed and VPLPH; other quantities are average volume, occupancy, vehicle miles traveled (VMT), VHT, travel time, and delay.
 
-_Configuration_
+_Configuration_ <br>
 Select the temporal resolution of interest (20 sec, 5 min, 15 min, 1 hour, 1 day, 1 month, 1 year). Data are originally recorded at 20 second intervals. If the _Group_ parameter is set to _Yes_ then data are aggregated based on day of week selection under _Date Range_. If the _Group_ parameter is set to _No_ then data are visualized as continuous along the x-axis according to the date and time selected.
 
-_Lanes_
-In the direction of travel, the lane number starts from the left and goes to the right (e.g. the far left lane is lane 1). The options for plotting data is either by one lane at a time or aggregated across all existing lanes. The option for plotting data by lanes is currently unavailable. However, indiviudal lane data can be downloaded by clicking on the _Download All Data_ button at the bottom of the plot.
+_Lanes_ <br>
+The lane number starts from the left and goes to the right (e.g. the far left lane is lane 1).The options for plotting data is either by one lane at a time or aggregated across all existing lanes. The option for plotting data by lanes is currently unavailable. However, individual lane data can be downloaded by clicking on the _Download All Data_ button at the bottom of the plot.
 
 _Example_
 <figure class="align-left">
@@ -78,4 +78,4 @@ _Download Detectors Metadata_ is metadata for all detectors available in PORTAL.
 _Download Weather Data_
 Weather data attributes include temperature (F), windspeed (mph), visibilitymiles, precipitation (1/10 inch), name (null), and displayvalue (null).
 
-Last updated: 2018-09-20
+Last updated: 2018-11-05
