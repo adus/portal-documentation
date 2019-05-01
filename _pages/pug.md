@@ -6,3 +6,5 @@ collection: documents_posts
 classes: wide
 author_profile: false
 ---
+
+Meeting agendas and any presentation slides or resources provided at the meeting are posted here.
