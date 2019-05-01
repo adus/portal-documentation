@@ -260,6 +260,9 @@ collections:
   documents:
     output: true
     permalink: /:collection/:path/
+  documents_pug:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
