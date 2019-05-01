@@ -298,7 +298,7 @@ defaults:
   # _documents_pug
   - scope:
       path: "_documents_pug"
-      type: posts
+      type: documents_pug
     values:
       layout: single
       author_profile: false
