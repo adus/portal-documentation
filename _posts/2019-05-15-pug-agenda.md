@@ -1,14 +1,11 @@
 ---
 title: "PUG Meeting 2019-05-15"
 tags:
-  - PUG
+  - updates&notices
 ---
+Meeting location: ODOT, Room 337 (call-in available)  
 
-2019-05-15
-
-Meeting location: ODOT, Room 337 (call-in available)
-
-PUG Agenda
+Agenda  
 
 2:00pm - 2:10pm  
 Introductions and updates
