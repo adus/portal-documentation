@@ -1,6 +1,6 @@
 ---
 title: "PORTAL Users Group (PUG)"
-layout: collection
+layout: posts
 permalink: /documents_pug/
 collection: documents_pug
 classes: wide
