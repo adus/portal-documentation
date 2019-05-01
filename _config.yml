@@ -295,3 +295,11 @@ defaults:
       share: true
       sidebar:
         nav: "documents"
+  # _documents_pug
+  - scope:
+      path: "_documents_pug"
+      type: documents
+    values:
+      layout: single
+      author_profile: false
+      share: true
