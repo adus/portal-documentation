@@ -2,7 +2,7 @@
 title: "PORTAL Users Group (PUG)"
 layout: collection
 permalink: /documents_pug/
-collection: documents_pug
+collection: _documents_pug
 classes: wide
 author_profile: false
 ---
