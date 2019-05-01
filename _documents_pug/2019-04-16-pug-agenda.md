@@ -1,5 +1,5 @@
 ---
-title: "PUG Meeting Agenda 2019-04-17"
+title: "PUG Meeting 2019-04-17"
 tags:
   - PUG
 ---
