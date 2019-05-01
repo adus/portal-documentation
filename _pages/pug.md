@@ -1,7 +1,7 @@
 ---
 title: "PORTAL Users Group (PUG)"
-permalink: /pug/
 layout: collection
+permalink: /documents_pug/
 collection: documents_pug
 classes: wide
 author_profile: false
