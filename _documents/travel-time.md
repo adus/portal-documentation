@@ -70,6 +70,14 @@ For higher resolution data visualization the user can zoom in on the plot by cli
   <figcaption>Figure 6. Screen shot of <i>Travel Time</i> standard plot zoomed to a Tuesday through Thursday time frame.</figcaption>
 </figure>
 
+#### _Example_
+The Aggregate plot shows average travel time aggregated by hour of day for the selected days of the week (Tue, Wed, Thu) in this example. As with the standard plots, weeks can be turned on and off by clicking on the legend key, scrolling over data points will show a pop up with time stamp and average travel time for each of the items selected in the legend, and zooming is supported. 
+
+<figure class="align-left">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/travel-time-img7.png" alt="">
+  <figcaption>Figure 7. Screen shot of <i>Travel Time</i> aggregate plot.</figcaption>
+</figure>
+
 ### Step 6: Download data
 Data used to plot average travel time and sample counts can be downloaded by clicking on the "Download" button. A zip file will be created and contain two files: 1) data used to plot reliability average travel time and the four week average sample count where the given "time" is the day of the week and hour of day; and 2) travel time and sample count per hour with a time stamp (yyyy-mm-dd hh:mm:ss).
 
