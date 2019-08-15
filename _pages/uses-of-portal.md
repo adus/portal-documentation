@@ -2,7 +2,7 @@
 title: "Uses of PORTAL"
 layout: collection
 permalink: /uses-of-portal/
-collection: use-of-portal
+collection: uses-of-portal
 classes: wide
 author_profile: false
 ---
