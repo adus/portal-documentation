@@ -263,6 +263,9 @@ collections:
   documents_pug:
     output: true
     permalink: /:collection/:path/
+  uses-of-portal:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -306,10 +309,10 @@ defaults:
       layout: single
       author_profile: false
       share: true
-# _uses-of-portal
+  # _uses-of-portal
   - scope:
       path: "_uses-of-portal"
-      type: documents_pug
+      type: uses-of-portal
     values:
       layout: single
       author_profile: false
