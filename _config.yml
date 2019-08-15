@@ -306,3 +306,11 @@ defaults:
       layout: single
       author_profile: false
       share: true
+# _uses-of-portal
+  - scope:
+      path: "_uses-of-portal"
+      type: documents_pug
+    values:
+      layout: single
+      author_profile: false
+      share: true
