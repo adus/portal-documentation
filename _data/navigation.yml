@@ -4,11 +4,11 @@ main:
     url: https://adus.github.io/portal-documentation/about/
   - title: "Documentation"
     url: https://adus.github.io/portal-documentation/documents/
-  - title: "Updates & Notices"
+  - title: "Updates"
     url: https://adus.github.io/portal-documentation/updates-notices/
   - title: "PUG"
     url: https://adus.github.io/portal-documentation/documents_pug/
-  - title: "Uses of PORTAL"
+  - title: "Uses"
     url: https://adus.github.io/portal-documentation/uses-of-portal/
   - title: "PORTAL"
     url: http://portal.its.pdx.edu/
