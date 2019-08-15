@@ -1,7 +1,7 @@
 ---
 title: "Uses of PORTAL"
 layout: collection
-permalink: /uses_of_portal/
+permalink: /uses-of-portal/
 collection: uses_of_portal
 classes: wide
 author_profile: false
