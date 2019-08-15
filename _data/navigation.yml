@@ -8,6 +8,8 @@ main:
     url: https://adus.github.io/portal-documentation/updates-notices/
   - title: "PUG"
     url: https://adus.github.io/portal-documentation/documents_pug/
+  - title: "Uses of PORTAL"
+    url: https://adus.github.io/portal-documentation/uses-of-portal/
   - title: "PORTAL"
     url: http://portal.its.pdx.edu/
   # - title: "Sitemap"
