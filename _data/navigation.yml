@@ -29,6 +29,10 @@ documents:
         url: /documents/travel-time/
       - title: "Abbreviations"
         url: /documents/abbreviations/
+      - title: "Data Sources"
+        url: /documents/datasources/
+      - title: "Definitions"
+        url: /documents/definitions/
       - title: "Downloads"
         url: /documents/downloads/
 
