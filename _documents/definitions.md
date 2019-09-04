@@ -35,4 +35,4 @@ The influence area of a detector is calculated using the midpoint method. That i
 
 _**General: FHWA Documentation**_  
 Documentation produced for the Multi Modal Data Set Clean-up for Portland Oregon Metropolitan Region project done for FHWA in 2012. The document is dated, but still contains valuable information. 
-https://portal.its.pdx.edu/static/files/fhwa/Freeway%20Data%20Documentation.pdf
+[FHWA Documentation](https://portal.its.pdx.edu/static/files/fhwa/Freeway%20Data%20Documentation.pdf)
