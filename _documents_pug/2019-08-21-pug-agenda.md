@@ -11,9 +11,9 @@ Agenda
 Introductions and updates
 
 2:10pm - 3:00pm  
-_Speaker_: Travis Glick, Portland State University
-_Topic_: High-resolution GPS transit data
-_Presentation_: Presentation slides to be added here
+_Speaker_: Travis Glick, Portland State University  
+_Topic_: High-resolution GPS transit data  
+_Presentation_: Presentation slides to be added [here]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Glick_PortalMeeting.pdf)  
 
 3:00pm - 3:30pm (time permitting)  
 _Speakers_: Kristin Tufte, PSU  
