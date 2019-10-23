@@ -1,5 +1,5 @@
 ---
-title: "PUG Meeting 2019-09-18"
+title: "PUG Meeting 2019-10-16"
 tags:
   - updates&notices
 ---
@@ -12,4 +12,4 @@ Introductions and updates
 
 2:10pm - 3:00pm
 _Speaker_: Yi-Min Ha, Bluemac  
-_Topic_: Overview of Bluemac 
+_Topic_: Overview of Bluemac
