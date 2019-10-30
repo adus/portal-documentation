@@ -43,7 +43,7 @@ _Time Range_ <br>
 To select a specific time range of interest use the _Start_ and _End_ inputs (e.g. peak PM traffic or peak AM traffic). The default selection is set to all day.
 
 _Quantities_ <br>
-The default quantities plotted are speed and VPLPH; other quantities are average volume, occupancy, vehicle miles traveled (VMT), VHT, travel time, and delay.
+The default quantities plotted are speed and VPLPH; other quantities are average volume (can only be used with _Group_ parameter set to _Yes_), occupancy, vehicle miles traveled (VMT), VHT, travel time, and delay.
 
 _Configuration_ <br>
 Select the temporal resolution of interest (20 sec, 5 min, 15 min, 1 hour, 1 day, 1 month, 1 year). Data are originally recorded at 20 second intervals. If the _Group_ parameter is set to _Yes_ then data are aggregated based on day of week selection under _Date Range_. If the _Group_ parameter is set to _No_ then data are visualized as continuous along the x-axis according to the date and time selected.
