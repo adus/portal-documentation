@@ -28,7 +28,7 @@ Clicking on the _Click here to view more_ link will open to a summary of current
 The bottom left panels show the vehicle hours traveled (VHT) and travel time. The bottom right panel shows the speed and volume per lane per hour (VPLPH). Data presented in these two panels shows the current daily information. For historical and additional information click on the _Explore_ buttons located at the upper left corner of either of the plots; this will continue to the final _Stations_ page to visualize two different quantities and download data.
 
 ### Step 3: Two quantity chart
-The _Two Quantity Chart_ page provides more detailed information about the station, options for plotting two different quantities, concomitant weather data, and the option to download data.
+The _Two Quantity Chart_ page provides more detailed information about the station, options for plotting two different quantities, concomitant weather data, and the option to download data. Click on the legend description to turn plotted parameters on or off.
 
 __Data and visualization parameters__  
 <figure class="align-left">
@@ -78,4 +78,4 @@ _Download Detectors Metadata_ is metadata for all detectors available in PORTAL.
 _Download Weather Data_
 Weather data attributes include temperature (F), windspeed (mph), visibilitymiles, precipitation (1/10 inch), name (null), and displayvalue (null).
 
-Last updated: 2018-11-05
+Last updated: 2019-10-30
