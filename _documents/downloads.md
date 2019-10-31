@@ -65,15 +65,75 @@ The following data are provided:
 - oppositehighwayid: id of highway of opposite flow
 
 ### Aggregated travel time
+The following data are provided:
+- average_travel_time: average travel time of segment (min)
+- countreadings: sample size
+- id:
+- resolution: either one hour or five minutes
+- segment_id: unique id, used to join with travel time segment inventory metadata
+- starttime: start time of chosen resolution
 
 ### Raw travel time
+The following data are provided:
+- below_min_filter:
+- calc_confidence_interval
+- calc_variance:
+- exceeded_max_filter:
+- segment_calc_time:
+- segment_id:
+- segment_travel_time:
+- std_deviation_calc_samples_removed:
+- std_deviation_filter_value:
 
 ### Travel time segment inventory
+The following data are provided:
+- active: true or false
+- beginning_dcu:
+- calculation_period:
+- calculation_threshold:
+- end_dcu:
+- minimum_lanes_reporting:
+- minimum_samples:
+- segment_id:
+- segment_length:
+- segment_maximum_filter:
+- segment_minimum_filter:
+- segment_name:
+- segment_type:
+- source_system:
+- standard_deviation_multiplier:
+- standard_deviation_samples:
+- station_id:
+- use_standard_deviation_filter:
 
 ### Travel time DCU inventory
+The following data are provided:
+- active: true or false
+- dcu_id:
+- dcu_name:
+- geom.coordinates.0: longitude
+- geom.cooridnates.1: latitude
+- geom.type:
+- highway: highway name
+- latitude: latitude
+- location_type: intersection or free flowing traffic
+- longitude: longitude
+- milepoint:
+- owner: agency name
+- roadway_number:
 
 ### Aggregated CLS
+The following data are provided:
+- aggregated_records:
+- bin_count:
+- bin_number:
+- bin_resolution: 15 minutes, one hour, one day
+- bin_time:
+- bin_type:
+- id:
+- lane: lane 1 is the right most lane
+- stationid: unique station id, to be used with stations metadata
 
 ### Voyage Volume
 
-Last updated: 2018-09-20
+Last updated: 2019-10-31
