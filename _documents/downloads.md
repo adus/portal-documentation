@@ -33,8 +33,8 @@ The following data are provided:
 - stationid: station ID
 - highwayid: highway ID
 - milepost: milepost (mi)
-- locationtext:
-- length:
+- locationtext: agency provided location information
+- length: length of segment (mi)
 - numberlanes: number of lanes at the station
 - agencyid: ID of the agency maintaining the station
 - x_coord: longitude
