@@ -46,23 +46,23 @@ To [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 ### Detector metadata
 
 The following data are provided:
-- detectorid:
-- stationid:
-- highwayid:
-- milepost:
-- detectortitle:
-- lanenumber:
-- agency_lane:
-- active_dates:
+- detectorid: unique detector id, used to join with raw or aggregated data
+- stationid: unique station id, used to join with stations metadata
+- highwayid: unique highway id, used to join with highways metadata
+- milepost: milepost (mi)
+- detectortitle: agency given name or id for detector
+- lanenumber: PORTAL lane number, where lane 1 is the left most lane regardless of agency jurisdiction
+- agency_lane: agency given lane number where lane 1 is left most lane for ODOT, and lane 1 is right most lane for WSDOT
+- active_dates: active date of detector
 
 To [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Highways metadata
 The following data are provided:
-- highwayid:
-- direction:
-- highwayname:
-- oppositehighwayid:
+- highwayid: unique highway id
+- direction: direction of flow
+- highwayname: name of highway
+- oppositehighwayid: id of highway of opposite flow
 
 ### Aggregated travel time
 
