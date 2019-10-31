@@ -131,8 +131,10 @@ The following data are provided:
 - bin_time:
 - bin_type:
 - id:
-- lane: lane 1 is the right most lane
+- lane: lane 1 is the left most lane
 - stationid: unique station id, to be used with stations metadata
+
+To [_Vehicle Lengths_]({{ site.url }}{{ site.baseurl }}/documents/freight/)
 
 ### Voyage Volume
 
