@@ -18,7 +18,7 @@ Use the _Start Milepost_ and _End Milepost_ to select the segment of highway of 
 Select the date range of interest by using the _Start_ and _End Date_ options. The _Start_ and _End Time_ options allows comparisons of specific times across the selected date range (e.g. evening rush hours).
 
 ### Step 4: Select figure plotting options
-Data are visualized either aggregated or standard. By default, data are visualized aggregated for all days of the week across all highway lanes. Plotted features can be turned on and off by clicking on legend parameters.
+Data are visualized either aggregated or standard. By default, data are visualized aggregated for all days of the week across all highway lanes (lane 1 refers to the left most lane). Plotted features can be turned on and off by clicking on legend parameters.
 
 The following parameters were selected for the examples of grouped and ungrouped plots:
 * Highway: I-84 EB
