@@ -18,7 +18,7 @@ Use the _Start Milepost_ and _End Milepost_ to select the segment of highway of 
 Select the date range of interest by using the _Start_ and _End Date_ options. The _Start_ and _End Time_ options allows comparisons of specific times across the selected date range (e.g. evening rush hours).
 
 ### Step 4: Select figure plotting options
-Data are visualized either aggregated or standard. By default, data are visualized aggregated for all days of the week across all highway lanes.
+Data are visualized either aggregated or standard. By default, data are visualized aggregated for all days of the week across all highway lanes. Plotted features can be turned on and off by clicking on legend parameters.
 
 The following parameters were selected for the examples of grouped and ungrouped plots:
 * Highway: I-84 EB
@@ -46,4 +46,4 @@ _Ungrouped/Standard_
 Figure 2 shows data as a continuous time series for only the start and end times selected (15:00 through 19:00). Details of each point or chloropleth cell are pop up as you scroll over a data point of interest. Of all the days selected in February, 2018-02-04, is the only date to to show speeds averaging above 50 mph throughout the selected I-84 EB corridor between 15:00 and 19:00. Go Eagles!  
 
 
-Last updated: 2018-07-25
+Last updated: 2019-10-31
