@@ -76,6 +76,6 @@ _Download Stations Metadata_ is metadata for all stations available in PORTAL. A
 _Download Detectors Metadata_ is metadata for all detectors available in PORTAL. Attributes for detectors metadata are detectorid, stationid, stationname, lanenumber, highwayid, highwayname, and milepost. More information about detectors metadata attributes can be found [here]({{ site.url }}{{ site.baseurl }}/documents/downloads#detector-metadata/).
 
 _Download Weather Data_
-Weather data attributes include temperature (F), windspeed (mph), visibilitymiles, precipitation (1/10 inch), name (null), and displayvalue (null).
+Weather data is from the Portland International Airport weather station. Attributes include temperature (F), windspeed (mph), visibilitymiles, precipitation (1/10 inch), name (null), and displayvalue (null).
 
-Last updated: 2019-10-30
+Last updated: 2019-11-07
