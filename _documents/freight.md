@@ -90,14 +90,15 @@ The "Standard" data download will export one file with a date and time stamp and
   - Monsere, Chris. [Adding Continuous Truck Counts to the Regional Data Archive (PORTAL)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Monsere_FreightTAC.pdf). 2010 May 12.
   - Monsere, Chris. [Adding Continuous Truck Counts to the Regional Data Archive (PORTAL)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Monsere_Transport071410.pdf). 2010 July 14.
   - Monsere, Chris. [Permanent Freight Data Collection Infrastructure and Archive System]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Monsere_Transport040813.pdf). 2013 April 10.
-- [State of the Practice Review](({{ site.url }}{{ site.baseurl }}/assets/pdfs/Deliverable1_ReviewofStateofPractice.pdf))
+- [State of the Practice Review]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Deliverable1_ReviewofStateofPractice.pdf))
 - [TCU Manual](({{ site.url }}{{ site.baseurl }}/assets/pdfs/TCU_Documentation_Draft_06052013.pdf)
-- Map: [Freight Volumes and Freeway Detectors (March 2012)](({{ site.url }}{{ site.baseurl }}/assets/pdfs/FreightVolumesandFreewayDetectors.pdf)
+- Map: [Freight Volumes and Freeway Detectors (March 2012)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/FreightVolumesandFreewayDetectors.pdf)
 - MnDOT. [Loop- and Length-Based Vehicle Classification, Federal Highway Administration - Pooled Fund Program TPF-5(192)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Minge_2012_MNDOT_Length-based_PooledFund.pdf). 2012 November.
 
 The figure below, from the pool-fund study (MnDOT, 2012), provides an illustration of the association between vehicle length and vehicle class. The table below lists the class names and is taken from a MAG study [(2012)](https://www.azmag.gov/Documents/TRANS_2011-02-25_Federal-Highway-Administration-Vehicle-Classes-With-Definitions.pdf), which also provides descriptions of the vehicle classes. The vertical red lines in Figure 7 show one potential set of length bins and how those length bins capture different vehicle classes. For example, the "short" bin in this figure will capture all Class 2 vehicles (passenger cars), most Class 3 vehicles (other two-axle, four-tire single unit vechicles), some Class 5 vehicles (two-axle, six-tire single-unit trucks), and a very few Class 6 vehicles (three-axle single-unit trucks).
 
 Table 1: Class names and descriptions from MAG Internal Truck Travel Survey and Truck Model Development Study.  
+
 | Class | Description |
 | --- | --- |
 | Class 1 | Motorcycle |
