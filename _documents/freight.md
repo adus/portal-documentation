@@ -90,8 +90,8 @@ The "Standard" data download will export one file with a date and time stamp and
   - Monsere, Chris. [Adding Continuous Truck Counts to the Regional Data Archive (PORTAL)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Monsere_FreightTAC.pdf). 2010 May 12.
   - Monsere, Chris. [Adding Continuous Truck Counts to the Regional Data Archive (PORTAL)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Monsere_Transport071410.pdf). 2010 July 14.
   - Monsere, Chris. [Permanent Freight Data Collection Infrastructure and Archive System]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Monsere_Transport040813.pdf). 2013 April 10.
-- [State of the Practice Review]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Deliverable1_ReviewofStateofPractice.pdf))
-- [TCU Manual](({{ site.url }}{{ site.baseurl }}/assets/pdfs/TCU_Documentation_Draft_06052013.pdf)
+- [State of the Practice Review]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Deliverable1_ReviewofStateofPractice.pdf)
+- [TCU Manual]({{ site.url }}{{ site.baseurl }}/assets/pdfs/TCU_Documentation_Draft_06052013.pdf)
 - Map: [Freight Volumes and Freeway Detectors (March 2012)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/FreightVolumesandFreewayDetectors.pdf)
 - MnDOT. [Loop- and Length-Based Vehicle Classification, Federal Highway Administration - Pooled Fund Program TPF-5(192)]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Minge_2012_MNDOT_Length-based_PooledFund.pdf). 2012 November.
 
