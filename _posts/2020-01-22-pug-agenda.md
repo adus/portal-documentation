@@ -19,6 +19,6 @@ ODOT metadata feed update:
 Travel time update:
 - Discussion on adding additional route selection features
 
-3:00 pm - 3:30 pm
+3:00 pm - 3:30 pm  
 _Speaker_: Kristin and Tammy, PSU  
 _Topic_: UI updates for the stations page
