@@ -1,5 +1,5 @@
 ---
-title: "PUG Meeting 2019-11-20"
+title: "PUG Meeting 2020-03-18"
 tags:
   - updates&notices
 ---
@@ -16,7 +16,7 @@ _Topic_: ATSPM and Travel Time Analysis for STEVE Project with Clark County
 _Presentation_: Presentation slides can be found [here]({{ site.url }}{{ site.baseurl }}/assets/pdfs/Lin_STEVE_Presentation_0318.pdf)  
 
 2:40pm - 3:10pm  
-_Speaker_: Alison Tanaka, PBOT
+_Speaker_: Alison Tanaka, PBOT  
 _Topic_: PBOT ATSPM update
 _Presentation_: Presentation slides can be found [here]({{ site.url }}{{ site.baseurl }}/assets/pdfs/PBOT_ATSPM.pdf)  
 
