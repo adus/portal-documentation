@@ -179,7 +179,7 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  input: GFM
+  input: GFM # This must be GFM - Kramdown will break the collapsible menus, CommonMarkGH will break the table formatting.
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
