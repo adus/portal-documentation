@@ -7,7 +7,7 @@ title: "Abbreviations"
 | APC | Automatic Passenger County |
 | ATSPM | Automated Traffic Signal Performance |
 | AVL | Automatic Vehicle Location |
-| DriveNET |
+| DriveNET | Digital Roadway Interactive Visualization and Evaluation Network |
 | FHWA | Federal Highway Administration |
 | iPeMS |Iteris Performance Management System |
 | ITS | Intelligent Transportation Systems |
@@ -22,3 +22,4 @@ title: "Abbreviations"
 | VHT | Vehicle Hours Traveled |
 | VMT | Vehicle Miles Traveled |
 | VPLPH | Vehicles per Lane per Hour |
+| WSDOT | Washington State Department of Transportation |
