@@ -1,15 +1,15 @@
 # main links
 main:
   - title: "About"
-    url: https://adus.github.io/portal-documentation/about/
+    url: /about/
   - title: "Documentation"
-    url: https://adus.github.io/portal-documentation/documents/
+    url: /documents/
   - title: "Updates"
-    url: https://adus.github.io/portal-documentation/updates-notices/
+    url: /updates-notices/
   - title: "PUG"
-    url: https://adus.github.io/portal-documentation/documents_pug/
+    url: /documents_pug/
   - title: "Uses"
-    url: https://adus.github.io/portal-documentation/uses-of-portal/
+    url: /uses-of-portal/
   - title: "PORTAL"
     url: http://portal.its.pdx.edu/
   # - title: "Sitemap"
@@ -29,6 +29,8 @@ documents:
         url: /documents/travel-time/
       - title: "Abbreviations"
         url: /documents/abbreviations/
+      - title: "API Access Examples"
+        url: /documents/access_examples/
       - title: "Data Sources"
         url: /documents/datasources/
       - title: "Definitions"
