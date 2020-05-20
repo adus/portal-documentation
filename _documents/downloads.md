@@ -1,7 +1,7 @@
 ---
 title: "Downloads"
 ---
-In addition to being able to download data from each page in PORTAL, the _Downloads_ page provides the opportunity to download data over longer time frames over multiple locations.
+In addition to being able to download data from each page in PORTAL, the _Downloads_ page provides the opportunity to download data over longer time frames, multiple locations, or both.
 
 ## Learning objectives
 By the end of the tutorial users should be able to:
@@ -9,69 +9,80 @@ By the end of the tutorial users should be able to:
 * Understand the parameters of each download option for each section
 * Know what data is being downloaded (e.g. variables and units)
 
+<details><summary>Highways Data</summary>
+<p>
+
 ### Highways
 Highway data can be downloaded from this section by selecting the start and end date of interest, days of week, format, highway of interest, and temporal resolution. Multiple highway sections can be downloaded by holding the ctrl key and clicking on the desired highway.
 
 The following data are provided:
-- starttime: start time
-- resolution: temporal resolution of frequency of data collected
-- detector_id: detector id along selected route
-- speed: average speed of vehicles traveling per hour that pass the detector
-- volume: number of vehicles per hour that pass the detector
-- occupancy: percent of time cars are being detected
+- starttime: Start time of the data.
+- resolution: Temporal resolution of frequency of data.
+- detector_id: Detector id along selected route.
+- speed: Average speed of vehicles traveling per hour that pass the detector.
+- volume: Number of vehicles per hour that pass the detector.
+- occupancy: Percentage of time cars are being detected.
 - countreadings:
-- delay: vht minus the time it would take a vehicle to travel at the maximum permitted speed on a segment.
-- traveltime: the average amount of time spent traveling within a segment.
-- vht: (vehicle hours traveled) total hours traveled within a segment by - all vehicles
-- vmt: (vehicle miles traveled) total miles traveled on a segment by all vehicles
+- delay: VHT minus the time it would take a vehicle to travel at the maximum permitted speed on a segment.
+- traveltime: The average amount of time for vehicles to travel through a segment.
+- vht: (vehicle hours traveled) Total hours traveled within a segment by all vehicles.
+- vmt: (vehicle miles traveled) Total miles traveled on a segment by all vehicles.
 
-To get distance traveled divide vmt by volume.
+Distance traveled can be calculated by dividing vmt by volume.
 
-### [Stations metadata]
+A tutorial on using the Highways function can be found [_here_]({{ site.url }}{{ site.baseurl }}/documents/highways/).
+
+### Stations metadata
 
 The following data are provided:
-- stationid: station ID
-- highwayid: highway ID
-- milepost: milepost (mi)
-- locationtext: agency provided location information
-- length: length of segment (mi)
-- numberlanes: number of lanes at the station
-- agencyid: ID of the agency maintaining the station
-- x_coord: longitude
-- y_coord: latitude
-- active_dates: active date of station
+- stationid: Station ID.
+- highwayid: Highway ID.
+- milepost: Milepost (mi).
+- locationtext: Agency provided location information.
+- length: Length of segment in miles.
+- numberlanes: Number of lanes at the station.
+- agencyid: ID of the agency maintaining the station.
+- x_coord: Longitude of station.
+- y_coord: Latitude.
+- active_dates: Initial active date of station.
 
-To [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
+An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Detector metadata
 
 The following data are provided:
-- detectorid: unique detector id, used to join with raw or aggregated data
-- stationid: unique station id, used to join with stations metadata
-- highwayid: unique highway id, used to join with highways metadata
-- milepost: milepost (mi)
-- detectortitle: agency given name or id for detector
-- lanenumber: PORTAL lane number, where lane 1 is the left most lane regardless of agency jurisdiction
-- agency_lane: agency given lane number where lane 1 is left most lane for ODOT, and lane 1 is right most lane for WSDOT
-- active_dates: active date of detector
+- detectorid: Unique detector id, used to join with raw or aggregated data.
+- stationid: Unique station id, used to join with stations metadata.
+- highwayid: Unique highway id, used to join with highways metadata.
+- milepost: Milepost (mi).
+- detectortitle: Agency given name or id for detector.
+- lanenumber: PORTAL lane number, where lane 1 is the left most lane regardless of agency jurisdiction.
+- agency_lane: Agency given lane number where lane 1 is left most lane for ODOT, and lane 1 is right most lane for WSDOT.
+- active_dates: Initial active date of detector.
 
-To [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
+An interactive map of all the stations in the network can be viewed here [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Highways metadata
 The following data are provided:
-- highwayid: unique highway id
-- direction: direction of flow
-- highwayname: name of highway
-- oppositehighwayid: id of highway of opposite flow
+- highwayid: Unique highway id.
+- direction: Direction of flow.
+- highwayname: Name of highway.
+- oppositehighwayid: Id of highway with opposite flow.
+
+</p>
+</details>
+
+<details><summary>Travel Time Data</summary>
+<p>
 
 ### Aggregated travel time
 The following data are provided:
-- average_travel_time: average travel time of segment (min)
-- countreadings: sample size
+- average_travel_time: Average travel time of segment in minutes.
+- countreadings: Sample size.
 - id:
-- resolution: either one hour or five minutes
-- segment_id: unique id, used to join with travel time segment inventory metadata
-- starttime: start time of chosen resolution
+- resolution: Temporal resolution of data - either one hour or five minutes.
+- segment_id: Unique id, used to join with travel time segment inventory metadata.
+- starttime: Start time of chosen resolution.
 
 ### Raw travel time
 The following data are provided:
@@ -108,34 +119,46 @@ The following data are provided:
 
 ### Travel time DCU inventory
 The following data are provided:
-- active: true or false
-- dcu_id:
-- dcu_name:
-- geom.coordinates.0: longitude
-- geom.cooridnates.1: latitude
-- geom.type:
-- highway: highway name
-- latitude: latitude
-- location_type: intersection or free flowing traffic
-- longitude: longitude
-- milepoint:
-- owner: agency name
+- active: True or False.
+- dcu_id: Unique id value; preceded by ```-``` if location_type is free flowing traffic.
+- dcu_name: Name of intersection, if location_type is Intersection. Eg. Foster Rd at SE 82nd.\
+            Numeric, matching dcu_id value without leading ```-``` if location type is free flowing traffic.
+- geom.type: This data field is always "Point", for geom.coordinates.
+- geom.coordinates.0: Longitude
+- geom.coordinates.1: Latitude.
+- highway: Highway Name.
+- latitude: Latitude.
+- location_type: Intersection or free flowing traffic, dependant on location.
+- longitude: Longitude.
+- milepoint: Null for free flowing traffic.  Float value for intersections.
+- owner: Agency name.
 - roadway_number:
+</p>
+</details>
+
+<details><summary>Other Download Categories</summary>
+<p>
 
 ### Aggregated CLS
 The following data are provided:
 - aggregated_records:
 - bin_count:
 - bin_number:
-- bin_resolution: 15 minutes, one hour, one day
+- bin_resolution: Temporal Resolution - 15 minutes, one hour, or one day.
 - bin_time:
 - bin_type:
 - id:
-- lane: lane 1 is the left most lane
-- stationid: unique station id, to be used with stations metadata
+- lane: Lane 1 is the left most lane.
+- stationid: Unique station id, which corresponds to the agencyid in the stations metadata.
 
 To [_Vehicle Lengths_]({{ site.url }}{{ site.baseurl }}/documents/freight/)
 
 ### Voyage Volume
 
-Last updated: 2019-10-31
+### Transit Quarterly Data
+</p>
+</details>
+
+
+
+Last updated: 2020-04-29
