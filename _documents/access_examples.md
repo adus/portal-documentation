@@ -56,3 +56,9 @@ This query on the TriMet ridership dataset returns the TriMet for the selected q
 Python methods will go here.
 </p>
 </details>
+
+<details><summary>Query-Specific Fields</summary>
+<p>
+This section will be a list tables of values specific to each query - ie, a list of highways by Hwy # in the Highways dataset, to facilitate ease of use.
+</p>
+</details>
