@@ -9,7 +9,7 @@ By the end of the tutorial users should be able to:
 
 * Understand how to access the API using cURL and Python
 
-<details><summary>cURL Request examples</summary>
+<details><summary>Sample cURL Requests</summary>
 <p>
 The versatility of cURL makes it straightforward to download PORTAL data from the command line. However, each form on the Downloads page, e.g. Highways, Detector Metadata, Aggregated TravelTime Data, etc., has a unique combination of fields to be filled.  Some basic access examples to facilitate easier cURL access will be provided below.
 
@@ -51,14 +51,14 @@ This query on the TriMet ridership dataset returns the TriMet for the selected q
 </p>
 </details>
 
-<details><summary>Python Request examples</summary>
+<details><summary>Sample Python Requests</summary>
 <p>
 Python methods will go here.
 </p>
 </details>
 
-<details><summary>Query-Specific Fields</summary>
+<details><summary>Query Specific Tables</summary>
 <p>
-This section will be a list tables of values specific to each query - ie, a list of highways by Hwy # in the Highways dataset, to facilitate ease of use.
+This section will be a list of tables of values specific to each query - i.e., a list of highways by Hwy # in the Highways dataset, to facilitate ease of use.
 </p>
 </details>
