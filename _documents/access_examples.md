@@ -44,7 +44,7 @@ This sample query on the Travel Time dataset returns CSV formatted data with a 1
 #### Curl Example \#4 - Trimet Data
 ```
 curl "http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata?agency=trimet&quarter=2019-q3-summer"
--H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o trimet_data.zip'
+-H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o trimet.zip'
 ```
 
 This query on the TriMet ridership dataset returns the TriMet for the selected quarter; zip is selected here as that is how the file is served through the website - when unzipped, the data is available in .csv format _only_.
