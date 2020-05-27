@@ -11,6 +11,7 @@ By the end of the tutorial users should be able to:
 
 <details><summary>Sample cURL Requests</summary>
 <p>
+
 The versatility of cURL makes it straightforward to download PORTAL data from the command line. However, each form on the Downloads page, e.g. Highways, Detector Metadata, Aggregated TravelTime Data, etc., has a unique combination of fields to be filled.  Some basic access examples to facilitate easier cURL access will be provided below.
 
 #### Curl Example \#1 - Highways Data, Single Day
