@@ -54,12 +54,14 @@ This query on the TriMet ridership dataset returns the TriMet for the selected q
 
 <details><summary>Sample Python Requests</summary>
 <p>
+  
 Python methods will go here.
 </p>
 </details>
 
 <details><summary>Query Specific Tables</summary>
 <p>
+  
 This section will be a list of tables of values specific to each query - i.e., a list of highways by Hwy # in the Highways dataset, to facilitate ease of use.
 </p>
 </details>
