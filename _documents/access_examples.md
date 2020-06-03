@@ -7,17 +7,22 @@ code repository which provides a basic framework for how to interface with the A
 ## Learning objectives
 By the end of the tutorial users should be able to:
 
-* Understand how to access the API using cURL and Python
+* Understand how to fill the fields involved in making a request to the database.
+* Understand how to access the API using cURL and Python.
 
-<details><summary>Sample cURL Requests</summary>
+Each of the forms on the downloads page has a set of fields which may be filled in order to request a constrained set of data. The purpose of some of these fields, such as start_date and end_date should be self-explanatory.  The individual values for other, less-intuitive fields, such as the station_id, highway_id or segment_id fields are available through the Stations Metadata, Highways Metadata, or Travel Time Segment Inventory forms, all of which only require start and end dates as input.
+
+The date format used by the forms is YYYY-MM-DD.
+
+<details><summary>Sample cURL Requests</summary>  The values for some of these fields, such as the highway_id or segment_id fields in the Highways Data and Travel Time Data forms respectively, are available through the Highways Metadata or Travel Time Metadata forms. 
 <p>
 
-The versatility of cURL makes it straightforward to download PORTAL data from the command line. However, each form on the Downloads page, e.g. Highways, Detector Metadata, Aggregated TravelTime Data, etc., has a unique combination of fields to be filled.  Some basic access examples to facilitate easier cURL access will be provided below.
+The versatility of cURL makes it straightforward to download PORTAL data from the command line.  Some basic access examples to facilitate easier cURL access will be provided below.
 
 #### Curl Example \#1 - Highways Data, Single Day
 ```
-curl 'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-11&end_date=2020-05-11&format=
-csv&highway_id=3&highway_id=54&resolution=00%3A15%3A00' -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer:
+curl 'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-11&end_date=2020-05-11&
+format=csv&highway_id=3&highway_id=54&resolution=00%3A15%3A00' -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer:
 http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'
 ```
 
@@ -26,8 +31,8 @@ This sample query on the Highways dataset returns CSV formatted data with a 15 m
 #### Curl Example \#2 - Highways Data, Limited by Days of Week Over a Range of Dates
 ```
 curl "http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-04&end_date=2020-05-15&
-days_of_week=1&days_of_week=2&days_of_week=3&days_of_week=4&days_of_week=5&days_of_week=6&days_of_week=7&format=csv&
-highway_id=3&highway_id=54&resolution=01"%"3A00"%"3A00" -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: 
+days_of_week=1&days_of_week=2&days_of_week=3&days_of_week=4&days_of_week=5&days_of_week=6&days_of_week=7&format
+=csv&highway_id=3&highway_id=54&resolution=01"%"3A00"%"3A00" -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: 
 http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'
 ```
 
