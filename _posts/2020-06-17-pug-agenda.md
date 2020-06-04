@@ -12,7 +12,7 @@ Meeting call-in information: please email askportal_at_pdx.edu for event invite
 Introductions 
 
 2:10 pm - 2:40 pm  
-_Topic_: Methods for Monitoring Nonmotorized Transportation - A Proof of Concept in Bend, OR
+_Topic_: Methods for Monitoring Nonmotorized Transportation - A Proof of Concept in Bend, OR  
 _Presenter_: Josh Roll, ODOT  
 
 2:40 pm - 3:15 pm  
