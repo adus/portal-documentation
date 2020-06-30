@@ -141,17 +141,17 @@ The following data are provided:
 
 ### Aggregated CLS
 The following data are provided:
-- aggregated_records:
-- bin_count:
-- bin_number:
+- aggregated_records: 
+- bin_count: Count of vehicles by classification bin.
+- bin_type: Description of classification bin as seen in the _following table_.
+- bin_number: Classification bin number - classifications by length may be seen in the _following table_.
 - bin_resolution: Temporal Resolution - 15 minutes, one hour, or one day.
-- bin_time:
-- bin_type:
-- id:
-- lane: Lane 1 is the left most lane.
-- stationid: Unique station id, which corresponds to the agencyid in the stations metadata.
+- bin_time: The timestamp of the data value, to a granularity of 20 seconds.
+- id: 
+- lane: Lane in which the data was collected. Lane 1 is the left most lane.
+- stationid: Unique id of the collection station, which corresponds to the agencyid in the stations metadata.
 
-To [_Vehicle Lengths_]({{ site.url }}{{ site.baseurl }}/documents/freight/)
+More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/)
 
 ### Voyage Volume
 
