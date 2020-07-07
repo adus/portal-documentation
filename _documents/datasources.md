@@ -2,7 +2,7 @@
 title: "Data Sources"
 ---
 
-The primary data sources used in Portal are the following:
+The following primary data sources are used by Portal:
 
 | Source | Data | Agency | Resolution | Notes |
 | :----- | :--- | :----- | :--------- | :---- |
@@ -21,3 +21,5 @@ The following data sources may be added in the future:
 | Source | Data | Agency |
 | :----- | :--- | :----- |
 | Arterial | ATSPM | City of Portland |
+
+Last Updated: 2020-07-07
