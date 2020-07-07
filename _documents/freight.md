@@ -32,7 +32,7 @@ Select the time resolution of interest by using the drop down menu under "Resolu
 
 ### Step 5: Select type of plot
 
-Once a type of plot is selected (description on the types below) then click on the "Update" button to render the plot. Once the plot is rendered, users have the option to zoom in by clicking and dragging the cursor the length of the desired time frame.
+Once a type of plot is selected (description on the types below) then click on the "Update" button to render the plot. Once the plot is rendered, users have the option to zoom in by clicking and dragging the cursor the length of the desired time frame.  It is recommended to use the "Standard" plot option, for daily vehicle length count.
 
 #### Vehicle length
 The "Standard" plot option will show daily vehicle length count based on four distinct binned lengths (0, 20] ft, (20, 30] ft, (35, 60] ft, and (60, 120] ft. The plotted vehicle length ranges can be turned on and off by clicking on the individual legend keys. Individual point values will appear in a pop-up window by moving the cursor to the desired point.
@@ -97,4 +97,4 @@ Table 1: Class names and descriptions from MAG Internal Truck Travel Survey and 
   <figcaption>Figure 7. Potential set of length bins.</figcaption>
 </figure>
 
-Last updated: 2019-12-12
+Last updated: 2020-07-07
