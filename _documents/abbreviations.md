@@ -23,3 +23,5 @@ title: "Abbreviations"
 | VMT | Vehicle Miles Traveled |
 | VPLPH | Vehicles per Lane per Hour |
 | WSDOT | Washington State Department of Transportation |
+
+Last Updated: 2020-07-07
