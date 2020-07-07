@@ -141,15 +141,24 @@ The following data are provided:
 
 ### Aggregated CLS
 The following data are provided:
-- aggregated_records: 
+- aggregated_records: Number of records sampled to create individual data point.
 - bin_count: Count of vehicles by classification bin.
-- bin_type: Description of classification bin as seen in the _following table_.
-- bin_number: Classification bin number - classifications by length may be seen in the _following table_.
+- bin_type: Description of classification bin - either length or speed.
+- bin_number: Classification bin number.  These classifications can be seen in the table below this section.
 - bin_resolution: Temporal Resolution - 15 minutes, one hour, or one day.
 - bin_time: The timestamp of the data value, to a granularity of 20 seconds.
-- id: 
+- id: The record id value used by the API framework (Django).
 - lane: Lane in which the data was collected. Lane 1 is the left most lane.
 - stationid: Unique id of the collection station, which corresponds to the agencyid in the stations metadata.
+
+Bin Number Classifications:
+
+|Bin Number | Vehicle Length |
+|-----------|----------------|
+|        1  |      0-20 ft.  |
+|        2  |     20-35 ft.  |
+|        3  |     35-60 ft.  |
+|        4  |    60-120 ft.  |
 
 More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/)
 
