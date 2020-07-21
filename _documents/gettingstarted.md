@@ -28,7 +28,6 @@ The following endpoints may be appended to the base URL, in order to access data
 | /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics      |
 | /arterial/api/voyagevolume             |                                                   |
 | /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter |
-<br /><br />
 
 As no token is required for access to the API, a very simple cURL header can be used in order to access
 this data:
@@ -37,7 +36,6 @@ this data:
 | Header |  Usage  |
 | ------ | ------- |
 | curl {base URL}/{endpoint}/{query parameters} -H 'Host:new.portal.its.pdx.edu:8080' | Request a dataset from the specified endpoint with the specified query parameters. |
-<br /><br />
 
 Portal data is served in CSV format by default; json is available by request for _most_ data sets by specifying ```format=json``` in the request. The main exception to this is the Trimet Quarterly Transit Data, which is served as a zipped .csv. For details on how to access that dataset via cURL, see the [_API access examples_]({{ site.url }}{{ site.baseurl }}/documents/access_examples/) page. Additional cURL and Python script examples can be found there as well.
 <br />
