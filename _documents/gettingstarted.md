@@ -12,7 +12,8 @@ The base URL for the API is:
 http://new.portal.its.pdx.edu:8080/<span>{endpoint}</span>
 
 The following endpoints may be appended to the base URL, in order to access data from specific datasets:
-<br />
+
+
 | endpoint                               | description                                       |
 |--------------------------------------- | ------------------------------------------------- |
 | /highways/api/freewaydata              | Highway speed and volume data                     |
@@ -26,9 +27,11 @@ The following endpoints may be appended to the base URL, in order to access data
 | /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics      |
 | /arterial/api/voyagevolume             |                                                   |
 | /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter |
-<br />
+
+
 As no token is required for access to the API, a very simple cURL header can be used in order to access
 this data:
+
 
 | Header |  Usage  |
 | ------ | ------- |
