@@ -8,8 +8,9 @@ requests which can be made in a particular period of time, those limits should b
 
 The base URL for the API is:
 <br />
-
+```
 http://new.portal.its.pdx.edu:8080/<span>{endpoint}</span>
+```
 <br /><br />
 
 The following endpoints may be appended to the base URL, in order to access data from specific datasets:
