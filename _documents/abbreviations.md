@@ -4,10 +4,11 @@ title: "Abbreviations"
 | Abbreviation | Definition |
 |---|---|
 | ADUS | Archived Data User Service |
-| APC | Automatic Passenger County |
+| APC | Automatic Passenger Count |
 | ATSPM | Automated Traffic Signal Performance |
 | AVL | Automatic Vehicle Location |
 | DriveNET | Digital Roadway Interactive Visualization and Evaluation Network |
+| DCU | |
 | FHWA | Federal Highway Administration |
 | iPeMS |Iteris Performance Management System |
 | ITS | Intelligent Transportation Systems |
