@@ -2,17 +2,18 @@
 title: "Getting Started with the Portal API"
 ---
 
-The portal API offers a means of accessing the data in the ADUS archive; it is
-publicly available, with no token required in order to make a request.  _{If there
-is a limit on the number of requests which can be made in a particular period of time,
-those limits should be noted here}_.
+The Portal API offers a publicly available means of accessing the data in the Portal archive;
+and no token required in order to make a request. _{If there is a limit on the number of
+requests which can be made in a particular period of time, those limits should be noted here}_.
 
 The base URL for the API is:
+<br />
 
 http://new.portal.its.pdx.edu:8080/<span>{endpoint}</span>
+<br /><br />
 
 The following endpoints may be appended to the base URL, in order to access data from specific datasets:
-
+<br />
 
 | endpoint                               | description                                       |
 |--------------------------------------- | ------------------------------------------------- |
@@ -27,15 +28,23 @@ The following endpoints may be appended to the base URL, in order to access data
 | /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics      |
 | /arterial/api/voyagevolume             |                                                   |
 | /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter |
-
+<br /><br />
 
 As no token is required for access to the API, a very simple cURL header can be used in order to access
 this data:
-
+<br />
 
 | Header |  Usage  |
 | ------ | ------- |
 | curl {base URL}/{endpoint}/{query parameters} -H 'Host:new.portal.its.pdx.edu:8080' | Request a dataset from the specified endpoint with the specified query parameters. |
+<br /><br />
 
-Portal data is served in CSV format by default; json is available by request for _most_ data sets by specifying ```format=json``` in the request.  
+Portal data is served in CSV format by default; json is available by request for _most_ data sets by specifying ```format=json``` in the request. The main exception to this is the Trimet Quarterly Transit Data, which is served as a zipped .csv. For details on how to access that dataset via cURL, see the [_API access examples_]({{ site.url }}{{ site.baseurl }}/documents/access_examples/) page. Additional cURL and Python script examples can be found there as well.
+<br />
 
+All data accessible via the API is also served from the API to the portal website; visiting the documentation pages for [_Vehicle Length (Freight)_]({{ site.url }}{{ site.baseurl }}/documents/freight/), [_Highways_]({{ site.url }}{{ site.baseurl }}/documents/highways/), [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/), and [_Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/travel-time/) can provide a new user of the API some insight into the data parameters.
+<br />
+
+Additionally, all of the data parameters for each endpoint are listed on the [_Definitions_]({{ site.url }}{{ site.baseurl }}/documents/definitions/) page. Most of the parameters for various API requests are clearly defined on that page (and soon, all of them will be!).  Finally, the metadata available through the ```/highways/api/stationsmetadata```, ```/highways/api/detectormetadata ```, ```/highways/api/highwaymetadata```, and ```/traveltime/api/seginventory``` endpoints is crucial to the success of making API calls for specific locations, as it contains mappings between the real locations of those objects and the unique id values which are referenced in data returned by calls to other endpoints.  This metadata is downloadable both through API calls and via the [_Downloads_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) page.
+
+Last Edited 07-21-20
