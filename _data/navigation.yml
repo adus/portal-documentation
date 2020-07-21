@@ -19,6 +19,11 @@ main:
 documents:
   - title: Documentation
     children:
+      - title: "Using the Portal API"
+        url: /documents/gettingstarted/
+      - title: "API Access Examples"
+        url: /documents/access_examples/
+        
       - title: "Vehicle Length (Freight)"
         url: /documents/freight/
       - title: "Highways"
@@ -29,8 +34,6 @@ documents:
         url: /documents/travel-time/
       - title: "Abbreviations"
         url: /documents/abbreviations/
-      - title: "API Access Examples"
-        url: /documents/access_examples/
       - title: "Data Sources"
         url: /documents/datasources/
       - title: "Definitions"
