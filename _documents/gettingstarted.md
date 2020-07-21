@@ -12,20 +12,21 @@ The base URL for the API is:
 http://new.portal.its.pdx.edu:8080/<span>{endpoint}</span>
 
 The following endpoints may be appended to the base URL, in order to access data from specific datasets:
-| endpoint | description |
-|--------- | ----------- |
-| /highways/api/freewaydata | Highway speed and volume data |
-| /highways/api/stationsmetadata | Highway station metadata |
-| /highways/api/detectormetadata | Highway detector metadata |
-| /highways/api/highwaymetadata | Highway metadata |
-| /traveltime/api/aggregatedsegmentcalcs | Travel times along specific segments of highway |
-| /traveltime/api/segmentcalc | Raw travel time data |
-| /traveltime/api/seginventory | List of segment for travel time calculations | 
-| /traveltime/api/dcuinventory |  |
-| /freight/api/aggregatedbindata |  Freight data based on vehicle length metrics |
-| /arterial/api/voyagevolume |  |
-| /transit/downloadquarterlydata | Download zipped Trimet data for specified quarter |
-
+<br />
+| endpoint                               | description                                       |
+|--------------------------------------- | ------------------------------------------------- |
+| /highways/api/freewaydata              | Highway speed and volume data                     |
+| /highways/api/stationsmetadata         | Highway station metadata                          |
+| /highways/api/detectormetadata         | Highway detector metadata                         |
+| /highways/api/highwaymetadata          | Highway metadata                                  |
+| /traveltime/api/aggregatedsegmentcalcs | Travel times along highways by segment            |
+| /traveltime/api/segmentcalc            | Raw travel time data                              |
+| /traveltime/api/seginventory           | List of segments for travel time calculations     | 
+| /traveltime/api/dcuinventory           |                                                   |
+| /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics      |
+| /arterial/api/voyagevolume             |                                                   |
+| /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter |
+<br />
 As no token is required for access to the API, a very simple cURL header can be used in order to access
 this data:
 
