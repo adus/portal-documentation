@@ -60,7 +60,7 @@ The following data are provided:
 - agency_lane: Agency given lane number where lane 1 is left most lane for ODOT, and lane 1 is right most lane for WSDOT.
 - active_dates: Initial active date of detector.
 
-An interactive map of all the stations in the network can be viewed here [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
+An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Highways metadata
 The following data are provided:
@@ -99,18 +99,18 @@ The following data are provided:
 ### Travel time segment inventory
 The following data are provided:
 - active: true or false
-- beginning_dcu:
+- beginning_dcu: id value for DCU start point; see 'Travel time DCU inventory' below for further details.
 - calculation_period:
 - calculation_threshold:
-- end_dcu:
+- end_dcu: id value for DCU end point; see 'Travel time DCU inventory' below for further details.
 - minimum_lanes_reporting:
 - minimum_samples:
-- segment_id:
-- segment_length:
+- segment_id: 
+- segment_length: Length of segment between beginning and ending DCUs.
 - segment_maximum_filter:
 - segment_minimum_filter:
-- segment_name:
-- segment_type:
+- segment_name: Name of segment.
+- segment_type: 
 - source_system:
 - standard_deviation_multiplier:
 - standard_deviation_samples:
@@ -170,4 +170,4 @@ More information about Vehicle Length data can be seen [_here._]({{ site.url }}{
 
 
 
-Last updated: 2020-07-07
+Last updated: 2020-07-21
