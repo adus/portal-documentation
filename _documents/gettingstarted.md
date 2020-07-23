@@ -3,8 +3,7 @@ title: "Getting Started with the Portal API"
 ---
 
 The Portal API offers a publicly available means of accessing the data in the Portal archive;
-and no token required in order to make a request. _{If there is a limit on the number of
-requests which can be made in a particular period of time, those limits should be noted here}_.
+and no token required in order to make a request.
 
 The base URL for the API is:
 <br />
