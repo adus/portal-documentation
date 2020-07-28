@@ -169,6 +169,14 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
+# Conversion
+markdown: GFM
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
 # Markdown Processing
 kramdown:
   input: GFM # This must be GFM - Kramdown will break the collapsible menus, CommonMarkGH will break the table formatting.
