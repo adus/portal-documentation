@@ -19,26 +19,32 @@ main:
 documents:
   - title: Documentation
     children:
-      - title: "Using the Portal API"
-        url: /documents/gettingstarted/
-      - title: "API Access Examples"
-        url: /documents/access_examples/
-      - title: "Vehicle Length (Freight)"
-        url: /documents/freight/
-      - title: "Highways"
-        url: /documents/highways/
-      - title: "Stations"
-        url: /documents/stations/
-      - title: "Travel Time"
-        url: /documents/travel-time/
-      - title: "Abbreviations"
-        url: /documents/abbreviations/
-      - title: "Data Sources"
-        url: /documents/datasources/
-      - title: "Definitions"
-        url: /documents/definitions/
-      - title: "Downloads"
-        url: /documents/downloads/
+      - title: API Documentation
+        children:
+          - title: "Using the Portal API"
+            url: /documents/gettingstarted/
+          - title: "API Access Examples"
+            url: /documents/access_examples/
+      - title: Portal Website Documentation
+        children: 
+          - title: "Vehicle Length (Freight)"
+            url: /documents/freight/
+          - title: "Highways"
+            url: /documents/highways/
+          - title: "Stations"
+            url: /documents/stations/
+          - title: "Travel Time"
+            url: /documents/travel-time/
+      - title: General Information
+        children:
+          - title: "Abbreviations"
+            url: /documents/abbreviations/
+          - title: "Data Sources"
+            url: /documents/datasources/
+          - title: "Definitions"
+            url: /documents/definitions/
+          - title: "Downloads"
+            url: /documents/downloads/
 
 # About links
 about:
