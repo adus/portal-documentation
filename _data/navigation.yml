@@ -15,34 +15,60 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
+
 # Documentation links
-documents:
-  - title: API Documentation
+toc:
+  - title: Group 1
     subfolderitems:
-      - page: "Using the Portal API"
-        url: /documents/gettingstarted/
-      - page: "API Access Examples"
-        url: /documents/access_examples/
-  - title: Portal Website Documentation
+      - page: Thing 1
+        url: /thing1.html
+      - page: Thing 2
+        url: /thing2.html
+      - page: Thing 3
+        url: /thing3.html
+  - title: Group 2
     subfolderitems:
-      - page: "Vehicle Length (Freight)"
-        url: /documents/freight/
-      - page: "Highways"
-        url: /documents/highways/
-      - page: "Stations"
-        url: /documents/stations/
-      - page: "Travel Time"
-        url: /documents/travel-time/
-  - title: General Information
+      - page: Piece 1
+        url: /piece1.html
+      - page: Piece 2
+        url: /piece2.html
+      - page: Piece 3
+        url: /piece3.html
+  - title: Group 3
     subfolderitems:
-      - page: "Abbreviations"
-        url: /documents/abbreviations/
-      - page: "Data Sources"
-        url: /documents/datasources/
-      - page: "Definitions"
-        url: /documents/definitions/
-      - page: "Downloads"
-        url: /documents/downloads/
+      - page: Widget 1
+        url: /widget1.html
+      - page: Widget 2
+        url: /widget2.html
+      - page: Widget 3
+        url: /widget3.html
+# documents:
+#  - title: API Documentation
+#    subfolderitems:
+#      - page: "Using the Portal API"
+#        url: /documents/gettingstarted/
+#      - page: "API Access Examples"
+#        url: /documents/access_examples/
+#  - title: Portal Website Documentation
+#    subfolderitems:
+#      - page: "Vehicle Length (Freight)"
+#        url: /documents/freight/
+#      - page: "Highways"
+#        url: /documents/highways/
+#      - page: "Stations"
+#        url: /documents/stations/
+#      - page: "Travel Time"
+#        url: /documents/travel-time/
+#  - title: General Information
+#    subfolderitems:
+#      - page: "Abbreviations"
+#        url: /documents/abbreviations/
+#      - page: "Data Sources"
+#        url: /documents/datasources/
+#      - page: "Definitions"
+#        url: /documents/definitions/
+#      - page: "Downloads"
+#        url: /documents/downloads/
 
 
 # About links
