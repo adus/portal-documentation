@@ -7,9 +7,8 @@ and no token required in order to make a request.
 
 The base URL for the API is:
 <br />
-```
-http://new.portal.its.pdx.edu:8080/<span>{endpoint}</span>
-```
+
+`http://new.portal.its.pdx.edu:8080/<span>{endpoint}</span>`
 <br /><br />
 
 The following endpoints may be appended to the base URL, in order to access data from specific datasets:
