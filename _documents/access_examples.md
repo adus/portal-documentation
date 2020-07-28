@@ -23,11 +23,9 @@ The versatility of cURL makes it straightforward to download PORTAL data from th
 
 The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 54 (I-205 NB, and I-205 NB Washington) for May 11, 2020.  It then saves that data into a csv file using -o.
 
-```
-curl 'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-11&end_date=2020-05-11&
+`curl 'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-11&end_date=2020-05-11&
 format=csv&highway_id=3&highway_id=54&resolution=00%3A15%3A00' -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer:
-http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'
-```
+http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'`
 
 #### Curl Example \#2 - Highways Data, Limited by Days of Week Over a Range of Dates
 
