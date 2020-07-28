@@ -62,7 +62,8 @@ The following request for data from the TriMet ridership dataset returns the Tri
 
 The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 54 (I-205 NB, and I-205 NB Washington) for May 11, 2020.  It then saves that data into a csv file using -o.
 
-```import requests
+```
+import requests
 import csv
 
 headers = {
@@ -89,13 +90,15 @@ else:
     print('Writing Output.')
 
 with open('highways_data.csv', 'w+') as file:
-    file.write(response.text)```
+    file.write(response.text)
+```
 
 #### Python Example \#2 - Highways Data, Limited by Days of Week Over a Range of Dates
 
 The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 51 (I-205 NB and I-205 NB Washington) for Wednesdays, Thursdays and Fridays only, within a date range of May 05, 2020 and May 15, 2020.
 
-```import requests
+```
+import requests
 import csv
 
 headers = {
@@ -124,13 +127,15 @@ else:
     print('Writing Output.')
 
 with open('highways_data.csv', 'w+') as file:
-    file.write(response.text)```
+    file.write(response.text)
+```
 
 #### Python Example \#3 - Travel Time Data
 
 The following sample request for data from the Travel Time dataset returns CSV formatted data with a 1 hour resolution, for the I-205 Foster NB and SB segments. 
 
-```import requests
+```
+import requests
 import csv
 
 headers = {
@@ -158,13 +163,15 @@ else:
     print('Writing Output')
 
 with open('travel_time_data.csv', 'w+') as file:
-    file.write(response.text)```
+    file.write(response.text)
+```
 
 #### Python Example \#4 - Trimet Data
 
 The following request for data from the TriMet ridership dataset returns the TriMet for the selected quarter; zip is selected here as that is how the file is served through the website - when unzipped, the data is available in .csv format _only_.
 
-```import requests
+```
+import requests
 
 headers = {
         'Referer': 'http://new.portal.its.pdx.edu:8080/downloads/',
@@ -187,7 +194,8 @@ else:
     print('Downloading Zip File.')
 with open('transit_data.zip', 'wb') as zipfile:
     for chunk in response.iter_content(128):
-        zipfile.write(chunk)```
+        zipfile.write(chunk)
+```
 
 </p>
 </details>
