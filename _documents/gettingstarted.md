@@ -23,7 +23,7 @@ The following endpoints may be appended to the base URL, in order to access data
 | /traveltime/api/aggregatedsegmentcalcs | Travel times along highways by segment            |
 | /traveltime/api/segmentcalc            | Raw travel time data                              |
 | /traveltime/api/seginventory           | List of segments for travel time calculations     | 
-| /traveltime/api/dcuinventory           |                                                   |
+| /traveltime/api/dcuinventory           | Bluetooth Data Collection Unit metadata           |
 | /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics      |
 | /arterial/api/voyagevolume             |                                                   |
 | /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter |
