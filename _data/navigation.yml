@@ -15,62 +15,37 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-
-# Documentation links
-documents:
-  - title: Group 1
-    children:
-      - title: Thing 1
-        url: /thing1.html
-      - title: Thing 2
-        url: /thing2.html
-      - title: Thing 3
-        url: /thing3.html
-  - title: Group 2
-    children:
-      - title: Piece 1
-        url: /piece1.html
-      - title: Piece 2
-        url: /piece2.html
-      - title: Piece 3
-        url: /piece3.html
-  - title: Group 3
-    children:
-      - title: Widget 1
-        url: /widget1.html
-      - title: Widget 2
-        url: /widget2.html
-      - title: Widget 3
-        url: /widget3.html
         
-        
-# documents:
-#  - title: API Documentation
-#    subfolderitems:
-#      - page: "Using the Portal API"
-#        url: /documents/gettingstarted/
-#      - page: "API Access Examples"
-#        url: /documents/access_examples/
-#  - title: Portal Website Documentation
-#    subfolderitems:
-#      - page: "Vehicle Length (Freight)"
-#        url: /documents/freight/
-#      - page: "Highways"
-#        url: /documents/highways/
-#      - page: "Stations"
-#        url: /documents/stations/
-#      - page: "Travel Time"
-#        url: /documents/travel-time/
-#  - title: General Information
-#    subfolderitems:
-#      - page: "Abbreviations"
-#        url: /documents/abbreviations/
-#      - page: "Data Sources"
-#        url: /documents/datasources/
-#      - page: "Definitions"
-#        url: /documents/definitions/
-#      - page: "Downloads"
-#        url: /documents/downloads/
+ documents:
+  - title: API Documentation
+    children:
+      - title: "Using the Portal API"
+        url: /documents/gettingstarted/
+        children:
+          - title: "Endpoints"
+            url: /documents/endpointsplaceholder/
+      - title: "API Access Examples"
+        url: /documents/access_examples/
+  - title: Portal Website Documentation
+    children:
+      - title: "Vehicle Length (Freight)"
+        url: /documents/freight/
+      - title: "Highways"
+        url: /documents/highways/
+      - title: "Stations"
+        url: /documents/stations/
+      - title: "Travel Time"
+        url: /documents/travel-time/
+  - title: General Information
+    children:
+      - title: "Abbreviations"
+        url: /documents/abbreviations/
+      - title: "Data Sources"
+        url: /documents/datasources/
+      - title: "Definitions"
+        url: /documents/definitions/
+      - title: "Downloads"
+        url: /documents/downloads/
 
 
 # About links
