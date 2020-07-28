@@ -79,7 +79,8 @@ params = (
         ('resolution', '00:15:00'),
 )
 try:
-    response = requests.get('http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/',
+    response = requests.get(
+            'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/',
             headers = headers, params = params)
     response.raise_for_status()
 except HTTPError as http_err:
@@ -116,7 +117,8 @@ params = (
 )
 
 try:
-    response = requests.get('http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/',
+    response = requests.get(
+        'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/',
         headers=headers, params=params)
     response.raise_for_status()
 except HTTPError as http_err:
@@ -152,7 +154,8 @@ params = (
 )
 
 try:
-    response = requests.get('http://new.portal.its.pdx.edu:8080/traveltime/api/aggregatedsegmentcalcs/',
+    response = requests.get(
+            'http://new.portal.its.pdx.edu:8080/traveltime/api/aggregatedsegmentcalcs/',
             headers=headers, params=params)
     response.raise_for_status()
 except HTTPError as http_err:
@@ -183,7 +186,8 @@ params = (
 )
 
 try:
-    response = requests.get('http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata',
+    response = requests.get(
+            'http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata',
             headers = headers, params=params)
     response.raise_for_status()
 except HttpError as http_err:
