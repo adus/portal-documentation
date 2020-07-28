@@ -8,7 +8,7 @@ title: "Abbreviations"
 | ATSPM | Automated Traffic Signal Performance |
 | AVL | Automatic Vehicle Location |
 | DriveNET | Digital Roadway Interactive Visualization and Evaluation Network |
-| DCU | |
+| DCU | Data Collection Unit |
 | FHWA | Federal Highway Administration |
 | iPeMS |Iteris Performance Management System |
 | ITS | Intelligent Transportation Systems |
@@ -25,4 +25,4 @@ title: "Abbreviations"
 | VPLPH | Vehicles per Lane per Hour |
 | WSDOT | Washington State Department of Transportation |
 
-Last Updated: 2020-07-07
+Last Updated: 2020-07-28
