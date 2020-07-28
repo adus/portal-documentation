@@ -19,12 +19,14 @@ main:
 documents:
   - title: Documentation
     children:
+       APIdocs:
       - title: API Documentation
         children:
           - title: "Using the Portal API"
             url: /documents/gettingstarted/
           - title: "API Access Examples"
             url: /documents/access_examples/
+      webdocs:
       - title: Portal Website Documentation
         children: 
           - title: "Vehicle Length (Freight)"
@@ -35,6 +37,7 @@ documents:
             url: /documents/stations/
           - title: "Travel Time"
             url: /documents/travel-time/
+      generaldocs:
       - title: General Information
         children:
           - title: "Abbreviations"
