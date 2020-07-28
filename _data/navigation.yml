@@ -18,13 +18,13 @@ main:
 # Documentation links
 documents:
   - title: API Documentation
-    children:
+    subfolderitems:
       - title: "Using the Portal API"
       url: /documents/gettingstarted/
       - title: "API Access Examples"
       url: /documents/access_examples/
   - title: Portal Website Documentation
-    children: 
+    subfolderitems: 
       - title: "Vehicle Length (Freight)"
         url: /documents/freight/
       - title: "Highways"
@@ -34,7 +34,7 @@ documents:
       - title: "Travel Time"
         url: /documents/travel-time/
   - title: General Information
-    children:
+    subfolderitems:
       - title: "Abbreviations"
         url: /documents/abbreviations/
       - title: "Data Sources"
