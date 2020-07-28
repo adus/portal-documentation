@@ -19,30 +19,30 @@ main:
 documents:
   - title: API Documentation
     subfolderitems:
-      - title: "Using the Portal API"
+      - page: "Using the Portal API"
       url: /documents/gettingstarted/
-      - title: "API Access Examples"
+      - page: "API Access Examples"
       url: /documents/access_examples/
-  - title: Portal Website Documentation
-    subfolderitems: 
-      - title: "Vehicle Length (Freight)"
-        url: /documents/freight/
-      - title: "Highways"
-        url: /documents/highways/
-      - title: "Stations"
-        url: /documents/stations/
-      - title: "Travel Time"
-        url: /documents/travel-time/
-  - title: General Information
-    subfolderitems:
-      - title: "Abbreviations"
-        url: /documents/abbreviations/
-      - title: "Data Sources"
-        url: /documents/datasources/
-      - title: "Definitions"
-        url: /documents/definitions/
-      - title: "Downloads"
-        url: /documents/downloads/
+#  - title: Portal Website Documentation
+#    subfolderitems: 
+#      - title: "Vehicle Length (Freight)"
+#        url: /documents/freight/
+#      - title: "Highways"
+#        url: /documents/highways/
+#      - title: "Stations"
+#        url: /documents/stations/
+#      - title: "Travel Time"
+#        url: /documents/travel-time/
+#  - title: General Information
+#    subfolderitems:
+#      - title: "Abbreviations"
+#        url: /documents/abbreviations/
+#      - title: "Data Sources"
+#        url: /documents/datasources/
+#      - title: "Definitions"
+#        url: /documents/definitions/
+#      - title: "Downloads"
+#        url: /documents/downloads/
 
 # About links
 about:
