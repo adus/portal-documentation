@@ -17,12 +17,37 @@ main:
 
 # Documentation links
 documents:
-  - title: API Documentation
+  - title: Group 1
     subfolderitems:
-      - page: "Using the Portal API"
-      url: /documents/gettingstarted/
-      - page: "API Access Examples"
-      url: /documents/access_examples/
+      - page: Thing 1
+        url: /thing1.html
+      - page: Thing 2
+        url: /thing2.html
+      - page: Thing 3
+        url: /thing3.html
+  - title: Group 2
+    subfolderitems:
+      - page: Piece 1
+        url: /piece1.html
+      - page: Piece 2
+        url: /piece2.html
+      - page: Piece 3
+        url: /piece3.html
+  - title: Group 3
+    subfolderitems:
+      - page: Widget 1
+        url: /widget1.html
+      - page: Widget 2
+        url: /widget2.html
+      - page: Widget 3
+        url: /widget3.html
+
+#  - title: API Documentation
+#    subfolderitems:
+#      - page: "Using the Portal API"
+#      url: /documents/gettingstarted/
+#      - page: "API Access Examples"
+#      url: /documents/access_examples/
 #  - title: Portal Website Documentation
 #    subfolderitems: 
 #      - title: "Vehicle Length (Freight)"
