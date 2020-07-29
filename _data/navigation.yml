@@ -15,8 +15,8 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-        
- documents:
+
+documents:
   - title: API Documentation
     children:
       - title: "Using the Portal API"
