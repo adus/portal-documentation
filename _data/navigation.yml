@@ -21,9 +21,8 @@ main:
     children:
       - title: "Using the Portal API"
         url: /documents/gettingstarted/
+        children:
           - title: "Endpoints"
-            children:
-            - title: "Placeholder"
             url: /documents/endpointsplaceholder/
       - title: "API Access Examples"
         url: /documents/access_examples/
