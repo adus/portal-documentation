@@ -22,7 +22,6 @@ main:
         url: /documents/gettingstarted/
       - title: "API Access Examples"
         url: /documents/access_examples/
-
   - title: API Endpoints
     children:
       - title: "/freewaydata"
@@ -47,8 +46,6 @@ main:
         url: /documents/gettingstarted/
       - title: "/downloadquarterlydata"
         url: /documents/gettingstarted/
-
-
   - title: Portal Website Documentation
     children:
       - title: "Vehicle Length (Freight)"
