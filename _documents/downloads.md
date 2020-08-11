@@ -1,7 +1,7 @@
 ---
 title: "Downloads"
 ---
-In addition to being able to download data from each page in PORTAL, the _Downloads_ page provides the opportunity to download data over longer time frames, multiple locations, or both.
+In addition to being able to download data from each page in PORTAL, the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page provides the opportunity to download data over longer time frames, multiple locations, or both.  The data available through the downloads page is the same as is available through the API.
 
 ## Learning objectives
 By the end of the tutorial users should be able to:
@@ -170,4 +170,4 @@ More information about Vehicle Length data can be seen [_here._]({{ site.url }}{
 
 
 
-Last updated: 2020-07-21
+Last updated: 2020-08-11
