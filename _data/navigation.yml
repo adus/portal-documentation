@@ -20,35 +20,34 @@ main:
     children:
       - title: "Using the Portal API"
         url: /documents/gettingstarted/
-        children:
-          - title: Endpoints
-          children:
-            -title: "/freewaydata"
-             url: /documents/gettingstarted/
-            -title: "/stationsmetadata"
-             url: /documents/gettingstarted/
-            -title: "/detectormetadata"
-             url: /documents/gettingstarted/
-            -title: "/highwaymetadata"
-             url: /documents/gettingstarted/
-            -title: "/aggregatedsegmentcalcs"
-             url: /documents/gettingstarted/
-            -title: "/segmentcalc"
-             url: /documents/gettingstarted/
-            -title: "/seginventory"
-             url: /documents/gettingstarted/
-            -title: "/dcuinventory"
-             url: /documents/gettingstarted/
-            -title: "/aggregatedbindata"
-             url: /documents/gettingstarted/
-            -title: "/voyagevolume"
-             url: /documents/gettingstarted/
-            -title: "/downloadquarterlydata"
-             url: /documents/gettingstarted/
-       -title: "API Access Examples"
-            url: /documents/access_examples/
+      - title: "API Access Examples"
+        url: /documents/access_examples/
+
   - title: API Endpoints
     children:
+      - title: "/freewaydata"
+        url: /documents/gettingstarted/
+      - title: "/stationsmetadata"
+        url: /documents/gettingstarted/
+      - title: "/detectormetadata"
+        url: /documents/gettingstarted/
+      - title: "/highwaymetadata"
+        url: /documents/gettingstarted/
+      - title: "/aggregatedsegmentcalcs"
+        url: /documents/gettingstarted/
+      - title: "/segmentcalc"
+        url: /documents/gettingstarted/
+      - title: "/seginventory"
+        url: /documents/gettingstarted/
+      - title: "/dcuinventory"
+        url: /documents/gettingstarted/
+      - title: "/aggregatedbindata"
+        url: /documents/gettingstarted/
+      - title: "/voyagevolume"
+        url: /documents/gettingstarted/
+      - title: "/downloadquarterlydata"
+        url: /documents/gettingstarted/
+
 
   - title: Portal Website Documentation
     children:
