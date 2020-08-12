@@ -26,8 +26,8 @@ documents:
     children:
       - title: "/freewaydata"
         url: /documents/freewaydata/
-      - title: "/stationsmetadata"
-        url: /documents/stationsmetadata/
+      - title: "/stationmetadata"
+        url: /documents/stationmetadata/
       - title: "/detectormetadata"
         url: /documents/detectormetadata/
       - title: "/highwaymetadata"
