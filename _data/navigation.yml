@@ -31,21 +31,21 @@ documents:
       - title: "/detectormetadata"
         url: /documents/detectormetadata/
       - title: "/highwaymetadata"
-        url: /documents/gettingstarted/
+        url: /documents/highwaymetadata/
       - title: "/aggregatedsegmentcalcs"
-        url: /documents/gettingstarted/
+        url: /documents/aggregatedsegmentcalcs/
       - title: "/segmentcalc"
-        url: /documents/gettingstarted/
+        url: /documents/segmentcalc/
       - title: "/seginventory"
-        url: /documents/gettingstarted/
+        url: /documents/seginventory/
       - title: "/dcuinventory"
-        url: /documents/gettingstarted/
+        url: /documents/dcuinventory/
       - title: "/aggregatedbindata"
-        url: /documents/gettingstarted/
+        url: /documents/aggregatedbindata/
       - title: "/voyagevolume"
-        url: /documents/gettingstarted/
+        url: /documents/voyagevolume/
       - title: "/downloadquarterlydata"
-        url: /documents/gettingstarted/
+        url: /documents/downloadquarterlydata/
   - title: Portal Website Documentation
     children:
       - title: "Vehicle Length (Freight)"
