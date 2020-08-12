@@ -2,7 +2,7 @@
 title: "Station Metadata"
 ---
 The _stationmetadata_ end point returns station data for each individual station in the network. This information can be constrained by entering a range of dates,
-which will return only stations active within that range of dates.
+which will return only stations active within that range of dates. By default, the data will be returned by this endpoint will be in JSON format.
 
 ## Parameters
 Stations Metadata takes the following Parameters
