@@ -1,8 +1,8 @@
 ---
 title: "Highway Metadata"
 ---
-The _highwaymetadata_ end point returns highway data for each highway in the network, sorted by station number. Data is returned in JSON by default, if no format
-parameter is passed.
+The _highwaymetadata_ end point returns highway data for each highway in the network, sorted by station number. By default, the data will be returned by this
+endpoint will be in JSON format.
 
 ## Parameters
 Detector Metadata takes the following Parameters
