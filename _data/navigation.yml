@@ -27,9 +27,9 @@ documents:
       - title: "/freewaydata"
         url: /documents/freewaydata/
       - title: "/stationsmetadata"
-        url: /documents/gettingstarted/
+        url: /documents/stationsmetadata/
       - title: "/detectormetadata"
-        url: /documents/gettingstarted/
+        url: /documents/detectormetadata/
       - title: "/highwaymetadata"
         url: /documents/gettingstarted/
       - title: "/aggregatedsegmentcalcs"
