@@ -1,12 +1,12 @@
 ---
 title: "Detector Metadata"
 ---
-The _stationmetadata_ end point returns station data for each individual detector in the network, sorted by station number. This information can be constrained
+The _detectormetadata_ end point returns station data for each individual detector in the network, sorted by station number. This information can be constrained
 by entering a range of dates, which will return only stations active within that range of dates. By default, the data will be returned by this endpoint will be in
 JSON format.
 
 ## Parameters
-Stations Metadata takes the following Parameters
+Detector Metadata takes the following Parameters
 
 | Name         | Required  | Description                                        | Example      |
 | ------------ | --------- | -------------------------------------------------- | ------------ |
