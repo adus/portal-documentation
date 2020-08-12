@@ -25,7 +25,7 @@ documents:
   - title: API Endpoints
     children:
       - title: "/freewaydata"
-        url: /documents/gettingstarted/
+        url: /documents/freewaydata/
       - title: "/stationsmetadata"
         url: /documents/gettingstarted/
       - title: "/detectormetadata"
