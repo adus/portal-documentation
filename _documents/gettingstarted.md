@@ -39,7 +39,7 @@ this data:
 
 Portal data is served in JSON format by default at almost all endpoints; CSV formatted data is available by request by specifying ```format=csv``` in the request to most of the endpoints. The main exception to this is the Trimet Quarterly Transit Data, which is only served as a zip file containing CSV formatted data.
 
-<br/
+<br />
 
 Details on how to [_API access examples_]({{ site.url }}{{ site.baseurl }}/documents/access_examples/) page. Additional cURL and Python script examples can be found there as well.
 <br />
