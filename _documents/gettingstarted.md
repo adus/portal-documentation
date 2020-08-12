@@ -37,7 +37,11 @@ this data:
 | curl {base URL}/{endpoint}/{query parameters} -H 'Host:new.portal.its.pdx.edu:8080' | Request a dataset from the specified endpoint with the specified query parameters. |
 <br />
 
-Portal data is served in CSV format by default; json is available by request for _most_ data sets by specifying ```format=json``` in the request. The main exception to this is the Trimet Quarterly Transit Data, which is served as a zipped .csv. For details on how to access that dataset via cURL, see the [_API access examples_]({{ site.url }}{{ site.baseurl }}/documents/access_examples/) page. Additional cURL and Python script examples can be found there as well.
+Portal data is served in JSON format by default at almost all endpoints; CSV formatted data is available by request by specifying ```format=csv``` in the request to most of the endpoints. The main exception to this is the Trimet Quarterly Transit Data, which is only served as a zip file containing CSV formatted data.
+
+<br/
+
+Details on how to [_API access examples_]({{ site.url }}{{ site.baseurl }}/documents/access_examples/) page. Additional cURL and Python script examples can be found there as well.
 <br />
 
 All data accessible via the API is also served from the API to the portal website; visiting the documentation pages for [_Vehicle Length (Freight)_]({{ site.url }}{{ site.baseurl }}/documents/freight/), [_Highways_]({{ site.url }}{{ site.baseurl }}/documents/highways/), [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/), and [_Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/travel-time/) can provide a new user of the API some insight into the data parameters.
