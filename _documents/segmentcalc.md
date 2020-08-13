@@ -14,7 +14,7 @@ Segment Calc takes the following parameters:
 | segment_id   | No        | The ID value of a segment.                                             | 2264         |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/traveltime/api/aggregatedsegmentcalcs/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
+```http://new.portal.its.pdx.edu:8080/traveltime/api/segmentcalc/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
 
 ## Example Response (CSV)
 ```
