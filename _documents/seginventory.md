@@ -12,7 +12,7 @@ Detector Metadata takes the following Parameters
 |  format      | No        | File format. Acceptable values are CSV or JSON     | csv          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/highways/api/detectormetadata/?format=csv```
+```http://new.portal.its.pdx.edu:8080/traveltime/api/dcuinventory?format=csv```
 
 ## Example Response (CSV)
 ```
