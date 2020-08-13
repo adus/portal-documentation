@@ -8,13 +8,13 @@ Valid resolutions for this endpoint are 5 minutes and 1 hour. The default resolu
 ## Parameters
 Aggregated Segment Calcs takes the following parameters:
 
-| Name         | Required  | Description                                                            | Example      |
-| ------------ | --------- | ---------------------------------------------------------------------- | ------------ |
-| start_date   | No        | Beginning Date for Data Query in YYYY-MM-DD                            | 2019-07-10   |
-| end_date     | No        | End Date for Data Query in YYYY-MM-DD Format                           | 2019-07-16   |
-| format       | Yes       | File format. Acceptable values are CSV or JSON                         | CSV          |
-| resolution   | No        | URL encoded time value used to divide data points                      | 00%3A15%3A00 |
-| segment_id   | No        | The ID value of a segment.                                             | 2264         |
+| Name         | Required  | Description                                                            | Type                  | Example      |
+| ------------ | --------- | ---------------------------------------------------------------------- | --------------------- | ------------ |
+| start_date   | No        | Beginning Date for Data Query in YYYY-MM-DD                            | Date formatted string | 2019-07-10   |
+| end_date     | No        | End Date for Data Query in YYYY-MM-DD Format                           | Date formatted string | 2019-07-16   |
+| format       | Yes       | File format. Acceptable values are CSV or JSON                         | String                | CSV          |
+| resolution   | No        | URL encoded time value used to divide data points                      | URL Encoded String    | 00%3A15%3A00 |
+| segment_id   | No        | The ID value of a segment.                                             | Integer               | 2264         |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/traveltime/api/aggregatedsegmentcalcs/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
