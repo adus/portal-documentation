@@ -6,12 +6,12 @@ The segmentcalc endpoint returns all the individual (non-aggregated) travel time
 ## Parameters
 Segment Calc takes the following parameters:
 
-| Name         | Required  | Description                                                            | Example      |
-| ------------ | --------- | ---------------------------------------------------------------------- | ------------ |
-| start_date   | No        | Beginning Date for Data Query in YYYY-MM-DD                            | 2019-07-10   |
-| end_date     | No        | End Date for Data Query in YYYY-MM-DD Format                           | 2019-07-16   |
-| format       | No        | File format. Acceptable values are CSV or JSON                         | CSV          |
-| segment_id   | No        | The ID value of a segment.                                             | 2264         |
+| Name         | Required  | Description                                      | Type                  | Example      |
+| ------------ | --------- | ------------------------------------------------ | --------------------- | ------------ |
+| start_date   | No        | Beginning Date for Data Query in YYYY-MM-DD      | Date formatted String | 2019-07-10   |
+| end_date     | No        | End Date for Data Query in YYYY-MM-DD Format     | Date formatted String | 2019-07-16   |
+| format       | No        | File format. Acceptable values are CSV or JSON   | String                | CSV          |
+| segment_id   | No        | The ID value of a segment.                       | Integer               | 2264         |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/traveltime/api/segmentcalc/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
