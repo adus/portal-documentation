@@ -23,32 +23,25 @@ The versatility of cURL makes it straightforward to download PORTAL data from th
 
 The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 54 (I-205 NB, and I-205 NB Washington) for May 11, 2020.  It then saves that data into a csv file using -o.
 
-`curl 'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-11&end_date=2020-05-11&
-format=csv&highway_id=3&highway_id=54&resolution=00%3A15%3A00' -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer:
-http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'`
+`curl 'http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-11&end_date=2020-05-11&format=csv&highway_id=3&highway_id=54&resolution=00%3A15%3A00' -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'`
 
 #### Curl Example \#2 - Highways Data, Limited by Days of Week Over a Range of Dates
 
 The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 51 (I-205 NB and I-205 NB Washington) for Wednesdays, Thursdays and Fridays only, within a date range of May 05, 2020 and May 15, 2020.
 
-`curl "http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-04&end_date=2020-05-15&days_of_
-week=3&days_of_week=4&days_of_week=5&format=csv&highway_id=3&highway_id=54&resolution=01"%"3A00"%"3A00" -H 'Host:
-new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'`
+`curl "http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-04&end_date=2020-05-15&days_of_week=3&days_of_week=4&days_of_week=5&format=csv&highway_id=3&highway_id=54&resolution=01"%"3A00"%"3A00" -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'`
 
 #### Curl Example \#3 - Travel Time Data
 
 The following sample request for data from the Travel Time dataset returns CSV formatted data with a 1 hour resolution, for the I-205 Foster NB and SB segments.
 
-`curl "http://new.portal.its.pdx.edu:8080/traveltime/api/aggregatedsegmentcalcs/?start_date=2020-05-27
-&end_date=2020-05-27&format=csv&resolution=01"%"3A00"%"3A00&segment_id=2264&segment_id=2275" -H 'Host:
-new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o travel_time_data.csv'`
+`curl "http://new.portal.its.pdx.edu:8080/traveltime/api/aggregatedsegmentcalcs/?start_date=2020-05-27&end_date=2020-05-27&format=csv&resolution=01"%"3A00"%"3A00&segment_id=2264&segment_id=2275" -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o travel_time_data.csv'`
 
 #### Curl Example \#4 - Trimet Data
 
 The following request for data from the TriMet ridership dataset returns the TriMet for the selected quarter; zip is selected here as that is how the file is served through the website - when unzipped, the data is available in .csv format _only_.
 
-`curl "http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata?agency=trimet&quarter=2019-q3-summer"
--H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o trimet.zip'`
+`curl "http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata?agency=trimet&quarter=2019-q3-summer" -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o trimet.zip'`
 
 </p>
 </details>
