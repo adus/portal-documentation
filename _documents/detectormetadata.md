@@ -8,11 +8,11 @@ JSON format.
 ## Parameters
 Detector Metadata takes the following Parameters
 
-| Name         | Required  | Description                                        | Example      |
-| ------------ | --------- | -------------------------------------------------- | ------------ |
-|  start_date  | No        | Beginning Date for Data Query in YYYY-MM-DD Format | 2020-05-10   |
-|  end_date    | No        | End Date for Data Query in YYYY-MM-DD Format       | 2020-05-16   |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | csv          |
+| Name         | Required  | Description                                        | Type                  | Example      |
+| ------------ | --------- | -------------------------------------------------- | --------------------- | ------------ |
+|  start_date  | No        | Beginning Date for Data Query in YYYY-MM-DD Format | Date formatted string | 2020-05-10   |
+|  end_date    | No        | End Date for Data Query in YYYY-MM-DD Format       | Date formatted string | 2020-05-16   |
+|  format      | No        | File format. Acceptable values are CSV or JSON     | String                | CSV          |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/highways/api/detectormetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
