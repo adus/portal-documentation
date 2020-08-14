@@ -1,7 +1,7 @@
 ---
 title: "Segment Calc"
 ---
-The segmentcalc endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters.The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
+The _/traveltime/api/segmentcalc_ endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters.The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
 
 ## Parameters
 Segment Calc takes the following parameters:
