@@ -1,7 +1,7 @@
 ---
 title: "Aggregated Bin Data"
 ---
-The _aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four bins.  For more information on bin lengths, see [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads) on the downloads page.  The stationid parameter corresponds to the station ids, which can be returned from the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
+The _aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four bins.  For more information on bin lengths, see [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads) in the 'Other Download Categories' dropdown list on the downloads page.  The stationid parameter corresponds to the station ids, which can be returned from the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
 
 ## Parameters
 Aggregated Bin Data Data takes the following Parameters:
