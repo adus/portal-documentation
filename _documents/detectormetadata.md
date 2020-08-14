@@ -1,18 +1,16 @@
 ---
 title: "Detector Metadata"
 ---
-The _detectormetadata_ end point returns station data for each individual detector in the network, sorted by station number. This information can be constrained
-by entering a range of dates, which will return only stations active within that range of dates. By default, the data will be returned by this endpoint will be in
-JSON format.
+The _/highways/api/detectormetadata_ end point returns station data for each individual detector in the network, sorted by station number. This information can be constrained to a date or a range of dates using the start_date and end_date parameters, which will return only stations active within that range of dates. By default, the data will be returned by this endpoint will be in JSON format.
 
 ## Parameters
 Detector Metadata takes the following Parameters
 
-| Name         | Required  | Description                                        | Type                  | Example      |
-| ------------ | --------- | -------------------------------------------------- | --------------------- | ------------ |
-|  start_date  | No        | Beginning Date for Data Query in YYYY-MM-DD Format | Date formatted string | 2020-05-10   |
-|  end_date    | No        | End Date for Data Query in YYYY-MM-DD Format       | Date formatted string | 2020-05-16   |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | String                | CSV          |
+| Name         | Required  | Description                                    | Type              | Example      |
+| ------------ | --------- | ---------------------------------------------- | ----------------- | ------------ |
+|  start_date  | No        | Beginning Date for Data Query                  | YYYY-MM-DD String | 2020-05-10   |
+|  end_date    | No        | End Date for Data Query in                     | YYYY-MM-DD string | 2020-05-16   |
+|  format      | No        | File format. Acceptable values are CSV or JSON | String            | CSV          |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/highways/api/detectormetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
