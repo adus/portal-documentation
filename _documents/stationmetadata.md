@@ -1,17 +1,16 @@
 ---
 title: "Station Metadata"
 ---
-The _stationmetadata_ end point returns station data for each individual station in the network. This information can be constrained by entering a range of dates,
-which will return only stations active within that range of dates. By default, the data will be returned by this endpoint will be in JSON format.
+The _/highways/api/stationmetadata_ end point returns station data for each individual station in the network. This information can be constrained within a dat range through the use of the start_date and end_date parameters. By default, the data will be returned by this endpoint will be in JSON format.
 
 ## Parameters
 Stations Metadata takes the following Parameters
 
-| Name         | Required  | Description                                        | Type                  | Example      |
-| ------------ | --------- | -------------------------------------------------- | --------------------- | ------------ |
-|  start_date  | No        | Beginning Date for Data Query in YYYY-MM-DD Format | Date formatted string | 2020-05-10   |
-|  end_date    | No        | End Date for Data Query in YYYY-MM-DD Format       | Date formatted string | 2020-05-16   |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | String                | CSV          |
+| Name         | Required  | Description                                        | Type              | Example      |
+| ------------ | --------- | -------------------------------------------------- | ----------------- | ------------ |
+|  start_date  | No        | Beginning Date for Data Query                      | YYYY-MM-DD String | 2020-05-10   |
+|  end_date    | No        | End Date for Data Query in                         | YYYY-MM-DD String | 2020-05-16   |
+|  format      | No        | File format. Acceptable values are CSV or JSON     | String            | CSV          |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/highways/api/stationmetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
