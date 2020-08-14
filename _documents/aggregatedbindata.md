@@ -1,18 +1,18 @@
 ---
 title: "Aggregated Bin Data"
 ---
-The _aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four bins.  For more information on bin lengths, see [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads) in the 'Other Download Categories' dropdown list on the downloads page.  The stationid parameter corresponds to the station ids, which can be returned from the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
+The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four bins.  For more information on bin lengths, see [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads) in the 'Other Download Categories' dropdown list on the downloads page.  The stationid parameter corresponds to the station ids, which can be returned from the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
 
 ## Parameters
 Aggregated Bin Data Data takes the following Parameters:
 
 | Name          | Required  | Description                                        | Type               | Example      |
 | ------------- | --------- | -------------------------------------------------- | ------------------ | ------------ |
-| start_date    | No        | Beginning Date for results                         | <YYYY-MM-DD>       | 2020-08-11   |
-| end_date      | No        | End Date for results                               | <YYYY-MM-DD>       | 2020-08-11   |
+| start_date    | No        | Beginning Date for results                         | YYYY-MM-DD String  | 2020-08-11   |
+| end_date      | No        | End Date for results                               | YYYY-MM-DD String  | 2020-08-11   |
 | format        | No        | File format. Acceptable values are CSV or JSON     | String             | CSV          |
 | stationid     | No        | integer value of station ID                        | Integer            | 54           |
-| Resolution    | No        | URL encoded time value used to divide data points  | URL Encoded String | 00%3A15%3A00 |
+| resolution    | No        | URL encoded time value used to divide data points  | URL Encoded String | 00%3A15%3A00 |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/freight/api/aggregatedbindata?start_date=2019-07-10&end_date=2019-07-11&stationid=54&format=csv```
