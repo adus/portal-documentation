@@ -7,9 +7,9 @@ endpoint will be in JSON format.
 ## Parameters
 Detector Metadata takes the following Parameters
 
-| Name         | Required  | Description                                        | Type   | Example      |
-| ------------ | --------- | -------------------------------------------------- | ------ | ------------ |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | String | CSV          |
+| Name         | Description                                        | Type   | Example      |
+| ------------ | -------------------------------------------------- | ------ | ------------ |
+|  format      | File format. Acceptable values are CSV or JSON     | String | CSV          |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/highways/api/detectormetadata/?format=csv```
