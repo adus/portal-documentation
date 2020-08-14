@@ -1,7 +1,7 @@
 ---
 title: "Segment Calc"
 ---
-The segmentcalc endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments, during the specified period. A segment is defined as a route between a set of starting coordinates and a set of ending coordinates. The segment or segments retutned are specified using the segment_id parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
+The segmentcalc endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters.The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
 
 ## Parameters
 Segment Calc takes the following parameters:
@@ -10,8 +10,8 @@ Segment Calc takes the following parameters:
 | ------------ | --------- | ------------------------------------------------ | --------------------- | ------------ |
 | start_date   | No        | Beginning Date for Data Query in YYYY-MM-DD      | Date formatted String | 2019-07-10   |
 | end_date     | No        | End Date for Data Query in YYYY-MM-DD Format     | Date formatted String | 2019-07-16   |
-| format       | No        | File format. Acceptable values are CSV or JSON   | String                | CSV          |
 | segment_id   | No        | The ID value of a segment.                       | Integer               | 2264         |
+| format       | No        | File format. Acceptable values are CSV or JSON   | String                | CSV          |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/traveltime/api/segmentcalc/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
