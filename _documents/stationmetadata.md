@@ -6,11 +6,11 @@ The _/highways/api/stationmetadata_ end point returns station data for each indi
 ## Parameters
 Stations Metadata takes the following Parameters
 
-| Name         | Required  | Description                                        | Type              | Example      |
-| ------------ | --------- | -------------------------------------------------- | ----------------- | ------------ |
-|  start_date  | No        | Beginning Date for Data Query                      | YYYY-MM-DD String | 2020-05-10   |
-|  end_date    | No        | End Date for Data Query in                         | YYYY-MM-DD String | 2020-05-16   |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | String            | CSV          |
+| Name         | Description                                        | Type              | Example      |
+| ------------ | -------------------------------------------------- | ----------------- | ------------ |
+|  start_date  | Beginning Date for Data Query                      | YYYY-MM-DD String | 2020-05-10   |
+|  end_date    | End Date for Data Query in                         | YYYY-MM-DD String | 2020-05-16   |
+|  format      | File format. Acceptable values are CSV or JSON     | String            | CSV          |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/highways/api/stationmetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
