@@ -3,7 +3,7 @@ title: "Freeway Data"
 ---
 The _/highways/api/freewaydata_ endpoint returns information about one or more freeways. This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters. The freeway is specified using the `highway_id` parameter, which takes in integer. A list of valid highway IDs can be obtained by making a call to [_highway metadata_]({{ site.url }}{{ site.baseurl }}/documents/highwaymetadata/).
 
-Valid resolutions for this endpoint are 20 seconds, 5 minutes, 15 minutes, 1 hour, and 1 day. If not specified, the default resolution is one hour.
+Valid resolutions for this endpoint are 20 seconds, 5 minutes, 15 minutes, 1 hour, and 1 day. If not specified, the default resolution is 1 hour.
 
 This endpoint returns data in JSON format by default.
 ## Parameters
