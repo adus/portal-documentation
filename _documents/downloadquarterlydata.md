@@ -1,13 +1,18 @@
 ---
 title: "Download Quarterly Data"
 ---
-This call will return a quarterly Trimet ridership report, as a zipped CSV file.  As of right now, only two quarters are available; the quarter
-values which are currently available are 2019-q2-spring, and 2019-q3-summer.  The only valid agency, currently, is TriMet.
+This call will return a quarterly Trimet ridership report.  The data is returned as a zipped CSV; no alternative formats are available via the API call.
 
-| Name         | Required  | Description                                   | Type                  | Example          |
-| ------------ | --------- | --------------------------------------------- | --------------------- | ---------------- |
-| agency       | Yes       | The only valid option is trimet               | Date formatted string | 2020-08-11       |
-| quarter      | Yes       | String, formatted similarly to 2019-q3-summer | String                | 2019-q2-spring   |
+The only valid value for the agency parameter is TriMet.
+
+Valid values for the parameter conform to the format YYYY-q1-winter, YYYY-q2-spring, YYYY-q3-summer, or YYYY-q4-fall.
+
+The only
+
+| Name         | Required  | Description | Type                  | Example          |
+| ------------ | --------- | ----------- | --------------------- | ---------------- |
+| agency       | Yes       | Agency Name | Date formatted string | 2020-08-11       |
+| quarter      | Yes       | Period      | String                | 2019-q2-spring   |
 
 
 ## Example Request
