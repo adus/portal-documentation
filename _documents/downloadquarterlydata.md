@@ -5,7 +5,7 @@ This call will return a quarterly Trimet ridership report.  The data is returned
 
 The only valid value for the agency parameter is TriMet.
 
-Valid values for the parameter conform to the format YYYY-q1-winter, YYYY-q2-spring, YYYY-q3-summer, or YYYY-q4-fall.
+Valid values for the parameter conform to the pattern: `YYYY-q1-winter`, `YYYY-q2-spring`, `YYYY-q3-summer`, or `YYYY-q4-fall`.
 
 The only
 
