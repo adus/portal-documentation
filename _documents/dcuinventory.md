@@ -1,15 +1,16 @@
 ---
 title: "Data Collection Unit Inventory"
 ---
-The _/traveltime/api/dcuinventory_ end point returns data collection unit information for each unit in the network. By default, the data will be returned by this
-endpoint will be in JSON format.
+The _/traveltime/api/dcuinventory_ end point returns data collection unit information for each unit in the network.
+
+This endpoint returns data in JSON format by default.
 
 ## Parameters
 Detector Metadata takes the following Parameters
 
 | Name         | Required  | Description                                        | Type   | Example      |
 | ------------ | --------- | -------------------------------------------------- | ------ | ------------ |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | string | CSV          |
+|  format      | No        | File format. Acceptable values are CSV or JSON     | String | CSV          |
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/traveltime/api/dcuinventory?format=csv```
