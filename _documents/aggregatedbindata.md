@@ -1,7 +1,9 @@
 ---
 title: "Aggregated Bin Data"
 ---
-The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four bins.  For more information on bin lengths, see [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads) in the 'Other Download Categories' dropdown list on the downloads page.  The stationid parameter corresponds to the station ids, which can be returned from the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
+The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four 'bins'.  a table of the different bin lengths can be found in the [_Other Download Categories_]({{ site.url }}{{ site.baseurl }}/documents/downloads) dropdown menu on the downloads page.  The stationid parameter corresponds to each station's unique station ID. These are viewable by making a call to the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
+
+This endpoint returns data in JSON format by default.
 
 ## Parameters
 Aggregated Bin Data Data takes the following Parameters:
