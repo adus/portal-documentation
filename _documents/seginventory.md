@@ -1,8 +1,9 @@
 ---
 title: "Segment Inventory"
 ---
-The _/traveltime/api/seginventory_ end point returns segment data for each segment in the network. By default, the data will be returned by this
-endpoint will be in JSON format.
+The _/traveltime/api/seginventory_ end point returns segment data for each segment in the network.
+
+This endpoint returns data in JSON format by default.
 
 ## Parameters
 Detector Metadata takes the following Parameters
