@@ -9,10 +9,10 @@ Valid values for the `quarter` parameter conform to the pattern: `YYYY-q1-winter
 
 The only
 
-| Name         | Required  | Description | Type                  | Example          |
-| ------------ | --------- | ----------- | --------------------- | ---------------- |
-| agency       | Yes       | Agency Name | Date formatted string | 2020-08-11       |
-| quarter      | Yes       | Period      | String                | 2019-q2-spring   |
+| Name         | Required  | Description | Type   | Example        |
+| ------------ | --------- | ----------- | ------ | -------------- |
+| agency       | Yes       | Agency Name | String | trimet         |
+| quarter      | Yes       | Period      | String | 2019-q2-spring |
 
 
 ## Example Request
