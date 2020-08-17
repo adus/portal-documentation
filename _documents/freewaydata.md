@@ -38,3 +38,5 @@ starttime,resolution,detector_id,speed,volume,occupancy,countreadings,delay,trav
 2020-05-11T00:00:00-07:00,01:00:00,100922,60.78,119,0.99,180,-0.02,1.32,2.61,158.87
 
 ```
+
+Last Updated: 2020-08-17
