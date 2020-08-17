@@ -15,9 +15,38 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-# Documentation links
 documents:
-  - title: Documentation
+  - title: API Documentation
+    children:
+      - title: "Using the Portal API"
+        url: /documents/gettingstarted/
+      - title: "API Access Examples"
+        url: /documents/access_examples/
+  - title: API Endpoints
+    children:
+      - title: "Freeway Data"
+        url: /documents/freewaydata/
+      - title: "Station Metadata"
+        url: /documents/stationmetadata/
+      - title: "Detector Metadata"
+        url: /documents/detectormetadata/
+      - title: "Highway Metadata"
+        url: /documents/highwaymetadata/
+      - title: "Aggregated Segment Calcs"
+        url: /documents/aggregatedsegmentcalcs/
+      - title: "Segment Calc"
+        url: /documents/segmentcalc/
+      - title: "Segment Inventory"
+        url: /documents/seginventory/
+      - title: "DCU Inventory"
+        url: /documents/dcuinventory/
+      - title: "Aggregated Bin Data"
+        url: /documents/aggregatedbindata/
+      - title: "Voyage Volume"
+        url: /documents/voyagevolume/
+      - title: "Download Quarterly Data (TriMet)"
+        url: /documents/downloadquarterlydata/
+  - title: Portal Website Documentation
     children:
       - title: "Vehicle Length (Freight)"
         url: /documents/freight/
@@ -27,16 +56,17 @@ documents:
         url: /documents/stations/
       - title: "Travel Time"
         url: /documents/travel-time/
+  - title: General Information
+    children:
       - title: "Abbreviations"
         url: /documents/abbreviations/
-      - title: "API Access Examples"
-        url: /documents/access_examples/
       - title: "Data Sources"
         url: /documents/datasources/
       - title: "Definitions"
         url: /documents/definitions/
       - title: "Downloads"
         url: /documents/downloads/
+
 
 # About links
 about:
