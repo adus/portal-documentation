@@ -13,61 +13,74 @@ By the end of the tutorial users should be able to:
 <p>
 
 ### Highways
-Highway data can be downloaded from this section by selecting the start and end date of interest, days of week, format, highway of interest, and temporal resolution. Multiple highway sections can be downloaded by holding the ctrl key and clicking on the desired highway.
+Highway data can be downloaded from this section by selecting the start and end date of interest, days of week, format, highway of interest, and temporal resolution. Multiple highway sections can be downloaded at once by holding the ctrl key and clicking on the desired highway in the Highway menu.
 
 The following data are provided:
-- starttime: Start time of the data.
-- resolution: Temporal resolution of frequency of data.
-- detector_id: Detector id along selected route.
-- speed: Average speed of vehicles traveling per hour that pass the detector.
-- volume: Number of vehicles per hour that pass the detector.
-- occupancy: Percentage of time cars are being detected.
-- countreadings:
-- delay: VHT minus the time it would take a vehicle to travel at the maximum permitted speed on a segment.
-- traveltime: The average amount of time for vehicles to travel through a segment.
-- vht: (vehicle hours traveled) Total hours traveled within a segment by all vehicles.
-- vmt: (vehicle miles traveled) Total miles traveled on a segment by all vehicles.
+| Name          | Description                                                                         | Type                       | Example                   |
+| ------------- | ----------------------------------------------------------------------------------- | -------------------------- | ------------------------- |
+| starttime     | Starting time of the data                                                           | Date/Time Formatted String | 2020-05-11T00:00:00-07:00 |
+| resolution    | Temporal Resolution of the data                                                     | Time Formatted String      | 01:00:00                  |
+| detector_id   | Detector ID along selected route                                                    | Integer                    | 100907                    |
+| speed         | Average speed of vehicles passing the detector                                      | Float                      | 59.0                      |
+| volume        | Number of vehicles per hour which pass the detector                                 | Integer                    | 16                        |
+| occupancy     | Percentage of time cars are being detected                                          | Float                      | .88                       |
+| countreadings |                                                                                     | Integer                    | 28                        |
+| delay         | Vehicle Hours Traveled, minus the time it would take a vehicle to travel at the maximum permitted speed on a segment | Float | 0.01          |
+| traveltime    | The average amount of time for a vehicle to travel through a segment                | Float                      | 0.4                       |
+| vht           | Vehicle Hours Traveled - the total hours traveled within a segment by all vehicles  | Float                      | 0.11                      |
+| vmt           | Vehicle Miles Traveled - the total miles traveled on a segment by all vehicles      | Float                      | 6.24                      |
 
-Distance traveled can be calculated by dividing vmt by volume.
+In order to calculate distance traveled, divide `vmt` by `volume`.
 
 A tutorial on using the Highways function can be found [_here_]({{ site.url }}{{ site.baseurl }}/documents/highways/).
 
 ### Stations metadata
+Information on the individual stations in the network can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
 
 The following data are provided:
-- stationid: Station ID.
-- highwayid: Highway ID.
-- milepost: Milepost (mi).
-- locationtext: Agency provided location information.
-- length: Length of segment in miles.
-- numberlanes: Number of lanes at the station.
-- agencyid: ID of the agency maintaining the station.
-- x_coord: Longitude of station.
-- y_coord: Latitude.
-- active_dates: Initial active date of station.
+| Name         | Description                                                                         | Type    | Example                              |
+| ------------ | ----------------------------------------------------------------------------- | ------- | ------------------------------------ |
+| stationid    | The unique station ID value of each station                                   | Integer | 3154                                 |
+| highwayid    | The unique highway ID value of the highway on which the station is located    | Integer | 10                                   |
+| milepost     | The mile post location of the station on the highway                          | Float   | 0.25                                 |
+| locationtext | Description of the location of the station                                    | String  | Wilshire (2DS043) @ SB OR 217 MP0.25 |
+| length       | Length of segment in miles                                                    | Float   | 0.185                                |
+| numberlanes  | Number of lanes at the station - returned as an empty value in _most_ queries | Integer | (Null)                               |
+| agencyid     | Station ID issued by agency maintaining the station                           | Integer | 321                                  |
+| x_coord      | Longitude of station                                                          | Float   | -122.78043                           |
+| y_coord      | Latitude of station                                                           | Float   | 45.50622                             |
+| active_dates | Provided as a set of key: value pairs; lower indicates the initial active date of the station, upper indicates the date the station was deactivated | String | {""lower"": ""2014-04-29"", ""upper"": null, ""bounds"": ""[)""} |
 
 An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Detector metadata
+Information on the individual detectors at each station can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
 
 The following data are provided:
-- detectorid: Unique detector id, used to join with raw or aggregated data.
-- stationid: Unique station id, used to join with stations metadata.
-- highwayid: Unique highway id, used to join with highways metadata.
-- milepost: Milepost (mi).
-- detectortitle: Agency given name or id for detector.
-- lanenumber: PORTAL lane number, where lane 1 is the left most lane regardless of agency jurisdiction.
-- agency_lane: Agency given lane number where lane 1 is left most lane for ODOT, and lane 1 is right most lane for WSDOT.
-- active_dates: Initial active date of detector.
+| Name          | Description                                                                            | Type              | Example              |
+| ------------- | -------------------------------------------------------------------------------------- | ----------------- | ---------------------|
+| detectorid    | The unique detector ID value of each detector                                          | Integer           | 102017               |
+| stationid     | The unique station ID of the station at which the detector is located                  | Integer           | 5207                 |
+| highwayid     | The unique highway ID value of the highway on which the detector is located            | Integer           | 54                   |
+| milepost      | The mile post location of the station on the highway                                   | Float             | 36.15                |
+| detectortitle | Agency given name (if any), or repeat of id value                                      | String or Integer | 205es03615:\_MN___1  |
+| lanenumber    | PORTAL lane number; 1 is the leftmost lane, regardless of agency jurisdiction          | Integer           | 1                    |
+| agency_lane   | Agency issued lane number, where 1 is leftmost lane for ODOT, rightmost lane for WSDOT | Integer           | 1                    |
+| active_dates  | Provided as a set of key: value pairs; lower indicates the initial active date of the station, upper indicates the date the station was deactivated | String | {""lower"": ""2017-04-06"", ""upper"": null, ""bounds"": ""[)""} |
 
 An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
 ### Highways metadata
+Information on the highways in the system can be downloaded from this section.
+
 The following data are provided:
-- highwayid: Unique highway id.
-- direction: Direction of flow.
-- highwayname: Name of highway.
-- oppositehighwayid: Id of highway with opposite flow.
+| Name              | Description                                                    | Type    | Example         |
+| ----------------- | -------------------------------------------------------------- | ------- | ----------------|
+| highwayid         | The unique ID value of each highway                            | Integer | 616             |
+| direction         | Cardinal direction of traffic flow (or CONST for construction) | String  | EAST            |
+| highwayname       | Name of Highway                                                | String  | R2 Beltline Hwy |
+| oppositehighwayid | ID of highway with opposite flow (or null value, if none)      | Integer | 617             |
+
 
 </p>
 </details>
