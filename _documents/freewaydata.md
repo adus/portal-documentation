@@ -3,6 +3,8 @@ title: "Freeway Data"
 ---
 The _/highways/api/freewaydata_ endpoint returns information about one or more freeways. This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters. The freeway is specified using the `highway_id` parameter, which takes in integer. A list of valid highway IDs can be obtained by making a call to [_highway metadata_]({{ site.url }}{{ site.baseurl }}/documents/highwaymetadata/).
 
+Due to the quantity of data in the database, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
+
 Valid resolutions for this endpoint are 20 seconds, 5 minutes, 15 minutes, 1 hour, and 1 day. If not specified, the default resolution is 1 hour.
 
 This endpoint returns data in JSON format by default.
@@ -11,8 +13,8 @@ Freeway Data takes the following Parameters
 
 | Name         | Required | Description                                                            | Type                  | Example      |
 | ------------ | -------- | ---------------------------------------------------------------------- | --------------------- | ------------ |
-| start_date   | No       | Beginning Date for Data Query                                          | YYYY-MM-DD String     | 2020-08-11   |
-| end_date     | No       | End Date for Data Query                                                | YYYY-MM-DD String     | 2020-08-11   |
+| start_date   | Yes      | Beginning Date for Data Query                                          | YYYY-MM-DD String     | 2020-08-11   |
+| end_date     | Yes      | End Date for Data Query                                                | YYYY-MM-DD String     | 2020-08-11   |
 | days_of_week | No       | Filter results by day of week. Sunday = 1, Saturday = 7                | Integer               | 1            |
 | highway_id   | No       | Integer value of any given highway ID                                  | Integer               | 54           |
 | resolution   | No       | URL encoded time value used to divide data points                      | URL Encoded String    | 00%3A15%3A00 |
