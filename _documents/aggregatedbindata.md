@@ -8,7 +8,7 @@ Due to the quantity of data available, API calls to this endpoint must be constr
 This endpoint returns data in JSON format by default.
 
 ## Parameters
-Aggregated Bin Data Data takes the following Parameters:
+Aggregated Bin Data takes the following Parameters:
 
 | Name          | Required  | Description                                        | Type               | Example      |
 | ------------- | --------- | -------------------------------------------------- | ------------------ | ------------ |
