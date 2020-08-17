@@ -46,3 +46,5 @@ average_travel_time,countreadings,id,resolution,segment_id,starttime
 ,0,2387172848,00:05:00,2264,2019-07-10T01:15:00-07:00
 ,0,2387190397,00:05:00,2264,2019-07-10T01:20:00-07:00
 ```
+
+Last Updated: 2020-08-17
