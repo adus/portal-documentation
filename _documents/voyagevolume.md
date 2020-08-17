@@ -1,7 +1,7 @@
 ---
 title: "Voyage Volume"
 ---
-The _/arterial/api/voyagevolume_ endpoint returns a set of traffic volume data for Portland, Oregon. This data is grouped by `controller_id` and broken up by system detector count within that `controller_id`. Due to the quantity of data in the database, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
+The _/arterial/api/voyagevolume_ endpoint returns a set of traffic volume data for Portland, Oregon. The returned data is grouped by its `controller_id` attribute and broken up by system detector count within that grouping. Due to the quantity of data in the database, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
 This endpoint returns data in JSON format by default.
 
