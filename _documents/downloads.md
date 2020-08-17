@@ -248,7 +248,7 @@ The data is returned as a Zipped CSV file.  The data provided in the CSV file ar
 | estimated_load     |                                                                        | Integer                        | 175                       |
 | cumulative_ons     | Aggregate of ons over route history                                    | Integer                        | 176                       |
 | cumulative_offs    | Aggregate of offs over route history                                   | Integer                        | 2                         |
-| lifts              | Lift usages as a percentage of all stops                               | Float                          | 0.6818181818              |
+| lifts              | Lift usages as a fraction of all stops in decimal notation             | Float                          | 0.6818181818              |
 
 </p>
 </details>
