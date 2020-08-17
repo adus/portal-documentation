@@ -14,19 +14,19 @@ The base URL for the API is:
 The following endpoints may be appended to the base URL, in order to access data from specific datasets:
 <br />
 
-| endpoint                               | description                                       |
-|--------------------------------------- | ------------------------------------------------- |
-| /highways/api/freewaydata              | Highway speed and volume data                     |
-| /highways/api/stationsmetadata         | Highway station metadata                          |
-| /highways/api/detectormetadata         | Highway detector metadata                         |
-| /highways/api/highwaymetadata          | Highway metadata                                  |
-| /traveltime/api/aggregatedsegmentcalcs | Travel times along highways by segment            |
-| /traveltime/api/segmentcalc            | Raw travel time data                              |
-| /traveltime/api/seginventory           | List of segments for travel time calculations     | 
-| /traveltime/api/dcuinventory           | Bluetooth Data Collection Unit metadata           |
-| /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics      |
-| /arterial/api/voyagevolume             |                                                   |
-| /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter |
+| endpoint                               | description                                         |
+|--------------------------------------- | --------------------------------------------------- |
+| /highways/api/freewaydata              | Highway speed and volume data                       |
+| /highways/api/stationsmetadata         | Highway station metadata                            |
+| /highways/api/detectormetadata         | Highway detector metadata                           |
+| /highways/api/highwaymetadata          | Highway metadata                                    |
+| /traveltime/api/aggregatedsegmentcalcs | Travel times along highways by segment              |
+| /traveltime/api/segmentcalc            | Raw travel time data                                |
+| /traveltime/api/seginventory           | List of segments for travel time calculations       | 
+| /traveltime/api/dcuinventory           | Bluetooth Data Collection Unit metadata             |
+| /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics        |
+| /arterial/api/voyagevolume             | Traffic volume data for arterial routes in Portland |
+| /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter   |
 
 As no token is required for access to the API, a very simple cURL header can be used in order to access
 this data:
@@ -49,4 +49,4 @@ All data accessible via the API is also served from the API to the portal websit
 
 Additionally, all of the data parameters for each endpoint are listed on the [_Definitions_]({{ site.url }}{{ site.baseurl }}/documents/definitions/) page. Most of the parameters for various API requests are clearly defined on that page (and soon, all of them will be!).  Finally, the metadata available through the ```/highways/api/stationsmetadata```, ```/highways/api/detectormetadata ```, ```/highways/api/highwaymetadata```, and ```/traveltime/api/seginventory``` endpoints is crucial to the success of making API calls for specific locations, as it contains mappings between the real locations of those objects and the unique id values which are referenced in data returned by calls to other endpoints.  This metadata is downloadable both through API calls and via the [_Downloads_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) page.
 
-Last Edited 07-21-20
+Last Edited 08-16-20
