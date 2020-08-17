@@ -17,3 +17,5 @@ The only
 
 ## Example Request
 ```http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata?agency=trimet&quarter=2019-q3-summer```
+
+Last Updated: 2020-08-17
