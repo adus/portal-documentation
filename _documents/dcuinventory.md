@@ -38,3 +38,5 @@ True,529,US26 at Frog Lake MP57.52,-121.70026,45.22827,Point,US26,45.22827,FreeF
 True,555,SW Macadam Ave at SW Bancroft St,-122.67298,45.49319,Point,Macad,45.49319,Intersection,-122.67298,0.0,City of Portland,1
 True,524,TV Hwy at Cedar Hills Blvd,-122.8108,45.48825,Point,TVH,45.48825,Intersection,0.0,0.0,Wash Co,1
 ```
+
+Last Updated: 2020-08-17
