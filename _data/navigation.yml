@@ -24,27 +24,27 @@ documents:
         url: /documents/access_examples/
   - title: API Endpoints
     children:
-      - title: "freewaydata"
+      - title: "Freewaydata"
         url: /documents/freewaydata/
-      - title: "stationmetadata"
+      - title: "Stationmetadata"
         url: /documents/stationmetadata/
-      - title: "detectormetadata"
+      - title: "Detectormetadata"
         url: /documents/detectormetadata/
-      - title: "highwaymetadata"
+      - title: "Highwaymetadata"
         url: /documents/highwaymetadata/
-      - title: "aggregatedsegmentcalcs"
+      - title: "Aggregatedsegmentcalcs"
         url: /documents/aggregatedsegmentcalcs/
-      - title: "segmentcalc"
+      - title: "Segmentcalc"
         url: /documents/segmentcalc/
-      - title: "seginventory"
+      - title: "Seginventory"
         url: /documents/seginventory/
-      - title: "dcuinventory"
+      - title: "Dcuinventory"
         url: /documents/dcuinventory/
-      - title: "aggregatedbindata"
+      - title: "Aggregatedbindata"
         url: /documents/aggregatedbindata/
-      - title: "voyagevolume"
+      - title: "Voyagevolume"
         url: /documents/voyagevolume/
-      - title: "downloadquarterlydata"
+      - title: "Downloadquarterlydata"
         url: /documents/downloadquarterlydata/
   - title: Portal Website Documentation
     children:
