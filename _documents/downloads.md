@@ -172,19 +172,18 @@ The following data are provided:
 ### Aggregated CLS
 The following data are provided:
 
-| Name                               | Description                                                     | Type    | Example                |
-| ---------------------------------- | --------------------------------------------------------------- | ------- | ---------------------- |
-| aggregated_records
+| Name                               | Description                                                        | Type                           | Example                   |
+| ---------------------------------- | ------------------------------------------------------------------ | ------------------------------ | ------------------------- |
+| aggregated_records                 | Number of records sampled to created each data point               | Integer                        | 104                       |
+| bin_count                          | Count of vehicles by classification bin                            | Integer                        | 0                         |
+| bin_type                           | Description of classification bin - either length or speed         | String                         | length                    |
+| bin_number                         | Classification bin number. These Classifications can be seen in the next table | Integer            | 4                         |
+| bin_resolution                     | Temporal resolution for data - 15 minutes, 1 hour, or 1 day        | Time Formatted String          | 01:00:00                  |
+| bin_time                           | The timestamp for the data value, to a granularity of 20 seconds   | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
+| id                                 | The record id value used by the API framework                      | Integer                        | 938253264                 |
+| lane                               | Lane in which the data was collected. Lane 1 is the left most lane | Integer                        | 3                         |
+| stationid                          | Unique id value of the collection station; corresponds to the agencyid in the stations metadata | Integer     | 54              |
 
-- aggregated_records: Number of records sampled to create individual data point.
-- bin_count: Count of vehicles by classification bin.
-- bin_type: Description of classification bin - either length or speed.
-- bin_number: Classification bin number.  These classifications can be seen in the table below this section.
-- bin_resolution: Temporal Resolution - 15 minutes, one hour, or one day.
-- bin_time: The timestamp of the data value, to a granularity of 20 seconds.
-- id: The record id value used by the API framework (Django).
-- lane: Lane in which the data was collected. Lane 1 is the left most lane.
-- stationid: Unique id of the collection station, which corresponds to the agencyid in the stations metadata.
 
 Bin Number Classifications:
 
@@ -198,8 +197,65 @@ Bin Number Classifications:
 More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/)
 
 ### Voyage Volume
+The following data are provided:
+
+| Name                               | Description                                                        | Type                           | Example                   |
+| ---------------------------------- | ------------------------------------------------------------------ | ------------------------------ | ------------------------- |
+| controller_id                      |                                                                    | Integer                        | 4258                      |
+| logtime                            |                                                                    | Date and Time Formatted String | 2017-01-03T00:07:00-08:00 |
+| period                             |                                                                    | Integer                        | 15                        |
+| detector_1_volume                  |                                                                    | Integer                        | 0                         |
+| detector_2_volume                  |                                                                    | Integer                        | 0                         |
+| detector_3_volume                  |                                                                    | Integer                        | 0                         |
+| detector_4_volume                  |                                                                    | Integer                        | 0                         |
+| detector_5_volume                  |                                                                    | Integer                        | 5                         |
+| detector_6_volume                  |                                                                    | Integer                        | 3                         |
+| detector_7_volume                  |                                                                    | Integer                        | 0                         |
+| detector_8_volume                  |                                                                    | Integer                        | 0                         |
+| detector_9_volume                  |                                                                    | Integer                        | 4                         |
+| detector_10_volume                 |                                                                    | Integer                        | 4                         |
+| detector_11_volume                 |                                                                    | Integer                        | 0                         |
+| detector_12_volume                 |                                                                    | Integer                        | 0                         |
+| detector_13_volume                 |                                                                    | Integer                        | 0                         |
+| detector_14_volume                 |                                                                    | Integer                        | 0                         |
+| detector_15_volume                 |                                                                    | Integer                        | 0                         |
+| detector_16_volume                 |                                                                    | Integer                        | 0                         |
+| detector_17_volume                 |                                                                    | Integer                        | 0                         |
+| detector_18_volume                 |                                                                    | Integer                        | 0                         |
+| detector_19_volume                 |                                                                    | Integer                        | 1                         |
+| detector_20_volume                 |                                                                    | Integer                        | 1                         |
+| detector_21_volume                 |                                                                    | Integer                        | 1                         |
+| detector_22_volume                 |                                                                    | Integer                        | 0                         |
+| detector_23_volume                 |                                                                    | Integer                        | 0                         |
+| detector_24_volume                 |                                                                    | Integer                        | 2                         |
+| detector_25_volume                 |                                                                    | Integer                        | 3                         |
+| detector_26_volume                 |                                                                    | Integer                        | 0                         |
+| detector_27_volume                 |                                                                    | Integer                        | 0                         |
+| detector_28_volume                 |                                                                    | Integer                        | 0                         |
+| detector_29_volume                 |                                                                    | Integer                        | 0                         |
+| detector_30_volume                 |                                                                    | Integer                        | 0                         |
+| detector_31_volume                 |                                                                    | Integer                        | 0                         |
+| detector_32_volume                 |                                                                    | Integer                        | 0                         |
 
 ### Transit Quarterly Data
+The data is returned as a Zipped CSV file.  The data provided in the CSV file are as follows.
+
+| Name                               | Description                                                            | Type                           | Example                   |
+| ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------ | ------------------------- |
+| summary_begin_date                 | The start date of the fiscal quarter requested                         | Date and Time Formatted String | 02DEC2018:00:00:00        |
+| route_number                       | Trimet bus route number                                                | Integer                        | 2                         |
+| direction                          | 0 if departing from initial origin, 1 if departing from route endpoint | Integer                        | 0                         |
+| service_key                        |                                                                        | String                         | S                         |
+| stop                               | Number of stops made on route                                          | Integer                        | 100                       |
+| location_id                        |                                                                        | Integer                        | 9301                      |
+| ons                                | Number of riders embarking                                             | Integer                        | 121                       |
+| offs                               | Number of riders disembarking                                          | Integer                        | 2                         |
+| total                              | Aggregate of ons and offs                                              | Integer                        | 123                       |
+| estimated_load                     |                                                                        | Integer                        | 175                       |
+| cumulative_ons                     | Aggregate of ons over route history                                    | Integer                        | 176                       |
+| cumulative_offs                    | Aggregate of offs over route history                                   | Integer                        | 2                         |
+| lifts                              | Lift usages as a percentage of all stops                               | Float                          | 0.6818181818              |
+
 </p>
 </details>
 
