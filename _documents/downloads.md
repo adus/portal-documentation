@@ -16,6 +16,7 @@ By the end of the tutorial users should be able to:
 Highway data can be downloaded from this section by selecting the start and end date of interest, days of week, format, highway of interest, and temporal resolution. Multiple highway sections can be downloaded at once by holding the ctrl key and clicking on the desired highway in the Highway menu.
 
 The following data are provided:
+
 | Name          | Description                                                                         | Type                       | Example                   |
 | ------------- | ----------------------------------------------------------------------------------- | -------------------------- | ------------------------- |
 | starttime     | Starting time of the data                                                           | Date/Time Formatted String | 2020-05-11T00:00:00-07:00 |
@@ -38,6 +39,7 @@ A tutorial on using the Highways function can be found [_here_]({{ site.url }}{{
 Information on the individual stations in the network can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
 
 The following data are provided:
+
 | Name         | Description                                                                         | Type    | Example                              |
 | ------------ | ----------------------------------------------------------------------------- | ------- | ------------------------------------ |
 | stationid    | The unique station ID value of each station                                   | Integer | 3154                                 |
@@ -57,6 +59,7 @@ An interactive map of all the stations in the network can be viewed [_here_]({{ 
 Information on the individual detectors at each station can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
 
 The following data are provided:
+
 | Name          | Description                                                                            | Type              | Example              |
 | ------------- | -------------------------------------------------------------------------------------- | ----------------- | ---------------------|
 | detectorid    | The unique detector ID value of each detector                                          | Integer           | 102017               |
@@ -74,6 +77,7 @@ An interactive map of all the stations in the network can be viewed [_here_]({{ 
 Information on the highways in the system can be downloaded from this section.
 
 The following data are provided:
+
 | Name              | Description                                                    | Type    | Example         |
 | ----------------- | -------------------------------------------------------------- | ------- | ----------------|
 | highwayid         | The unique ID value of each highway                            | Integer | 616             |
