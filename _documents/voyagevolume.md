@@ -10,12 +10,12 @@ Voyage Volume takes the following Parameters
 
 | Name         | Required | Description                                        | Type              | Example      |
 | ------------ | -------- | -------------------------------------------------- | ----------------- | ------------ |
-|  start_date  | Yes      | Beginning Date for Data Query                      | YYYY-MM-DD String | 2020-05-10   |
-|  end_date    | Yes      | End Date for Data Query in                         | YYYY-MM-DD String | 2020-05-16   |
+|  start_date  | Yes      | Beginning Date for Data Query                      | YYYY-MM-DD String | 2017-01-03   |
+|  end_date    | Yes      | End Date for Data Query in                         | YYYY-MM-DD String | 2017-01-04   |
 |  format      | No       | File format. Acceptable values are CSV or JSON     | String            | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/arterial/api/voyagevolume/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
+```http://new.portal.its.pdx.edu:8080/arterial/api/voyagevolume/?start_date=2017-01-03&end_date=2017-01-04&format=csv```
 
 ## Example Response (CSV)
 ```
