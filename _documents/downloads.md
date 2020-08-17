@@ -26,7 +26,7 @@ The following data are provided:
 | volume        | Number of vehicles per hour which pass the detector                                 | Integer                    | 16                        |
 | occupancy     | Percentage of time cars are being detected                                          | Float                      | .88                       |
 | countreadings |                                                                                     | Integer                    | 28                        |
-| delay         | Vehicle Hours Traveled, minus the time it would take a vehicle to travel at the maximum permitted speed on a segment | Float | 0.01          |
+| delay         | Vehicle Hours Traveled, minus the time it would take a vehicle to travel at the maximum permitted speed on a segment | Float     | 0.01      |
 | traveltime    | The average amount of time for a vehicle to travel through a segment                | Float                      | 0.4                       |
 | vht           | Vehicle Hours Traveled - the total hours traveled within a segment by all vehicles  | Float                      | 0.11                      |
 | vmt           | Vehicle Miles Traveled - the total miles traveled on a segment by all vehicles      | Float                      | 6.24                      |
@@ -94,62 +94,75 @@ The following data are provided:
 
 ### Aggregated travel time
 The following data are provided:
-- average_travel_time: Average travel time of segment in minutes.
-- countreadings: Sample size.
-- id:
-- resolution: Temporal resolution of data - either one hour or five minutes.
-- segment_id: Unique id, used to join with travel time segment inventory metadata.
-- starttime: Start time of chosen resolution.
+
+| Name                | Description                                                    | Type                           | Example                   |
+| ------------------- | -------------------------------------------------------------- | ------------------------------ | ------------------------- |
+| average_travel_time | Average travel time of segment in minutes                      | Float                          | 151.4                     |
+| countreadings       | Sample Size                                                    | Integer                        | 5                         |
+| id                  | Unique ID value of aggregation                                 | Integer                        | 2386933463                |
+| resolution          | Temporal Resolution of Data                                    | Time Formatted String          | 00:05:00                  |    
+| segment_id          | Unique ID, used to join with segment inventory metadata        | Integer                        | 2264                      |
+| starttime           | Start time of chosen resolution                                | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
 
 ### Raw travel time
 The following data are provided:
-- below_min_filter:
-- calc_confidence_interval
-- calc_variance:
-- exceeded_max_filter:
-- segment_calc_time:
-- segment_id:
-- segment_travel_time:
-- std_deviation_calc_samples_removed:
-- std_deviation_filter_value:
+
+| Name                               | Description                                                    | Type                           | Example                          |
+| ---------------------------------- | -------------------------------------------------------------- | ------------------------------ | -------------------------------- |
+| below_min_filter                   |                                                                | Integer                        | 0                                |
+| calc_confidence_interval           |                                                                | Float                          | 47.62680841791146                |
+| calc_variance                      |                                                                | Float                          | 1910.7777233115469               |
+| exceeded_max_filter                |                                                                | Integer                        | 0                                |
+| segment_calc_time                  |                                                                | Date and Time Formatted String | 2019-07-15T08:10:13.870000-07:00 |
+| segment_id                         |                                                                | Integer                        | 2264                             |
+| segment_travel_time                |                                                                | Integer                        | 250                              |
+| std_deviation_calc_samples_removed |                                                                | Integer                        | 3                                |
+| std_deviation_filter_value         |                                                                | Float                          | 625.985307791092                 |
+
 
 ### Travel time segment inventory
 The following data are provided:
-- active: true or false
-- beginning_dcu: id value for DCU start point; see 'Travel time DCU inventory' below for further details.
-- calculation_period:
-- calculation_threshold:
-- end_dcu: id value for DCU end point; see 'Travel time DCU inventory' below for further details.
-- minimum_lanes_reporting:
-- minimum_samples:
-- segment_id: 
-- segment_length: Length of segment between beginning and ending DCUs.
-- segment_maximum_filter:
-- segment_minimum_filter:
-- segment_name: Name of segment.
-- segment_type: 
-- source_system:
-- standard_deviation_multiplier:
-- standard_deviation_samples:
-- station_id:
-- use_standard_deviation_filter:
+
+| Name                          | Description                                                    | Type    | Example                             |
+| ----------------------------- | -------------------------------------------------------------- | ------- | ----------------------------------- |
+| active                        | Indicator of whether the segment is active in the system       | Boolean | true                                |
+| beginning_dcu                 | ID value for DCU at start of segment                           | Integer | 535                                 |
+| calculation_period            |                                                                | Integer | 10                                  |
+| calculation_threshold         |                                                                | Integer | 30                                  |
+| end_dcu                       | ID value for DCU at end of segment                             | Integer | 533                                 |
+| minimum_lanes_reporting       | If beginning_dcu and end_dcu are present, this is a null value. Otherwise, it is 0.5 | Float             | 0.5 |
+| minimum_samples               | Minimum number of samples required to produce a data point     | Integer | 3                                   |
+| segment_id                    | Unique ID of Highway Segment                                   | Integer | 2667                                |
+| segment_length                | Length of segment, as measured between beginning and end DCUs  | Integer | 100                                 |
+| segment_maximum_filter        |                                                                | Integer | 1000                                |
+| segment_minimum_filter        |                                                                | Integer | 10                                  |
+| segment_name                  | Name of Segment                                                | String  | Powell Blvd EB at SE 8th to SE 33rd |
+| segment_type                  |                                                                | Integer | 1                                   |
+| source_system                 |                                                                | String  | TravelTime                          |
+| standard_deviation_multiplier |                                                                | Float   | 1.65                                |
+| standard_deviation_samples    |                                                                | Integer | 30                                  |
+| station_id                    | Agency given name or ID value, null if none issued             | Integer | null                                |
+| use_standard_deviation_filter |                                                                | Boolean | true                                |
 
 ### Travel time DCU inventory
 The following data are provided:
-- active: True or False.
-- dcu_id: Unique id value; preceded by ```-``` if location_type is free flowing traffic.
-- dcu_name: Name of intersection, if location_type is Intersection. Eg. Foster Rd at SE 82nd.\
-            Numeric, matching dcu_id value without leading ```-``` if location type is free flowing traffic.
-- geom.type: This data field is always "Point", for geom.coordinates.
-- geom.coordinates.0: Longitude
-- geom.coordinates.1: Latitude.
-- highway: Highway Name.
-- latitude: Latitude.
-- location_type: Intersection or free flowing traffic, dependant on location.
-- longitude: Longitude.
-- milepoint: Null for free flowing traffic.  Float value for intersections.
-- owner: Agency name.
-- roadway_number:
+
+| Name                               | Description                                                     | Type    | Example                |
+| ---------------------------------- | --------------------------------------------------------------- | ------- | ---------------------- |
+| active                             | Indicator of whether the detector is active in the system       | Boolean | true                   |
+| location_type                      | Intersection or free flowing traffic                            | String  | Intersection           |
+| dcu_id                             | Unique ID value; if preceded by ```-```, if location_type is Free Flowing Traffic. | Integer | 556 |
+| dcu_name                           | Name of intersection, if location_type is intersection. Numeric, matching dcu_id, with name appended if free flowing traffic | String | SW Beaverton Hillsdale Hwy at SW Capitol Hwy |
+| geom.type                          | Always Point, allowing for coordinate values.                   | String  | Point                  |
+| geom.coordinates.0                 | The longitude of the Point specifying the DCU                   | Float   | -122.69778             |
+| geom.coordinates.1                 | The latitude of the Point specifying the DCU                    | Float   | 45.47809               |
+| longitude                          | The longitude of the Point specifying the DCU                   | Float   | -122.69778             |
+| latitude                           | The latitude of the Point specifying the DCU                    | Float   | 45.47809               |
+| highway                            | Name of highway on which the detector is situated               | String  | B-H                    |
+| roadway_number                     |                                                                 | Integer | 1                      |
+| milepoint                          | Null for free flowing traffic. Float value for intersections    | Float   | 0.0                    |
+| owner                              | Agency name                                                     | String  | City of Portland       |
+
 </p>
 </details>
 
@@ -158,6 +171,11 @@ The following data are provided:
 
 ### Aggregated CLS
 The following data are provided:
+
+| Name                               | Description                                                     | Type    | Example                |
+| ---------------------------------- | --------------------------------------------------------------- | ------- | ---------------------- |
+| aggregated_records
+
 - aggregated_records: Number of records sampled to create individual data point.
 - bin_count: Count of vehicles by classification bin.
 - bin_type: Description of classification bin - either length or speed.
