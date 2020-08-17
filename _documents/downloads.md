@@ -3,16 +3,10 @@ title: "Downloads"
 ---
 In addition to being able to download data from each page in PORTAL, the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page provides the opportunity to download data over longer time frames, multiple locations, or both.  The data available through the downloads page is the same as is available through the API.
 
-## Learning objectives
-By the end of the tutorial users should be able to:
-
-* Understand the parameters of each download option for each section
-* Know what data is being downloaded (e.g. variables and units)
-
 <details><summary>Highways Data</summary>
 <p>
 
-### Highways
+## Highways
 Highway data can be downloaded from this section by selecting the start and end date of interest, days of week, format, highway of interest, and temporal resolution. Multiple highway sections can be downloaded at once by holding the ctrl key and clicking on the desired highway in the Highway menu.
 
 The following data are provided:
@@ -35,7 +29,7 @@ In order to calculate distance traveled, divide `vmt` by `volume`.
 
 A tutorial on using the Highways function can be found [_here_]({{ site.url }}{{ site.baseurl }}/documents/highways/).
 
-### Stations metadata
+## Stations metadata
 Information on the individual stations in the network can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
 
 The following data are provided:
@@ -55,7 +49,7 @@ The following data are provided:
 
 An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
-### Detector metadata
+## Detector metadata
 Information on the individual detectors at each station can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
 
 The following data are provided:
@@ -73,7 +67,7 @@ The following data are provided:
 
 An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
-### Highways metadata
+## Highways metadata
 Information on the highways in the system can be downloaded from this section.
 
 The following data are provided:
@@ -92,7 +86,7 @@ The following data are provided:
 <details><summary>Travel Time Data</summary>
 <p>
 
-### Aggregated travel time
+## Aggregated travel time
 The following data are provided:
 
 | Name                | Description                                                    | Type                           | Example                   |
@@ -104,7 +98,7 @@ The following data are provided:
 | segment_id          | Unique ID, used to join with segment inventory metadata        | Integer                        | 2264                      |
 | starttime           | Start time of chosen resolution                                | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
 
-### Raw travel time
+## Raw travel time
 The following data are provided:
 
 | Name                               | Description                                                    | Type                           | Example                          |
@@ -120,7 +114,7 @@ The following data are provided:
 | std_deviation_filter_value         |                                                                | Float                          | 625.985307791092                 |
 
 
-### Travel time segment inventory
+## Travel time segment inventory
 The following data are provided:
 
 | Name                          | Description                                                    | Type    | Example                             |
@@ -144,7 +138,7 @@ The following data are provided:
 | station_id                    | Agency given name or ID value, null if none issued             | Integer | null                                |
 | use_standard_deviation_filter |                                                                | Boolean | true                                |
 
-### Travel time DCU inventory
+## Travel time DCU inventory
 The following data are provided:
 
 | Name                               | Description                                                     | Type    | Example                |
@@ -168,8 +162,8 @@ The following data are provided:
 
 <details><summary>Other Download Categories</summary>
 <p>
-
-### Aggregated CLS
+  
+## Aggregated CLS
 The following data are provided:
 
 | Name                               | Description                                                        | Type                           | Example                   |
@@ -196,7 +190,7 @@ Bin Number Classifications:
 
 More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/)
 
-### Voyage Volume
+## Voyage Volume
 The following data are provided:
 
 | Name                               | Description                                                        | Type                           | Example                   |
@@ -237,7 +231,7 @@ The following data are provided:
 | detector_31_volume                 |                                                                    | Integer                        | 0                         |
 | detector_32_volume                 |                                                                    | Integer                        | 0                         |
 
-### Transit Quarterly Data
+## Transit Quarterly Data
 The data is returned as a Zipped CSV file.  The data provided in the CSV file are as follows.
 
 | Name                               | Description                                                            | Type                           | Example                   |
