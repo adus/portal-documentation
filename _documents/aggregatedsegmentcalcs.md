@@ -1,7 +1,7 @@
 ---
 title: "Aggregated Segment Calcs"
 ---
-The _/traveltime/api/aggregatedsegmentcalcs_ endpoint returns aggregated travel time and count readings for one or more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters. The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. A list of valid segment IDs can be obtained by making a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
+The _/traveltime/api/aggregatedsegmentcalcs_ endpoint returns aggregated travel time and count readings for one or more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. A list of valid segment IDs can be obtained by making a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
 
 Due to the quantity of data in the database, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
