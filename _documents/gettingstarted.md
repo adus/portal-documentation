@@ -27,8 +27,8 @@ The following endpoints may be appended to the base URL, in order to access data
 | /freight/api/aggregatedbindata         | Freight data based on vehicle length metrics        |
 | /arterial/api/voyagevolume             | Traffic volume data for arterial routes in Portland |
 | /transit/downloadquarterlydata         | Download zipped Trimet data for specified quarter   |
-
-
+\
+\
 As no token is required for access to the API, a very simple cURL header can be used in order to access this data:
 
 | Header |  Usage  |
