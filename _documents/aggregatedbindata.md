@@ -44,3 +44,5 @@ aggregated_records,bin_count,bin_number,bin_resolution,bin_time,bin_type,id,lane
 28,13,1,00:15:00,2019-07-10T00:00:00-07:00,length,938255056,3,54
 28,0,4,00:15:00,2019-07-10T00:00:00-07:00,length,938255095,3,54
 ```
+
+Last Updated: 2020-08-17
