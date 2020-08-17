@@ -1,7 +1,9 @@
 ---
 title: "Segment Calc"
 ---
-The _/traveltime/api/segmentcalc_ endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters.The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
+The _/traveltime/api/segmentcalc_ endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment or segments returned are specified by passing the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
+
+Due to the quantity of data in the database, API calls to this endpoint must be constrained within a date range through the use of the start_date and end_date parameters in order to reliably return any data.
 
 This endpoint returns data in JSON format by default.
 
@@ -10,8 +12,8 @@ Segment Calc takes the following parameters:
 
 | Name         | Required  | Description                                      | Type                  | Example      |
 | ------------ | --------- | ------------------------------------------------ | --------------------- | ------------ |
-| start_date   | No        | Beginning Date for Data Query in YYYY-MM-DD      | Date formatted String | 2019-07-10   |
-| end_date     | No        | End Date for Data Query in YYYY-MM-DD Format     | Date formatted String | 2019-07-16   |
+| start_date   | Yes       | Beginning Date for Data Query in YYYY-MM-DD      | Date formatted String | 2019-07-10   |
+| end_date     | Yes       | End Date for Data Query in YYYY-MM-DD Format     | Date formatted String | 2019-07-16   |
 | segment_id   | No        | The ID value of a segment.                       | Integer               | 2264         |
 | format       | No        | File format. Acceptable values are CSV or JSON   | String                | CSV          |
 
