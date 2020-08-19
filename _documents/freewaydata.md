@@ -1,7 +1,7 @@
 ---
 title: "Freeway Data"
 ---
-The _/highways/api/freewaydata_ endpoint returns information about one or more freeways. This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters. The freeway is specified using the `highway_id` parameter, which takes in integer. A list of valid highway IDs can be obtained by making a call to [_highway metadata_]({{ site.url }}{{ site.baseurl }}/documents/highwaymetadata/).
+The _/highways/api/freewaydata_ endpoint returns information about one or more freeways. The freeway is specified using the `highway_id` parameter, which takes in integer. A list of valid highway IDs can be obtained by making a call to [_highway metadata_]({{ site.url }}{{ site.baseurl }}/documents/highwaymetadata/).
 
 Due to the quantity of data available, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
