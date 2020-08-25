@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Documentation"
-    url: /documents/gettingstarted
+    url: /documents/
   - title: "Updates"
     url: /updates-notices/
   - title: "PUG"
