@@ -32,19 +32,19 @@ documents:
         url: /documents/detectormetadata/
       - title: "Highway Metadata"
         url: /documents/highwaymetadata/
-      - title: "Aggregated Segment Calcs"
+      - title: "Travel Time Data"
         url: /documents/aggregatedsegmentcalcs/
-      - title: "Segment Calc"
+      - title: "Raw Travel Time Data"
         url: /documents/segmentcalc/
       - title: "Segment Inventory"
         url: /documents/seginventory/
-      - title: "DCU Inventory"
+      - title: "Data Collection Unit Inventory"
         url: /documents/dcuinventory/
-      - title: "Aggregated Bin Data"
+      - title: "Vehicle Length (Freight)"
         url: /documents/aggregatedbindata/
       - title: "Voyage Volume"
         url: /documents/voyagevolume/
-      - title: "Download Quarterly Data (TriMet)"
+      - title: "Transit Data (TriMet)"
         url: /documents/downloadquarterlydata/
   - title: Portal Website Documentation
     children:
