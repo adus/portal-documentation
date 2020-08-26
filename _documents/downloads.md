@@ -11,19 +11,19 @@ Highway data can be downloaded from this section by selecting the start and end 
 
 The following data are provided:
 
-| Name          | Description                                                                         | Type                       | Example                   |
-| ------------- | ----------------------------------------------------------------------------------- | -------------------------- | ------------------------- |
-| starttime     | Starting time of the data                                                           | Date/Time Formatted String | 2020-05-11T00:00:00-07:00 |
-| resolution    | Temporal Resolution of the data                                                     | Time Formatted String      | 01:00:00                  |
-| detector_id   | Detector ID along selected route                                                    | Integer                    | 100907                    |
-| speed         | Average speed of vehicles passing the detector                                      | Float                      | 59.0                      |
-| volume        | Number of vehicles per hour which pass the detector                                 | Integer                    | 16                        |
-| occupancy     | Percentage of time cars are being detected                                          | Float                      | .88                       |
-| countreadings |                                                                                     | Integer                    | 28                        |
-| delay         | Vehicle Hours Traveled, minus the time it would take a vehicle to travel at the maximum permitted speed on a segment | Float     | 0.01      |
-| traveltime    | The average amount of time for a vehicle to travel through a segment                | Float                      | 0.4                       |
-| vht           | Vehicle Hours Traveled - the total hours traveled within a segment by all vehicles  | Float                      | 0.11                      |
-| vmt           | Vehicle Miles Traveled - the total miles traveled on a segment by all vehicles      | Float                      | 6.24                      |
+| Name          | Description                                                                         | Type                       | Example                     |
+| ------------- | ----------------------------------------------------------------------------------- | -------------------------- | --------------------------- |
+| starttime     | Starting time of the data                                                           | Date/Time Formatted String | 2020-05-11T00:00:00-07:00   |
+| resolution    | Temporal Resolution of the data - valid resolutions are 20 seconds, 5 minutes, 15 minutes, 1 hour and 1 day | Time Formatted String | 01:00:00 |
+| detector_id   | Detector ID along selected route                                                    | Integer                    | 100907                      |
+| speed         | Average speed of vehicles passing the detector                                      | Float                      | 59.0                        |
+| volume        | Number of vehicles per hour which pass the detector                                 | Integer                    | 16                          |
+| occupancy     | Percentage of time cars are being detected                                          | Float                      | .88                         |
+| countreadings |                                                                                     | Integer                    | 28                          |
+| delay         | Vehicle Hours Traveled, minus the time it would take a vehicle to travel at the maximum permitted speed on a segment | Float     | 0.01        |
+| traveltime    | The average amount of time for a vehicle to travel through a segment                | Float                      | 0.4                         |
+| vht           | Vehicle Hours Traveled - the total hours traveled within a segment by all vehicles  | Float                      | 0.11                        |
+| vmt           | Vehicle Miles Traveled - the total miles traveled on a segment by all vehicles      | Float                      | 6.24                        |
 
 In order to calculate distance traveled, divide `vmt` by `volume`.
 
@@ -34,7 +34,7 @@ Information on the individual stations in the network can be downloaded from thi
 
 The following data are provided:
 
-| Name         | Description                                                                         | Type    | Example                              |
+| Name         | Description                                                                   | Type    | Example                              |
 | ------------ | ----------------------------------------------------------------------------- | ------- | ------------------------------------ |
 | stationid    | The unique station ID value of each station                                   | Integer | 3154                                 |
 | highwayid    | The unique highway ID value of the highway on which the station is located    | Integer | 10                                   |
@@ -94,7 +94,7 @@ The following data are provided:
 | average_travel_time | Average travel time of segment in minutes                      | Float                          | 151.4                     |
 | countreadings       | Sample Size                                                    | Integer                        | 5                         |
 | id                  | Unique ID value of aggregation                                 | Integer                        | 2386933463                |
-| resolution          | Temporal Resolution of Data                                    | Time Formatted String          | 00:05:00                  |    
+| resolution          | Temporal Resolution of the data - valid resolutions are 5 minutes or 1 hour | Time Formatted String | 00:05:00              |    
 | segment_id          | Unique ID, used to join with segment inventory metadata        | Integer                        | 2264                      |
 | starttime           | Start time of chosen resolution                                | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
 
@@ -172,11 +172,11 @@ The following data are provided:
 | bin_count          | Count of vehicles by classification bin                            | Integer                        | 0                         |
 | bin_type           | Description of classification bin - either length or speed         | String                         | length                    |
 | bin_number         | Classification bin number. These Classifications can be seen in the next table | Integer            | 4                         |
-| bin_resolution     | Temporal resolution for data - 15 minutes, 1 hour, or 1 day        | Time Formatted String          | 01:00:00                  |
+| bin_resolution     | Temporal resolution of the data - valid resolutions are 15 minutes, 1 hour, or 1 day | Time Formatted String | 01:00:00         |
 | bin_time           | The timestamp for the data value, to a granularity of 20 seconds   | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
 | id                 | The record id value used by the API framework                      | Integer                        | 938253264                 |
 | lane               | Lane in which the data was collected. Lane 1 is the left most lane | Integer                        | 3                         |
-| stationid          | Unique id value of the collection station; corresponds to the agencyid in the stations metadata | Integer     | 54              |
+| stationid          | Unique id value of the collection station; corresponds to the agencyid in the stations metadata | Integer | 54                  |
 
 
 Bin Number Classifications:
@@ -238,7 +238,7 @@ The data is returned as a Zipped CSV file.  The data provided in the CSV file ar
 | ------------------ | ---------------------------------------------------------------------- | ------------------------------ | ------------------------- |
 | summary_begin_date | The start date of the fiscal quarter requested                         | Date and Time Formatted String | 02DEC2018:00:00:00        |
 | route_number       | Trimet bus route number                                                | Integer                        | 2                         |
-| direction          | 0 if departing from initial origin, 1 if departing from route endpoint | Integer                        | 0                         |
+| direction          | 0 if departing from route origin, 1 if returning to route origin       | Integer                        | 0                         |
 | service_key        |                                                                        | String                         | S                         |
 | stop               | Number of stops made on route                                          | Integer                        | 100                       |
 | location_id        |                                                                        | Integer                        | 9301                      |
