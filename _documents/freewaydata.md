@@ -7,7 +7,8 @@ Due to the quantity of data available, API calls to this endpoint must be constr
 
 Valid resolutions for this endpoint are 20 seconds, 5 minutes, 15 minutes, 1 hour, and 1 day. If not specified, the default resolution is 1 hour.
 
-This endpoint returns data in JSON format by default.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_highways_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the downloads page.
+
 ## Parameters
 Freeway Data takes the following Parameters
 
