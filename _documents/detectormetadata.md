@@ -41,4 +41,4 @@ detectorid,stationid,highwayid,milepost,detectortitle,lanenumber,agency_lane,act
 101763,10347,612,0.0,101763,5,2,"{""lower"": ""2015-09-16"", ""upper"": null, ""bounds"": ""[)""}"
 ```
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02
