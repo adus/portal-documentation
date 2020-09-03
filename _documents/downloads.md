@@ -1,13 +1,15 @@
 ---
 title: "Downloads"
 ---
-In addition to being able to download data from each page in PORTAL, the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page provides the opportunity to download data over longer time frames, multiple locations, or both.  The data available through the downloads page is the same as is available through the API.
+In addition to being able to download data from each page in PORTAL, the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page provides the opportunity to download data over longer time frames, multiple locations, or both.
 
 <details><summary>Highways Data</summary>
 <p>
 
 ## Highways
 Highway data can be downloaded from this section by selecting the start and end date of interest, days of week, format, highway of interest, and temporal resolution. Multiple highway sections can be downloaded at once by holding the ctrl key and clicking on the desired highway in the Highway menu.
+
+This data is returned both by the Highways download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal website, and by the [_/highways/api/freewaydata_]({{ site.url }}{{ site.baseurl }}/documents/freewaydata/ endpoint of the API.
 
 The following data are provided:
 
@@ -29,8 +31,10 @@ In order to calculate distance traveled, divide `vmt` by `volume`.
 
 A tutorial on using the Highways function can be found [_here_]({{ site.url }}{{ site.baseurl }}/documents/highways/).
 
-## Stations metadata
+## Stations Metadata
 Information on the individual stations in the network can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
+
+This data is returned both by the Stations Metadata download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal website, and by the [_/highways/api/stationmetadata_]({{ site.url }}{{ site.baseurl }}/documents/stationmetadata endpoint of the API.
 
 The following data are provided:
 
@@ -49,8 +53,10 @@ The following data are provided:
 
 An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
-## Detector metadata
+## Detector Metadata
 Information on the individual detectors at each station can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
+
+This data is returned both by the Detector Metadata download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal website, and by the [_/highways/api/stationmetadata_]({{ site.url }}{{ site.baseurl }}/documents/detectormetadata/ endpoint of the API.
 
 The following data are provided:
 
@@ -67,8 +73,10 @@ The following data are provided:
 
 An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
 
-## Highways metadata
+## Highways Metadata
 Information on the highways in the system can be downloaded from this section.
+
+This data is returned both by the Highways Metadata download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/highways/api/highwaymetadata_]({{ site.url }}{{ site.baseurl }}/documents/highwaymetadata/ endpoint of the API.
 
 The following data are provided:
 
@@ -86,7 +94,10 @@ The following data are provided:
 <details><summary>Travel Time Data</summary>
 <p>
 
-## Aggregated travel time
+## Aggregated Travel Time
+
+This data is returned both by the Aggregated Travel Time download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/aggregatedsegmentcalcs_]({{ site.url }}{{ site.baseurl }}/documents/aggregatedsegmentcalcs/ endpoint of the API.
+
 The following data are provided:
 
 | Name                | Description                                                    | Type                           | Example                   |
@@ -98,7 +109,10 @@ The following data are provided:
 | segment_id          | Unique ID, used to join with segment inventory metadata        | Integer                        | 2264                      |
 | starttime           | Start time of chosen resolution                                | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
 
-## Raw travel time
+## Raw Travel Time
+
+This data is returned both by the Raw Travel Time download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/segmentcalc_]({{ site.url }}{{ site.baseurl }}/documents/segmentcalc/ endpoint of the API.
+
 The following data are provided:
 
 | Name                               | Description                                                    | Type                           | Example                          |
@@ -114,7 +128,9 @@ The following data are provided:
 | std_deviation_filter_value         |                                                                | Float                          | 625.985307791092                 |
 
 
-## Travel time segment inventory
+## Travel Time Segment Inventory
+This data is returned both by the Travel Time Segment Inventory download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/ endpoint of the API.
+
 The following data are provided:
 
 | Name                          | Description                                                    | Type    | Example                             |
@@ -138,7 +154,9 @@ The following data are provided:
 | station_id                    | Agency given name or ID value, null if none issued             | Integer | null                                |
 | use_standard_deviation_filter |                                                                | Boolean | true                                |
 
-## Travel time DCU inventory
+## Travel Time DCU Inventory
+This data is returned both by the Travel Time DCU Inventory download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/dcuinventory_]({{ site.url }}{{ site.baseurl }}/documents/dcuinventory/ endpoint of the API.
+
 The following data are provided:
 
 | Name               | Description                                                     | Type    | Example                |
@@ -164,6 +182,8 @@ The following data are provided:
 <p>
   
 ## Aggregated CLS
+This data is returned both by the Aggregated CLS Data download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/freight/api/aggregatedbindata_]({{ site.url }}{{ site.baseurl }}/documents/aggregatedbindata/ endpoint of the API.
+
 The following data are provided:
 
 | Name               | Description                                                        | Type                           | Example                   |
@@ -191,6 +211,8 @@ Bin Number Classifications:
 More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/)
 
 ## Voyage Volume
+This data is returned both by the Voyage Volume download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/arterial/api/voyagevolume_]({{ site.url }}{{ site.baseurl }}/documents/freewaydata/ endpoint of the API.
+
 The following data are provided:
 
 | Name               | Description                                                        | Type                           | Example                   |
@@ -232,6 +254,8 @@ The following data are provided:
 | detector_32_volume |                                                                    | Integer                        | 0                         |
 
 ## Transit Quarterly Data
+This data is returned both by the Transit Quarterly Data download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/transit/downloadquarterlydata_]({{ site.url }}{{ site.baseurl }}/documents/downloadquarterlydata/ endpoint of the API.
+
 The data is returned as a Zipped CSV file.  The data provided in the CSV file are as follows.
 
 | Name               | Description                                                            | Type                           | Example                   |
@@ -255,4 +279,4 @@ The data is returned as a Zipped CSV file.  The data provided in the CSV file ar
 
 
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02
