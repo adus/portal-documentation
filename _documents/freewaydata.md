@@ -40,4 +40,4 @@ starttime,resolution,detector_id,speed,volume,occupancy,countreadings,delay,trav
 
 ```
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02
