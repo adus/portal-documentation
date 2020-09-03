@@ -3,7 +3,7 @@ title: "Station Metadata"
 ---
 The _/highways/api/stationmetadata_ endpoint returns station data for each individual station in the network. This information can be constrained within a date range through the use of the `start_date` and `end_date` parameters.
 
-This endpoint returns data in JSON format by default.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Stations Metaadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the downloads page.
 
 ## Parameters
 Stations Metadata takes the following Parameters
