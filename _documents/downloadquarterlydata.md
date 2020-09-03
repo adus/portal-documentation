@@ -1,7 +1,7 @@
 ---
 title: "Download Quarterly Data"
 ---
-This call will return a quarterly Trimet ridership report.  The data is returned as a zipped CSV; no alternative formats are available via the API call.
+The _/transit/downloadquarterlydata_ endpoint returns a quarterly Trimet ridership report.  The data is returned as a zipped CSV; no alternative formats are available via the API call.
 
 An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Transit Quarterly Data_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Other Download Categories dropdown menu on the downloads page.
 
