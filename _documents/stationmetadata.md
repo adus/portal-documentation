@@ -35,4 +35,4 @@ stationid,highwayid,milepost,locationtext,length,numberlanes,agencyid,x_coord,y_
 1075,10,4.35,Scholls Ferry (2R332) to SB OR 217,0.805,,18,-122.7847,45.45004,"{""lower"": ""2012-03-01"", ""upper"": null, ""bounds"": ""[)""}"
 ```
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02
