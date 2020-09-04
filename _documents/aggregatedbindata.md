@@ -1,14 +1,14 @@
 ---
-title: "Aggregated Bin Data"
+title: "Vehicle Length (Freight)"
 ---
-The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four 'bins'.  a table of the different bin lengths can be found in the [_Other Download Categories_]({{ site.url }}{{ site.baseurl }}/documents/downloads) dropdown menu on the downloads page.  The `stationid` parameter corresponds to each station's unique station ID. These are viewable by making a call to the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
+The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four 'bins'.  A table of the different bin lengths can be found in the [_Other Download Categories_]({{ site.url }}{{ site.baseurl }}/documents/downloads) dropdown menu on the downloads page.  The `stationid` parameter corresponds to each station's unique station ID. These are viewable by making a call to the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
 
 Due to the quantity of data available, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
-This endpoint returns data in JSON format by default.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Other Download Categories dropdown menu on the downloads page.
 
 ## Parameters
-Aggregated Bin Data takes the following Parameters:
+This endpoint takes the following Parameters:
 
 | Name          | Required  | Description                                        | Type               | Example      |
 | ------------- | --------- | -------------------------------------------------- | ------------------ | ------------ |
@@ -45,4 +45,4 @@ aggregated_records,bin_count,bin_number,bin_resolution,bin_time,bin_type,id,lane
 28,0,4,00:15:00,2019-07-10T00:00:00-07:00,length,938255095,3,54
 ```
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02

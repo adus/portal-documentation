@@ -3,7 +3,8 @@ title: "Data Collection Unit Inventory"
 ---
 The _/traveltime/api/dcuinventory_ end point returns data collection unit information for each unit in the network.
 
-This endpoint returns data in JSON format by default.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Travel Time DCU Inventory_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time DCU Inventory dropdown menu on the downloads page.
+
 
 ## Parameters
 Detector Metadata takes the following Parameters
@@ -39,4 +40,4 @@ True,555,SW Macadam Ave at SW Bancroft St,-122.67298,45.49319,Point,Macad,45.493
 True,524,TV Hwy at Cedar Hills Blvd,-122.8108,45.48825,Point,TVH,45.48825,Intersection,0.0,0.0,Wash Co,1
 ```
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02

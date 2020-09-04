@@ -1,5 +1,5 @@
 ---
-title: "Aggregated Segment Calcs"
+title: "Aggregated Travel Time"
 ---
 The _/traveltime/api/aggregatedsegmentcalcs_ endpoint returns aggregated travel time and count readings for one or more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. A list of valid segment IDs can be obtained by making a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
 
@@ -7,7 +7,7 @@ Due to the quantity of data in the database, API calls to this endpoint must be 
 
 Valid resolutions for this endpoint are 5 minutes and 1 hour. If not specified, the default resolution is 5 minutes.
 
-This endpoint returns data in JSON format by default.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Aggregated Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the downloads page.
 
 ## Parameters
 Aggregated Segment Calcs takes the following parameters:
@@ -47,4 +47,4 @@ average_travel_time,countreadings,id,resolution,segment_id,starttime
 ,0,2387190397,00:05:00,2264,2019-07-10T01:20:00-07:00
 ```
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02

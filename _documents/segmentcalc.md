@@ -1,11 +1,11 @@
 ---
-title: "Segment Calc"
+title: "Raw Travel Time"
 ---
 The _/traveltime/api/segmentcalc_ endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment or segments returned are specified by passing the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
 
 Due to the quantity of data available, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
-This endpoint returns data in JSON format by default.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Raw Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the downloads page.
 
 ## Parameters
 Segment Calc takes the following parameters:
@@ -43,4 +43,4 @@ below_min_filter,calc_confidence_interval,calc_variance,exceeded_max_filter,segm
 ,,,,2019-07-10T02:07:56.993000-07:00,2264,,,
 0,252.93178070425998,22982.808529945556,0,2019-07-10T15:44:10.437000-07:00,2264,687,10,868.6713802022657
 ```
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02

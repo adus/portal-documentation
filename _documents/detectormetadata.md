@@ -3,7 +3,7 @@ title: "Detector Metadata"
 ---
 The _/highways/api/detectormetadata_ end point returns station data for each individual detector in the network, sorted by station number. This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters; applying this constraint will return only stations active within that range of dates.
 
-This endpoint returns data in JSON format by default.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Detector Metadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the downloads page.
 
 ## Parameters
 Detector Metadata takes the following Parameters
@@ -41,4 +41,4 @@ detectorid,stationid,highwayid,milepost,detectortitle,lanenumber,agency_lane,act
 101763,10347,612,0.0,101763,5,2,"{""lower"": ""2015-09-16"", ""upper"": null, ""bounds"": ""[)""}"
 ```
 
-Last Updated: 2020-08-17
+Last Updated: 2020-09-02
