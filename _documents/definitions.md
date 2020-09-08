@@ -29,7 +29,7 @@ _**Stations Page: Travel Time:**_ Travel time in minutes observed for the influe
 
 _**Stations Page: Delay:**_ The delay in minutes observed at the detector for the selected time period. Delay is calculated using the influence area (see below) of the detector and the observed average speed at the detector. Delay assumes 60 mph as the free flow speed. Delay is calculated as ((influence_area/speed)-(influence_area/free_flow_speed));
 
-_**Travel Time Page: Travel Time**_ The travel times reported on the Travel Time Page are taken from multiple data sources. Freeway travel times are calculated based on point speeds observed at loop and radar detectors. Travel time for an individual detector is calculated using the influence area of a detector and the speed observed at that detector as described in the calculation for the Travel Time for the Stations page above. Arterial travel time is calculated by matching readings from bluetooth devices deployed along the arterial. To get the travel time for a set of segments, the travel times for the individual (small) segments are summed.
+_**Travel Time Page: Travel Time**_ The travel times reported on the Travel Time Page are taken from multiple data sources. Freeway travel times are calculated based on point speeds observed at loop and radar detectors. Travel time for an individual detector is calculated using the influence area of a detector (defined below) and the speed observed at that detector as described in the calculation for the Travel Time for the Stations page above. Arterial travel time is calculated by matching readings from bluetooth devices deployed along the arterial. To get the travel time for a set of segments, the travel times for the individual (small) segments are summed.
       
 _**General: Influence Area**_
 The influence area of a detector is calculated using the midpoint method. That is the influence area of a detector is the region that lies between the midpoint between the detector and the nearest upstream detector and the midpoint between the detector and the the hearest downstream detector.
@@ -37,3 +37,5 @@ The influence area of a detector is calculated using the midpoint method. That i
 _**General: FHWA Documentation**_  
 Documentation produced for the Multi Modal Data Set Clean-up for Portland Oregon Metropolitan Region project done for FHWA in 2012. The document is dated, but still contains valuable information. 
 [FHWA Documentation](https://portal.its.pdx.edu/static/files/fhwa/Freeway%20Data%20Documentation.pdf)
+
+Last Changed 09-08-2020
