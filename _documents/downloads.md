@@ -51,7 +51,7 @@ The following data are provided:
 | y_coord      | Latitude of station                                                           | Float   | 45.50622                             |
 | active_dates | Provided as a set of key: value pairs; lower indicates the initial active date of the station, upper indicates the date the station was deactivated | String | {""lower"": ""2014-04-29"", ""upper"": null, ""bounds"": ""[)""} |
 
-An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
+An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/).
 
 ## Detector Metadata
 Information on the individual detectors at each station can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
@@ -71,7 +71,7 @@ The following data are provided:
 | agency_lane   | Agency issued lane number, where 1 is leftmost lane for ODOT, rightmost lane for WSDOT | Integer           | 1                    |
 | active_dates  | Provided as a set of key: value pairs; lower indicates the initial active date of the station, upper indicates the date the station was deactivated | String | {""lower"": ""2017-04-06"", ""upper"": null, ""bounds"": ""[)""} |
 
-An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
+An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/).
 
 ## Highways Metadata
 Information on the highways in the system can be downloaded from this section.
@@ -109,6 +109,8 @@ The following data are provided:
 | segment_id          | Unique ID, used to join with segment inventory metadata        | Integer                        | 2264                      |
 | starttime           | Start time of chosen resolution                                | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
 
+Some additional clarification for how travel times are calculated and used can be found on the[_Definitions_]({{ site.url }}{{ site.baseurl }}/documents/definitions/) page, under the Travel Time Page: Travel Time and General: Influence Area headers.
+
 ## Raw Travel Time
 
 This data is returned both by the Raw Travel Time download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/segmentcalc_]({{ site.url }}{{ site.baseurl }}/documents/segmentcalc/) endpoint of the API.
@@ -127,6 +129,7 @@ The following data are provided:
 | std_deviation_calc_samples_removed |                                                                | Integer                        | 3                                |
 | std_deviation_filter_value         |                                                                | Float                          | 625.985307791092                 |
 
+Some additional clarification for how travel times are calculated and used can be found on the[_Definitions_]({{ site.url }}{{ site.baseurl }}/documents/definitions/) page, under the Travel Time Page: Travel Time and General: Influence Area headers.
 
 ## Travel Time Segment Inventory
 This data is returned both by the Travel Time Segment Inventory download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint of the API.
@@ -208,7 +211,7 @@ Bin Number Classifications:
 |        3  |     35-60 ft.  |
 |        4  |    60-120 ft.  |
 
-More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/)
+More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/).
 
 ## Voyage Volume
 This data is returned both by the Voyage Volume download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/arterial/api/voyagevolume_]({{ site.url }}{{ site.baseurl }}/documents/freewaydata/) endpoint of the API.
