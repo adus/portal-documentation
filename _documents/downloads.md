@@ -166,8 +166,8 @@ The following data are provided:
 | -------------------| --------------------------------------------------------------- | ------- | ---------------------- |
 | active             | Indicator of whether the detector is active in the system       | Boolean | true                   |
 | location_type      | Intersection or free flowing traffic                            | String  | Intersection           |
-| dcu_id             | Unique ID value; if preceded by ```-```, if location_type is Free Flowing Traffic. | Integer | 556 |
-| dcu_name           | Name of intersection, if location_type is intersection. Numeric, matching dcu_id, with name appended if free flowing traffic | String | SW Beaverton Hillsdale Hwy at SW Capitol Hwy |
+| dcu_id             | Unique ID value; if preceded by ```-```, if location_type is free flowing traffic | Integer | 556 |
+| dcu_name           | Name of intersection, if location_type is intersection. Numeric, matching dcu_id, with name appended if location_type is free flowing fraffic | String | SW Beaverton Hillsdale Hwy at SW Capitol Hwy |
 | geom.type          | Always Point, allowing for coordinate values.                   | String  | Point                  |
 | geom.coordinates.0 | The longitude of the Point specifying the DCU                   | Float   | -122.69778             |
 | geom.coordinates.1 | The latitude of the Point specifying the DCU                    | Float   | 45.47809               |
@@ -218,43 +218,43 @@ This data is returned both by the Voyage Volume download form on the [_Downloads
 
 The following data are provided:
 
-| Name               | Description                                                        | Type                           | Example                   |
-| ------------------ | ------------------------------------------------------------------ | ------------------------------ | ------------------------- |
-| controller_id      |                                                                    | Integer                        | 4258                      |
-| logtime            |                                                                    | Date and Time Formatted String | 2017-01-03T00:07:00-08:00 |
-| period             |                                                                    | Integer                        | 15                        |
-| detector_1_volume  |                                                                    | Integer                        | 0                         |
-| detector_2_volume  |                                                                    | Integer                        | 0                         |
-| detector_3_volume  |                                                                    | Integer                        | 0                         |
-| detector_4_volume  |                                                                    | Integer                        | 0                         |
-| detector_5_volume  |                                                                    | Integer                        | 5                         |
-| detector_6_volume  |                                                                    | Integer                        | 3                         |
-| detector_7_volume  |                                                                    | Integer                        | 0                         |
-| detector_8_volume  |                                                                    | Integer                        | 0                         |
-| detector_9_volume  |                                                                    | Integer                        | 4                         |
-| detector_10_volume |                                                                    | Integer                        | 4                         |
-| detector_11_volume |                                                                    | Integer                        | 0                         |
-| detector_12_volume |                                                                    | Integer                        | 0                         |
-| detector_13_volume |                                                                    | Integer                        | 0                         |
-| detector_14_volume |                                                                    | Integer                        | 0                         |
-| detector_15_volume |                                                                    | Integer                        | 0                         |
-| detector_16_volume |                                                                    | Integer                        | 0                         |
-| detector_17_volume |                                                                    | Integer                        | 0                         |
-| detector_18_volume |                                                                    | Integer                        | 0                         |
-| detector_19_volume |                                                                    | Integer                        | 1                         |
-| detector_20_volume |                                                                    | Integer                        | 1                         |
-| detector_21_volume |                                                                    | Integer                        | 1                         |
-| detector_22_volume |                                                                    | Integer                        | 0                         |
-| detector_23_volume |                                                                    | Integer                        | 0                         |
-| detector_24_volume |                                                                    | Integer                        | 2                         |
-| detector_25_volume |                                                                    | Integer                        | 3                         |
-| detector_26_volume |                                                                    | Integer                        | 0                         |
-| detector_27_volume |                                                                    | Integer                        | 0                         |
-| detector_28_volume |                                                                    | Integer                        | 0                         |
-| detector_29_volume |                                                                    | Integer                        | 0                         |
-| detector_30_volume |                                                                    | Integer                        | 0                         |
-| detector_31_volume |                                                                    | Integer                        | 0                         |
-| detector_32_volume |                                                                    | Integer                        | 0                         |
+| Name               | Description                            | Type                                                               | Example                   |
+| ------------------ | -------------------------------------- | ------------------------------------------------------------------ | ------------------------- |
+| controller_id      | ID value of detector controller        | Integer                                                            | 4258                      |
+| logtime            | Time slice of requested date range     | Date and Time Formatted String, including Start and End timestamps | 2017-01-03T00:07:00-08:00 |
+| period             | Temporal Resolution in minutes - Data is currently only returned in 15 minute intervals | Integer           | 15                        |
+| detector_1_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_2_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_3_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_4_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_5_volume  | Volume recorded by individual detector | Integer                                                            | 5                         |
+| detector_6_volume  | Volume recorded by individual detector | Integer                                                            | 3                         |
+| detector_7_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_8_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_9_volume  | Volume recorded by individual detector | Integer                                                            | 4                         |
+| detector_10_volume | Volume recorded by individual detector | Integer                                                            | 4                         |
+| detector_11_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_12_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_13_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_14_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_15_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_16_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_17_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_18_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_19_volume | Volume recorded by individual detector | Integer                                                            | 1                         |
+| detector_20_volume | Volume recorded by individual detector | Integer                                                            | 1                         |
+| detector_21_volume | Volume recorded by individual detector | Integer                                                            | 1                         |
+| detector_22_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_23_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_24_volume | Volume recorded by individual detector | Integer                                                            | 2                         |
+| detector_25_volume | Volume recorded by individual detector | Integer                                                            | 3                         |
+| detector_26_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_27_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_28_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_29_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_30_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_31_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_32_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
 
 ## Transit Quarterly Data
 This data is returned both by the Transit Quarterly Data download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/transit/downloadquarterlydata_]({{ site.url }}{{ site.baseurl }}/documents/downloadquarterlydata/) endpoint of the API.
@@ -264,11 +264,11 @@ The data is returned as a Zipped CSV file.  The data provided in the CSV file ar
 | Name               | Description                                                            | Type                           | Example                   |
 | ------------------ | ---------------------------------------------------------------------- | ------------------------------ | ------------------------- |
 | summary_begin_date | The start date of the fiscal quarter requested                         | Date and Time Formatted String | 02DEC2018:00:00:00        |
-| route_number       | Trimet bus route number                                                | Integer                        | 2                         |
+| route_number       | TriMet bus route number                                                | Integer                        | 2                         |
 | direction          | 0 if departing from route origin, 1 if returning to route origin       | Integer                        | 0                         |
 | service_key        |                                                                        | String                         | S                         |
 | stop               | Number of stops made on route                                          | Integer                        | 100                       |
-| location_id        |                                                                        | Integer                        | 9301                      |
+| location_id        | TriMet stop ID number                                                  | Integer                        | 9301                      |
 | ons                | Number of riders embarking                                             | Integer                        | 121                       |
 | offs               | Number of riders disembarking                                          | Integer                        | 2                         |
 | total              | Aggregate of ons and offs                                              | Integer                        | 123                       |
@@ -282,4 +282,4 @@ The data is returned as a Zipped CSV file.  The data provided in the CSV file ar
 
 
 
-Last Updated: 2020-09-02
+Last Updated: 2020-09-16
