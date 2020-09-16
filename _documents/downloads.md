@@ -21,7 +21,7 @@ The following data are provided:
 | speed         | Average speed of vehicles passing the detector                                      | Float                      | 59.0                        |
 | volume        | Number of vehicles per hour which pass the detector                                 | Integer                    | 16                          |
 | occupancy     | Percentage of time cars are being detected                                          | Float                      | .88                         |
-| countreadings |                                                                                     | Integer                    | 28                          |
+| countreadings | Sample Size                                                                         | Integer                    | 28                          |
 | delay         | Vehicle Hours Traveled, minus the time it would take a vehicle to travel at the maximum permitted speed on a segment | Float     | 0.01        |
 | traveltime    | The average amount of time for a vehicle to travel through a segment                | Float                      | 0.4                         |
 | vht           | Vehicle Hours Traveled - the total hours traveled within a segment by all vehicles  | Float                      | 0.11                        |
