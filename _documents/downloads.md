@@ -122,11 +122,11 @@ The following data are provided:
 | below_min_filter                   |                                                                | Integer                        | 0                                |
 | calc_confidence_interval           |                                                                | Float                          | 47.62680841791146                |
 | calc_variance                      |                                                                | Float                          | 1910.7777233115469               |
-| exceeded_max_filter                |                                                                | Integer                        | 0                                |
+| exceeded_max_filter                | Number of returned data points which exceeded the max filter for the segment | Integer          | 0                                |
 | segment_calc_time                  |                                                                | Date and Time Formatted String | 2019-07-15T08:10:13.870000-07:00 |
-| segment_id                         |                                                                | Integer                        | 2264                             |
+| segment_id                         | Unique ID of Highway Segment                                   | Integer                        | 2264                             |
 | segment_travel_time                |                                                                | Integer                        | 250                              |
-| std_deviation_calc_samples_removed |                                                                | Integer                        | 3                                |
+| std_deviation_calc_samples_removed | Number of samples removed from the data prior to return        | Integer                        | 3                                |
 | std_deviation_filter_value         |                                                                | Float                          | 625.985307791092                 |
 
 Some additional clarification for how travel times are calculated and used can be found on the[_Definitions_]({{ site.url }}{{ site.baseurl }}/documents/definitions/) page, under the Travel Time Page: Travel Time and General: Influence Area headers.
@@ -151,8 +151,8 @@ The following data are provided:
 | segment_minimum_filter        |                                                                | Integer | 10                                  |
 | segment_name                  | Name of Segment                                                | String  | Powell Blvd EB at SE 8th to SE 33rd |
 | segment_type                  |                                                                | Integer | 1                                   |
-| source_system                 |                                                                | String  | TravelTime                          |
-| standard_deviation_multiplier |                                                                | Float   | 1.65                                |
+| source_system                 | TravelTime, DAC (Data Acquisition Component), ATMS, or null    | String  | TravelTime                          |
+| standard_deviation_multiplier | The multiplier used in calculating standard deviation - typically 1.65 or 1.96 | Float   | 1.65                |
 | standard_deviation_samples    |                                                                | Integer | 30                                  |
 | station_id                    | Agency given name or ID value, null if none issued             | Integer | null                                |
 | use_standard_deviation_filter |                                                                | Boolean | true                                |
