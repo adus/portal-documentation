@@ -293,7 +293,7 @@ defaults:
       related: true
   # _documents
   - scope:
-      path: "" # was _documents
+      path: "_documents"
       type: documents
     values:
       layout: single
