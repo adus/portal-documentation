@@ -50,11 +50,10 @@
     font-weight: bold;
   }
 }
-
 /*
      Post pagination navigation links
      ========================================================================== */
-/* # fix
+
 .pagination {
   @include clearfix();
   float: left;
@@ -168,7 +167,6 @@
   padding-top: 2em;
   border-top: 1px solid $border-color;
 }
-*/
 
 /*
      Priority plus navigation
