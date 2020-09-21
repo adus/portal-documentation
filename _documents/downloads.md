@@ -21,7 +21,7 @@ The following data are provided:
 | speed         | Average speed of vehicles passing the detector                                      | Float                      | 59.0                        |
 | volume        | Number of vehicles per hour which pass the detector                                 | Integer                    | 16                          |
 | occupancy     | Percentage of time cars are being detected                                          | Float                      | .88                         |
-| countreadings |                                                                                     | Integer                    | 28                          |
+| countreadings | Sample Size                                                                         | Integer                    | 28                          |
 | delay         | Vehicle Hours Traveled, minus the time it would take a vehicle to travel at the maximum permitted speed on a segment | Float     | 0.01        |
 | traveltime    | The average amount of time for a vehicle to travel through a segment                | Float                      | 0.4                         |
 | vht           | Vehicle Hours Traveled - the total hours traveled within a segment by all vehicles  | Float                      | 0.11                        |
@@ -51,7 +51,7 @@ The following data are provided:
 | y_coord      | Latitude of station                                                           | Float   | 45.50622                             |
 | active_dates | Provided as a set of key: value pairs; lower indicates the initial active date of the station, upper indicates the date the station was deactivated | String | {""lower"": ""2014-04-29"", ""upper"": null, ""bounds"": ""[)""} |
 
-An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
+An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/).
 
 ## Detector Metadata
 Information on the individual detectors at each station can be downloaded from this section; the `highwayid` attribute is used to join these values to Highways and Highway Metadata. The `stationid` attribute can be used to join these values to Detector Metadata.
@@ -71,7 +71,7 @@ The following data are provided:
 | agency_lane   | Agency issued lane number, where 1 is leftmost lane for ODOT, rightmost lane for WSDOT | Integer           | 1                    |
 | active_dates  | Provided as a set of key: value pairs; lower indicates the initial active date of the station, upper indicates the date the station was deactivated | String | {""lower"": ""2017-04-06"", ""upper"": null, ""bounds"": ""[)""} |
 
-An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/)
+An interactive map of all the stations in the network can be viewed [_here_]({{ site.url }}{{ site.baseurl }}/documents/stations/).
 
 ## Highways Metadata
 Information on the highways in the system can be downloaded from this section.
@@ -109,6 +109,8 @@ The following data are provided:
 | segment_id          | Unique ID, used to join with segment inventory metadata        | Integer                        | 2264                      |
 | starttime           | Start time of chosen resolution                                | Date and Time Formatted String | 2019-07-10T00:00:00-07:00 |
 
+Some additional clarification for how travel times are calculated and used can be found on the[_Definitions_]({{ site.url }}{{ site.baseurl }}/documents/definitions/) page, under the Travel Time Page: Travel Time and General: Influence Area headers.
+
 ## Raw Travel Time
 
 This data is returned both by the Raw Travel Time download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/segmentcalc_]({{ site.url }}{{ site.baseurl }}/documents/segmentcalc/) endpoint of the API.
@@ -120,13 +122,14 @@ The following data are provided:
 | below_min_filter                   |                                                                | Integer                        | 0                                |
 | calc_confidence_interval           |                                                                | Float                          | 47.62680841791146                |
 | calc_variance                      |                                                                | Float                          | 1910.7777233115469               |
-| exceeded_max_filter                |                                                                | Integer                        | 0                                |
+| exceeded_max_filter                | Number of returned data points which exceeded the max filter for the segment | Integer          | 0                                |
 | segment_calc_time                  |                                                                | Date and Time Formatted String | 2019-07-15T08:10:13.870000-07:00 |
-| segment_id                         |                                                                | Integer                        | 2264                             |
+| segment_id                         | Unique ID of Highway Segment                                   | Integer                        | 2264                             |
 | segment_travel_time                |                                                                | Integer                        | 250                              |
-| std_deviation_calc_samples_removed |                                                                | Integer                        | 3                                |
+| std_deviation_calc_samples_removed | Number of samples removed from the data prior to return        | Integer                        | 3                                |
 | std_deviation_filter_value         |                                                                | Float                          | 625.985307791092                 |
 
+Some additional clarification for how travel times are calculated and used can be found on the[_Definitions_]({{ site.url }}{{ site.baseurl }}/documents/definitions/) page, under the Travel Time Page: Travel Time and General: Influence Area headers.
 
 ## Travel Time Segment Inventory
 This data is returned both by the Travel Time Segment Inventory download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/traveltime/api/seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint of the API.
@@ -148,8 +151,8 @@ The following data are provided:
 | segment_minimum_filter        |                                                                | Integer | 10                                  |
 | segment_name                  | Name of Segment                                                | String  | Powell Blvd EB at SE 8th to SE 33rd |
 | segment_type                  |                                                                | Integer | 1                                   |
-| source_system                 |                                                                | String  | TravelTime                          |
-| standard_deviation_multiplier |                                                                | Float   | 1.65                                |
+| source_system                 | TravelTime, DAC (Data Acquisition Component), ATMS, or null    | String  | TravelTime                          |
+| standard_deviation_multiplier | The multiplier used in calculating standard deviation - typically 1.65 or 1.96 | Float   | 1.65                |
 | standard_deviation_samples    |                                                                | Integer | 30                                  |
 | station_id                    | Agency given name or ID value, null if none issued             | Integer | null                                |
 | use_standard_deviation_filter |                                                                | Boolean | true                                |
@@ -163,8 +166,8 @@ The following data are provided:
 | -------------------| --------------------------------------------------------------- | ------- | ---------------------- |
 | active             | Indicator of whether the detector is active in the system       | Boolean | true                   |
 | location_type      | Intersection or free flowing traffic                            | String  | Intersection           |
-| dcu_id             | Unique ID value; if preceded by ```-```, if location_type is Free Flowing Traffic. | Integer | 556 |
-| dcu_name           | Name of intersection, if location_type is intersection. Numeric, matching dcu_id, with name appended if free flowing traffic | String | SW Beaverton Hillsdale Hwy at SW Capitol Hwy |
+| dcu_id             | Unique ID value; if preceded by ```-```, if location_type is free flowing traffic | Integer | 556 |
+| dcu_name           | Name of intersection, if location_type is intersection. Numeric, matching dcu_id, with name appended if location_type is free flowing fraffic | String | SW Beaverton Hillsdale Hwy at SW Capitol Hwy |
 | geom.type          | Always Point, allowing for coordinate values.                   | String  | Point                  |
 | geom.coordinates.0 | The longitude of the Point specifying the DCU                   | Float   | -122.69778             |
 | geom.coordinates.1 | The latitude of the Point specifying the DCU                    | Float   | 45.47809               |
@@ -208,50 +211,50 @@ Bin Number Classifications:
 |        3  |     35-60 ft.  |
 |        4  |    60-120 ft.  |
 
-More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/)
+More information about Vehicle Length data can be seen [_here._]({{ site.url }}{{ site.baseurl }}/documents/freight/).
 
 ## Voyage Volume
 This data is returned both by the Voyage Volume download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/arterial/api/voyagevolume_]({{ site.url }}{{ site.baseurl }}/documents/freewaydata/) endpoint of the API.
 
 The following data are provided:
 
-| Name               | Description                                                        | Type                           | Example                   |
-| ------------------ | ------------------------------------------------------------------ | ------------------------------ | ------------------------- |
-| controller_id      |                                                                    | Integer                        | 4258                      |
-| logtime            |                                                                    | Date and Time Formatted String | 2017-01-03T00:07:00-08:00 |
-| period             |                                                                    | Integer                        | 15                        |
-| detector_1_volume  |                                                                    | Integer                        | 0                         |
-| detector_2_volume  |                                                                    | Integer                        | 0                         |
-| detector_3_volume  |                                                                    | Integer                        | 0                         |
-| detector_4_volume  |                                                                    | Integer                        | 0                         |
-| detector_5_volume  |                                                                    | Integer                        | 5                         |
-| detector_6_volume  |                                                                    | Integer                        | 3                         |
-| detector_7_volume  |                                                                    | Integer                        | 0                         |
-| detector_8_volume  |                                                                    | Integer                        | 0                         |
-| detector_9_volume  |                                                                    | Integer                        | 4                         |
-| detector_10_volume |                                                                    | Integer                        | 4                         |
-| detector_11_volume |                                                                    | Integer                        | 0                         |
-| detector_12_volume |                                                                    | Integer                        | 0                         |
-| detector_13_volume |                                                                    | Integer                        | 0                         |
-| detector_14_volume |                                                                    | Integer                        | 0                         |
-| detector_15_volume |                                                                    | Integer                        | 0                         |
-| detector_16_volume |                                                                    | Integer                        | 0                         |
-| detector_17_volume |                                                                    | Integer                        | 0                         |
-| detector_18_volume |                                                                    | Integer                        | 0                         |
-| detector_19_volume |                                                                    | Integer                        | 1                         |
-| detector_20_volume |                                                                    | Integer                        | 1                         |
-| detector_21_volume |                                                                    | Integer                        | 1                         |
-| detector_22_volume |                                                                    | Integer                        | 0                         |
-| detector_23_volume |                                                                    | Integer                        | 0                         |
-| detector_24_volume |                                                                    | Integer                        | 2                         |
-| detector_25_volume |                                                                    | Integer                        | 3                         |
-| detector_26_volume |                                                                    | Integer                        | 0                         |
-| detector_27_volume |                                                                    | Integer                        | 0                         |
-| detector_28_volume |                                                                    | Integer                        | 0                         |
-| detector_29_volume |                                                                    | Integer                        | 0                         |
-| detector_30_volume |                                                                    | Integer                        | 0                         |
-| detector_31_volume |                                                                    | Integer                        | 0                         |
-| detector_32_volume |                                                                    | Integer                        | 0                         |
+| Name               | Description                            | Type                                                               | Example                   |
+| ------------------ | -------------------------------------- | ------------------------------------------------------------------ | ------------------------- |
+| controller_id      | ID value of detector controller        | Integer                                                            | 4258                      |
+| logtime            | Time slice of requested date range     | Date and Time Formatted String, including Start and End timestamps | 2017-01-03T00:07:00-08:00 |
+| period             | Temporal Resolution in minutes - Data is currently only returned in 15 minute intervals | Integer           | 15                        |
+| detector_1_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_2_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_3_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_4_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_5_volume  | Volume recorded by individual detector | Integer                                                            | 5                         |
+| detector_6_volume  | Volume recorded by individual detector | Integer                                                            | 3                         |
+| detector_7_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_8_volume  | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_9_volume  | Volume recorded by individual detector | Integer                                                            | 4                         |
+| detector_10_volume | Volume recorded by individual detector | Integer                                                            | 4                         |
+| detector_11_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_12_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_13_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_14_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_15_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_16_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_17_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_18_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_19_volume | Volume recorded by individual detector | Integer                                                            | 1                         |
+| detector_20_volume | Volume recorded by individual detector | Integer                                                            | 1                         |
+| detector_21_volume | Volume recorded by individual detector | Integer                                                            | 1                         |
+| detector_22_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_23_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_24_volume | Volume recorded by individual detector | Integer                                                            | 2                         |
+| detector_25_volume | Volume recorded by individual detector | Integer                                                            | 3                         |
+| detector_26_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_27_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_28_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_29_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_30_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_31_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
+| detector_32_volume | Volume recorded by individual detector | Integer                                                            | 0                         |
 
 ## Transit Quarterly Data
 This data is returned both by the Transit Quarterly Data download form on the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) of the Portal Website, and by the [_/transit/downloadquarterlydata_]({{ site.url }}{{ site.baseurl }}/documents/downloadquarterlydata/) endpoint of the API.
@@ -261,11 +264,11 @@ The data is returned as a Zipped CSV file.  The data provided in the CSV file ar
 | Name               | Description                                                            | Type                           | Example                   |
 | ------------------ | ---------------------------------------------------------------------- | ------------------------------ | ------------------------- |
 | summary_begin_date | The start date of the fiscal quarter requested                         | Date and Time Formatted String | 02DEC2018:00:00:00        |
-| route_number       | Trimet bus route number                                                | Integer                        | 2                         |
+| route_number       | TriMet bus route number                                                | Integer                        | 2                         |
 | direction          | 0 if departing from route origin, 1 if returning to route origin       | Integer                        | 0                         |
 | service_key        |                                                                        | String                         | S                         |
 | stop               | Number of stops made on route                                          | Integer                        | 100                       |
-| location_id        |                                                                        | Integer                        | 9301                      |
+| location_id        | TriMet stop ID number                                                  | Integer                        | 9301                      |
 | ons                | Number of riders embarking                                             | Integer                        | 121                       |
 | offs               | Number of riders disembarking                                          | Integer                        | 2                         |
 | total              | Aggregate of ons and offs                                              | Integer                        | 123                       |
@@ -279,4 +282,4 @@ The data is returned as a Zipped CSV file.  The data provided in the CSV file ar
 
 
 
-Last Updated: 2020-09-02
+Last Updated: 2020-09-16
