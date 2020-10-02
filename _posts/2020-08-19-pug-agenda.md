@@ -18,4 +18,5 @@ _Description_: PORTAL has been working on developing [API documentation](https:/
 
 2:40 pm - 3:10 pm  
 _Topic_: Assessing the CO2 Reduction of E-Bikes using the EV Incentive Impact Tool  
+_Presenter_: Mike McQueen, PSU  
 _Description_: In this presentation, we demonstrate TREC's [Electric Vehicle Incentive Impact Tool](https://trec-pdx.shinyapps.io/incentive-impact-tool/) that was developed to provide quick visualization of the potential CO2 reduction outcomes and cost-efficiency of state-scale EV rebate programs. We will also discuss previous e-bike research by TREC that informed this project.  
