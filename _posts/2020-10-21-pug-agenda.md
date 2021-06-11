@@ -16,7 +16,7 @@ _Topic_: ITS and ATR data comparison
 _Presenter_: Tammy Lee, PSU  
 _Description_: Brief report and discussion regarding differences observed between ATR and ITS hourly volumes  
 
-2:30 pm - 2:40 pm
+2:30 pm - 2:40 pm  
 _Topic_: Cross agency travel time  
 _Presenter_: PSU  
 _Description_: Demo of cross agency travel time across I-5 and I-205 bridges.
