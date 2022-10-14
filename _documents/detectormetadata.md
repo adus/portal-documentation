@@ -15,7 +15,7 @@ Detector Metadata takes the following Parameters
 |  format      | No       | File format. Acceptable values are CSV or JSON | String            | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/highways/api/detectormetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
+```https://new.portal.its.pdx.edu/highways/api/detectormetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
 
 ## Example Response (CSV)
 ```
@@ -41,4 +41,4 @@ detectorid,stationid,highwayid,milepost,detectortitle,lanenumber,agency_lane,act
 101763,10347,612,0.0,101763,5,2,"{""lower"": ""2015-09-16"", ""upper"": null, ""bounds"": ""[)""}"
 ```
 
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
