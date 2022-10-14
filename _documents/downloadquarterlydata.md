@@ -19,6 +19,6 @@ The only valid value for the `agency` parameter is TriMet.
 Valid values for the `quarter` parameter conform to the pattern: `YYYY-q1-winter`, `YYYY-q2-spring`, `YYYY-q3-summer`, or `YYYY-q4-fall`.
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata?agency=trimet&quarter=2019-q3-summer```
+```https://new.portal.its.pdx.edu/transit/downloadquarterlydata?agency=trimet&quarter=2019-q3-summer```
 
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
