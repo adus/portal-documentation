@@ -21,7 +21,7 @@ Aggregated Segment Calcs takes the following parameters:
 | format       | No        | File format. Acceptable values are CSV or JSON    | String                | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/traveltime/api/aggregatedsegmentcalcs/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
+```https://new.portal.its.pdx.edu/traveltime/api/aggregatedsegmentcalcs/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
 
 ## Example Response (CSV)
 ```
@@ -47,4 +47,4 @@ average_travel_time,countreadings,id,resolution,segment_id,starttime
 ,0,2387190397,00:05:00,2264,2019-07-10T01:20:00-07:00
 ```
 
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
