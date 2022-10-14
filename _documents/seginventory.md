@@ -14,7 +14,7 @@ Detector Metadata takes the following Parameters
 |  format      | No        | File format. Acceptable values are CSV or JSON     | String | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/traveltime/api/seginventory?format=csv```
+```https://new.portal.its.pdx.edu/traveltime/api/seginventory?format=csv```
 
 ## Example Response (CSV)
 ```
