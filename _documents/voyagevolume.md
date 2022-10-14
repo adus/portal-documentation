@@ -15,7 +15,7 @@ Voyage Volume takes the following Parameters
 |  format      | No       | File format. Acceptable values are CSV or JSON     | String            | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/arterial/api/voyagevolume/?start_date=2017-01-03&end_date=2017-01-04&format=csv```
+```https://new.portal.its.pdx.edu/arterial/api/voyagevolume/?start_date=2017-01-03&end_date=2017-01-04&format=csv```
 
 ## Example Response (CSV)
 ```
@@ -41,4 +41,4 @@ controller_id,detector_10_volume,detector_11_volume,detector_12_volume,detector_
 8471,11,0,0,0,0,0,1,0,0,12,0,12,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,3,0,0,0,4,2017-01-03T00:07:00-08:00,15
 ```
 
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
