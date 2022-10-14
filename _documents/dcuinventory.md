@@ -14,7 +14,7 @@ Detector Metadata takes the following Parameters
 |  format      | No        | File format. Acceptable values are CSV or JSON     | String | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/traveltime/api/dcuinventory?format=csv```
+```https://new.portal.its.pdx.edu/traveltime/api/dcuinventory?format=csv```
 
 ## Example Response (CSV)
 ```
@@ -40,4 +40,4 @@ True,555,SW Macadam Ave at SW Bancroft St,-122.67298,45.49319,Point,Macad,45.493
 True,524,TV Hwy at Cedar Hills Blvd,-122.8108,45.48825,Point,TVH,45.48825,Intersection,0.0,0.0,Wash Co,1
 ```
 
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
