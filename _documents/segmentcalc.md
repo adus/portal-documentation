@@ -18,7 +18,7 @@ Segment Calc takes the following parameters:
 | format       | No        | File format. Acceptable values are CSV or JSON   | String                | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/traveltime/api/segmentcalc/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
+```https://new.portal.its.pdx.edu/traveltime/api/segmentcalc/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
 
 ## Example Response (CSV)
 ```
@@ -43,4 +43,4 @@ below_min_filter,calc_confidence_interval,calc_variance,exceeded_max_filter,segm
 ,,,,2019-07-10T02:07:56.993000-07:00,2264,,,
 0,252.93178070425998,22982.808529945556,0,2019-07-10T15:44:10.437000-07:00,2264,687,10,868.6713802022657
 ```
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
