@@ -15,7 +15,7 @@ Stations Metadata takes the following Parameters
 |  format      | No       | File format. Acceptable values are CSV or JSON     | String            | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/highways/api/stationmetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
+```http://new.portal.its.pdx.edu/highways/api/stationmetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
 
 ## Example Response (CSV)
 ```
@@ -35,4 +35,4 @@ stationid,highwayid,milepost,locationtext,length,numberlanes,agencyid,x_coord,y_
 1075,10,4.35,Scholls Ferry (2R332) to SB OR 217,0.805,,18,-122.7847,45.45004,"{""lower"": ""2012-03-01"", ""upper"": null, ""bounds"": ""[)""}"
 ```
 
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
