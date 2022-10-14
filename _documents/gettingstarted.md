@@ -8,7 +8,7 @@ and no token required in order to make a request.
 The base URL for the API is:
 <br />
 
-`http://new.portal.its.pdx.edu:8080/{endpoint}`
+`http://new.portal.its.pdx.edu/{endpoint}`
 <br /><br />
 
 The following endpoints may be appended to the base URL, in order to access data from specific datasets:
@@ -43,4 +43,4 @@ All data accessible via the API is also served from the API to the portal websit
 
 Additionally, many of the data attributes for each dataset are listed on the [_Downloads_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) page. The parameters for each individual API endpoint are clearly defined on the page for that endpoint.  Additionally, it's important to note that the metadata available through the ```/highways/api/stationsmetadata```, ```/highways/api/detectormetadata ```, ```/highways/api/highwaymetadata```, and ```/traveltime/api/seginventory``` endpoints is crucial to the success of making API calls for specific locations, as it contains mappings between the real locations of those objects and the unique id values which are referenced in data returned by calls to other endpoints.  This metadata is downloadable both through API calls, or via manual download from the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page on the PORTAL website.
 
-Last Edited 08-19-20
+Last Edited 2022-10-13
