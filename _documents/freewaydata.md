@@ -22,7 +22,7 @@ Freeway Data takes the following Parameters
 | format       | No       | File format. Acceptable values are CSV or JSON                         | String                | CSV          |
 
 ## Example Request
-```http://new.portal.its.pdx.edu/highways/api/freewaydata/?start_date=2020-05-10&end_date=2020-05-16&days_of_week=2&days_of_week=5&highway_id=3&format=csv```
+```https://new.portal.its.pdx.edu/highways/api/freewaydata/?start_date=2020-05-10&end_date=2020-05-16&days_of_week=2&days_of_week=5&highway_id=3&format=csv```
 
 ## Example Response (CSV)
 ```
