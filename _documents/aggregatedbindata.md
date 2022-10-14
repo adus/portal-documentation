@@ -19,7 +19,7 @@ This endpoint takes the following Parameters:
 | resolution    | No        | URL encoded time value used to divide data points  | URL Encoded String | 00%3A15%3A00 |
 
 ## Example Request
-```http://new.portal.its.pdx.edu:8080/freight/api/aggregatedbindata?start_date=2019-07-10&end_date=2019-07-11&stationid=54&format=csv```
+```https://new.portal.its.pdx.edu/freight/api/aggregatedbindata?start_date=2019-07-10&end_date=2019-07-11&stationid=54&format=csv```
 
 ## Example Response (CSV)
 ```
@@ -45,4 +45,4 @@ aggregated_records,bin_count,bin_number,bin_resolution,bin_time,bin_type,id,lane
 28,0,4,00:15:00,2019-07-10T00:00:00-07:00,length,938255095,3,54
 ```
 
-Last Updated: 2020-09-02
+Last Updated: 2022-10-13
