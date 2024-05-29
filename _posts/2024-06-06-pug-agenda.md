@@ -1,5 +1,5 @@
 ---
-title: "PUG Meeting 2024-05-02"
+title: "PUG Meeting 2024-06-06"
 tags:
   - notices
 ---

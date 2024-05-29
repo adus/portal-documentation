@@ -1,3 +1,4 @@
+---
 title: "SQL Workshop, June 17, 18, and 20 (in-person)"
 tags:
   - notices
