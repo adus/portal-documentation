@@ -8,7 +8,7 @@ Thank you for attending the September PUG meeting. Additional links and informat
 
 _Capturing and Modeling Non-motorized vehicle counts at intersections using Ultralytics YOLOv8_  
 Speaker: Allie Hopper    
-Slides found [here]({{ site.url }}{{ site.baseurl }}/assets/pdfs/2024-09-Hopper-REU-presentation.pdf)
+Slides found [here]({{ site.url }}{{ site.baseurl }}/assets/pdfs/2024-09-Hopper-REU-presentation.pdf)  
 Repository for work found [here](https://github.com/a-hopps/2024-PSU-REU)
 
 _Where do Bike/Ped Crashing Occur? (Exploring the Relationship Between Volumes, Crashes, and Speed_  
