@@ -12,4 +12,4 @@ We will be discussing the following topics:
 - Developing new performance metrics for BikePed Portal and building a new Explore+ UI  
 - Upcoming workshop  
   
-We will also have a presentation by Jiahui Ma, PhD student (PSU), __Dashboard for exploring seasonality and pedestrian data__.
+We will also have a presentation by Jiahui Ma, PhD student (PSU), _Dashboard for exploring seasonality and pedestrian data_.
