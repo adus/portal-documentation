@@ -10,8 +10,7 @@ The base URL for the API is:
 
 `https://new.portal.its.pdx.edu/{endpoint}`
 <br /><br />
-
-The following endpoints may be appended to the base URL, in order to access data from specific datasets:
+The request method for all endpoints is `GET`. The following endpoints may be appended to the base URL, in order to access data from specific datasets:
 <br />
 
 | endpoint                               | description                                         |
@@ -35,7 +34,14 @@ The following endpoints may be appended to the base URL, in order to access data
 | ------ | ------- |
 | curl {base URL}/{endpoint}/{query parameters} -H 'Host:new.portal.its.pdx.edu:8080' | Request a dataset from the specified endpoint with the specified query parameters. |
 
-Most endpoints serve data in JSON format by default. Currently, the only exception to this is the Trimet Quarterly Transit Data, which is only served as a zip file containing CSV formatted data. For all other endpoints, CSV formatted data is available by request by specifying the `format=csv` parameter. 
+Most endpoints serve data in JSON format by default. Currently, the only exception to this is the Trimet Quarterly Transit Data, which is only served as a zip file containing CSV formatted data. For all other endpoints, CSV formatted data is available by request by specifying the `format=csv` parameter. Other parameter default values are as follows:  
+
+| Parameter | Default Value |
+| --------- | ------------- |
+| format    | json          |
+| days_of_week | all of them |
+| highway_id | all highways |
+| resolution | 01:00:00 (one hour) |  
 
 Some examples of API calls made with cURL and Python have been provided on the [_API access examples_]({{ site.url }}{{ site.baseurl }}/documents/access_examples/) page.
 
@@ -43,4 +49,4 @@ All data accessible via the API is also served from the API to the portal websit
 
 Additionally, many of the data attributes for each dataset are listed on the [_Downloads_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) page. The parameters for each individual API endpoint are clearly defined on the page for that endpoint.  Additionally, it's important to note that the metadata available through the ```/highways/api/stationsmetadata```, ```/highways/api/detectormetadata ```, ```/highways/api/highwaymetadata```, and ```/traveltime/api/seginventory``` endpoints is crucial to the success of making API calls for specific locations, as it contains mappings between the real locations of those objects and the unique id values which are referenced in data returned by calls to other endpoints.  This metadata is downloadable both through API calls, or via manual download from the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page on the PORTAL website.
 
-Last Edited 2022-10-13
+Last Edited 2025-02-19
