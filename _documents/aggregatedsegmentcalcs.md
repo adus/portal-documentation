@@ -16,7 +16,7 @@ Aggregated Segment Calcs takes the following parameters:
 | ------------ | --------- | ------------------------------------------------- | --------------------- | ------------ |
 | start_date   | Yes       | Beginning Date for Data Query                     | Date formatted string | 2019-07-10   |
 | end_date     | Yes       | End Date for Data Query                           | Date formatted string | 2019-07-16   |
-| resolution   | No        | URL encoded time value used to divide data point: `00:00:20` (20 sec), `00:05:00` (5 min), `00:15:00` (15 min), `01:00:00` (1 hour), `1 00:00:00` (1 day). NOTE: make sure to encode the character `:` to `%3A`  | URL Encoded String    | 00%3A15%3A00 |
+| resolution   | No        | URL encoded time value used to divide data point: `00:00:20` (20 sec), `00:05:00` (5 min), `00:15:00` (15 min), `01:00:00` (1 hour), `1 00:00:00` (1 day). NOTE: make sure to encode the character `:` to `%3A`  | URL Encoded String    | 00%3A15%3A00 (15 min)|
 | segment_id   | No        | The ID value of a segment.                        | Integer               | 2264         |
 | format       | No        | File format. Acceptable values are `csv` or `json`    | String                | `csv`          |
 
