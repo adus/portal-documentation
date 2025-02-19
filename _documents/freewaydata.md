@@ -18,8 +18,8 @@ Freeway Data takes the following Parameters
 | end_date     | Yes      | End Date for Data Query                                                | YYYY-MM-DD String     | 2020-08-11   |
 | days_of_week | No       | Filter results by day of week. Sunday = 1, Saturday = 7                | Integer               | 1            |
 | highway_id   | No       | Integer value of any given highway ID                                  | Integer               | 54           |
-| resolution   | No       | URL encoded time value used to divide data points                      | URL Encoded String    | 00%3A15%3A00 |
-| format       | No       | File format. Acceptable values are CSV or JSON                         | String                | CSV          |
+| resolution   | No       | URL encoded time value used to divide data point: `00:00:20` (20 sec), `00:05:00` (5 min), `00:15:00` (15 min), `01:00:00` (1 hour), `1 00:00:00` (1 day). NOTE: make sure to encode the character `:` to `%3A`                       | URL Encoded String    | 00%3A15%3A00 (15 min)|
+| format       | No       | File format. Acceptable values are `csv` or `json`                     | String                | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/highways/api/freewaydata/?start_date=2020-05-10&end_date=2020-05-16&days_of_week=2&days_of_week=5&highway_id=3&format=csv```
@@ -40,4 +40,4 @@ starttime,resolution,detector_id,speed,volume,occupancy,countreadings,delay,trav
 
 ```
 
-Last Updated: 2022-10-13
+Last Updated: 2025-02-19
