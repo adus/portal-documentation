@@ -1,16 +1,16 @@
 ---
 title: "Highway Metadata"
 ---
-The _/highways/api/highwaymetadata_ end point returns highway data for each highway in the network, sorted by station number.
+The _/highways/api/highwaymetadata_ endpoint returns highway data for each highway in the network, sorted by station number.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Highways Metadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Highways Metadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the Downloads page.
 
 ## Parameters
 Detector Metadata takes the following Parameters
 
 | Name         | Required | Description                                        | Type   | Example      |
 | ------------ | -------- | -------------------------------------------------- | ------ | ------------ |
-|  format      | No       | File format. Acceptable values are CSV or JSON     | String | CSV          |
+|  format      | No       | File format. Acceptable values are `csv` or `json`     | String | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/highways/api/highwaymetadata/?format=csv```
