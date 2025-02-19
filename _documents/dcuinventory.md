@@ -1,9 +1,9 @@
 ---
 title: "Data Collection Unit Inventory"
 ---
-The _/traveltime/api/dcuinventory_ end point returns data collection unit information for each unit in the network.
+The _/traveltime/api/dcuinventory_ endpoint returns data collection unit information for each unit in the network.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Travel Time DCU Inventory_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time DCU Inventory dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Travel Time DCU Inventory_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time DCU Inventory dropdown menu on the Downloads page.
 
 
 ## Parameters
@@ -11,7 +11,7 @@ Detector Metadata takes the following Parameters
 
 | Name         | Required  | Description                                        | Type   | Example      |
 | ------------ | --------- | -------------------------------------------------- | ------ | ------------ |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | String | CSV          |
+|  format      | No        | File format. Acceptable values are `csv` or `json`     | String | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/traveltime/api/dcuinventory?format=csv```
@@ -40,4 +40,4 @@ True,555,SW Macadam Ave at SW Bancroft St,-122.67298,45.49319,Point,Macad,45.493
 True,524,TV Hwy at Cedar Hills Blvd,-122.8108,45.48825,Point,TVH,45.48825,Intersection,0.0,0.0,Wash Co,1
 ```
 
-Last Updated: 2022-10-13
+Last Updated: 2025-02-19
