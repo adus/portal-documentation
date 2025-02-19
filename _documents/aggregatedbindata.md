@@ -1,11 +1,11 @@
 ---
 title: "Vehicle Length (Freight)"
 ---
-The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four 'bins'.  A table of the different bin lengths can be found in the [_Other Download Categories_]({{ site.url }}{{ site.baseurl }}/documents/downloads) dropdown menu on the downloads page.  The `stationid` parameter corresponds to each station's unique station ID. These are viewable by making a call to the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
+The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four 'bins'.  A table of the different bin lengths can be found in the [_Other Download Categories_]({{ site.url }}{{ site.baseurl }}/documents/downloads) dropdown menu on the Downloads page.  The `stationid` parameter corresponds to each station's unique station ID. These are viewable by making a call to the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
 
 Due to the quantity of data available, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Other Download Categories dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Aggregated CLS_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Other Download Categories dropdown menu on the Downloads page.
 
 ## Parameters
 This endpoint takes the following Parameters:
@@ -14,9 +14,9 @@ This endpoint takes the following Parameters:
 | ------------- | --------- | -------------------------------------------------- | ------------------ | ------------ |
 | start_date    | Yes       | Beginning Date for results                         | YYYY-MM-DD String  | 2020-08-11   |
 | end_date      | Yes       | End Date for results                               | YYYY-MM-DD String  | 2020-08-11   |
-| format        | No        | File format. Acceptable values are CSV or JSON     | String             | CSV          |
+| format        | No        | File format. Acceptable values are `csv` or `json` | String             | `csv`        |
 | stationid     | No        | integer value of station ID                        | Integer            | 54           |
-| resolution    | No        | URL encoded time value used to divide data points  | URL Encoded String | 00%3A15%3A00 |
+| resolution    | No        | URL encoded time value used to divide data point: `00:00:20` (20 sec), `00:05:00` (5 min), `00:15:00` (15 min), `01:00:00` (1 hour), `1 00:00:00` (1 day). NOTE: make sure to encode the character `:` to `%3A`   | URL Encoded String | 00%3A15%3A00 (15 min)|
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/freight/api/aggregatedbindata?start_date=2019-07-10&end_date=2019-07-11&stationid=54&format=csv```
@@ -45,4 +45,4 @@ aggregated_records,bin_count,bin_number,bin_resolution,bin_time,bin_type,id,lane
 28,0,4,00:15:00,2019-07-10T00:00:00-07:00,length,938255095,3,54
 ```
 
-Last Updated: 2022-10-13
+Last Updated: 2025-02-19
