@@ -2,8 +2,7 @@
 title: "Getting Started with the Portal API"
 ---
 
-The Portal API offers a publicly available means of accessing the data in the Portal archive;
-and no token required in order to make a request.
+The PORTAL API offers a publicly available means of accessing the data. At the moment, a token is not required in order to make a request.
 
 The base URL for the API is:
 <br />
@@ -47,6 +46,6 @@ Some examples of API calls made with cURL and Python have been provided on the [
 
 All data accessible via the API is also served from the API to the portal website; visiting the tutorial pages for [_Vehicle Length (Freight)_]({{ site.url }}{{ site.baseurl }}/documents/freight/), [_Highways_]({{ site.url }}{{ site.baseurl }}/documents/highways/), [_Stations_]({{ site.url }}{{ site.baseurl }}/documents/stations/), and [_Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/travel-time/) in the Portal Website Documentation section can provide some crucial insight into the data to a new user.
 
-Additionally, many of the data attributes for each dataset are listed on the [_Downloads_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) page. The parameters for each individual API endpoint are clearly defined on the page for that endpoint.  Additionally, it's important to note that the metadata available through the ```/highways/api/stationsmetadata```, ```/highways/api/detectormetadata ```, ```/highways/api/highwaymetadata```, and ```/traveltime/api/seginventory``` endpoints is crucial to the success of making API calls for specific locations, as it contains mappings between the real locations of those objects and the unique id values which are referenced in data returned by calls to other endpoints.  This metadata is downloadable both through API calls, or via manual download from the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page on the PORTAL website.
+Additionally, many of the data attributes for each dataset are listed on the [_Downloads_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) page. The parameters for each individual API endpoint are clearly defined on the page for that endpoint.  It is important to note that the metadata available through the ```/highways/api/stationsmetadata```, ```/highways/api/detectormetadata ```, ```/highways/api/highwaymetadata```, and ```/traveltime/api/seginventory``` endpoints is crucial to the success of making API calls for specific locations, as it contains mappings between the real locations of those objects and the unique id values which are referenced in data returned by calls to other endpoints.  This metadata is downloadable both through API calls, or via manual download from the [_Downloads_](http://new.portal.its.pdx.edu:8080/downloads/) page on the PORTAL website.
 
 Last Edited 2025-02-19
