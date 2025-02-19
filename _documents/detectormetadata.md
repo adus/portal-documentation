@@ -1,9 +1,9 @@
 ---
 title: "Detector Metadata"
 ---
-The _/highways/api/detectormetadata_ end point returns station data for each individual detector in the network, sorted by station number. This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters; applying this constraint will return only stations active within that range of dates.
+The _/highways/api/detectormetadata_ endpoint returns station data for each individual detector in the network, sorted by station number. This information can be constrained to a date or a range of dates using the `start_date` and `end_date` parameters; applying this constraint will return only stations active within that range of dates.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Detector Metadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Detector Metadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the Downloads page.
 
 ## Parameters
 Detector Metadata takes the following Parameters
@@ -12,7 +12,7 @@ Detector Metadata takes the following Parameters
 | ------------ | -------- | ---------------------------------------------- | ----------------- | ------------ |
 |  start_date  | No       | Beginning Date for Data Query                  | YYYY-MM-DD String | 2020-05-10   |
 |  end_date    | No       | End Date for Data Query in                     | YYYY-MM-DD string | 2020-05-16   |
-|  format      | No       | File format. Acceptable values are CSV or JSON | String            | CSV          |
+|  format      | No       | File format. Acceptable values are `csv` or `json` | String            | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/highways/api/detectormetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
@@ -41,4 +41,4 @@ detectorid,stationid,highwayid,milepost,detectortitle,lanenumber,agency_lane,act
 101763,10347,612,0.0,101763,5,2,"{""lower"": ""2015-09-16"", ""upper"": null, ""bounds"": ""[)""}"
 ```
 
-Last Updated: 2022-10-13
+Last Updated: 2025-02-19
