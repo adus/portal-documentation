@@ -1,11 +1,11 @@
 ---
 title: "Raw Travel Time"
 ---
-The _/traveltime/api/segmentcalc_ endpoint returns all the individual (non-aggregated) travel time calculations in one ore more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment or segments returned are specified by passing the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
+The _/traveltime/api/segmentcalc_ endpoint returns all the individual (non-aggregated) travel time calculations in one or more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment, or segments, returned are specified by passing the `segment_id` parameter, which takes an integer. The valid segment IDs for this endpoint can be found in the data returned by a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
 
 Due to the quantity of data available, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Raw Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Raw Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the Downloads page.
 
 ## Parameters
 Segment Calc takes the following parameters:
@@ -15,7 +15,7 @@ Segment Calc takes the following parameters:
 | start_date   | Yes       | Beginning Date for Data Query in YYYY-MM-DD      | Date formatted String | 2019-07-10   |
 | end_date     | Yes       | End Date for Data Query in YYYY-MM-DD Format     | Date formatted String | 2019-07-16   |
 | segment_id   | No        | The ID value of a segment.                       | Integer               | 2264         |
-| format       | No        | File format. Acceptable values are CSV or JSON   | String                | CSV          |
+| format       | No        | File format. Acceptable values are `csv` or `json`   | String                | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/traveltime/api/segmentcalc/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
