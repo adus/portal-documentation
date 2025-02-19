@@ -3,7 +3,7 @@ title: "Voyage Volume"
 ---
 The _/arterial/api/voyagevolume_ endpoint returns a set of traffic volume data for Portland, Oregon. The returned data is grouped by its `controller_id` attribute and broken up by system detector count within that grouping. Due to the quantity of data in the database, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Voyage Volume_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Other Download Categories dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Voyage Volume_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Other Download Categories dropdown menu on the Downloads page.
 
 ## Parameters
 Voyage Volume takes the following Parameters
@@ -12,7 +12,7 @@ Voyage Volume takes the following Parameters
 | ------------ | -------- | -------------------------------------------------- | ----------------- | ------------ |
 |  start_date  | Yes      | Beginning Date for Data Query                      | YYYY-MM-DD String | 2017-01-03   |
 |  end_date    | Yes      | End Date for Data Query in                         | YYYY-MM-DD String | 2017-01-04   |
-|  format      | No       | File format. Acceptable values are CSV or JSON     | String            | CSV          |
+|  format      | No       | File format. Acceptable values are `csv` or `json`     | String            | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/arterial/api/voyagevolume/?start_date=2017-01-03&end_date=2017-01-04&format=csv```
@@ -41,4 +41,4 @@ controller_id,detector_10_volume,detector_11_volume,detector_12_volume,detector_
 8471,11,0,0,0,0,0,1,0,0,12,0,12,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,3,0,0,0,4,2017-01-03T00:07:00-08:00,15
 ```
 
-Last Updated: 2022-10-13
+Last Updated: 2025-02-19
