@@ -1,8 +1,7 @@
 ---
 title: "API Access Examples"
 ---
-The _API Access Examples_ page offers some insight into accessing the API using various common methods. What follows here is a simple
-code repository which provides a basic framework for how to interface with the API.
+The _API Access Examples_ page offers some insight into accessing the API using various common methods. What follows here is a simple code repository which provides a basic framework for how to interface with the API.
 
 ## Learning objectives
 By the end of the tutorial users should be able to:
@@ -10,7 +9,7 @@ By the end of the tutorial users should be able to:
 * Understand how to fill the fields involved in making a request to the database.
 * Understand how to access the API using cURL and Python.
 
-Each of the forms on the downloads page has a set of fields which may be filled in order to request a constrained set of data. The purpose of some of these fields, such as start_date and end_date should be self-explanatory.  The individual values for other, less-intuitive fields, such as the station_id, highway_id or segment_id fields are available through the Stations Metadata, Highways Metadata, or Travel Time Segment Inventory forms, all of which only require start and end dates as input.
+Each of the forms on the Downloads page has a set of fields which may be filled in order to request a constrained set of data. The purpose of some of these fields, such as `start_date` and `end_date` should be self-explanatory.  The individual values for other, less-intuitive fields, such as the `station_id`, `highway_id`, or `segment_id` fields are available through the Stations Metadata, Highways Metadata, or Travel Time Segment Inventory forms, all of which only require start and end dates as input.
 
 The date format used by the forms is YYYY-MM-DD.
 
@@ -27,7 +26,7 @@ The following sample request for data from the Highways dataset returns CSV form
 
 #### Curl Example \#2 - Highways Data, Limited by Days of Week Over a Range of Dates
 
-The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 51 (I-205 NB and I-205 NB Washington) for Wednesdays, Thursdays and Fridays only, within a date range of May 05, 2020 and May 15, 2020.
+The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 51 (I-205 NB and I-205 NB Washington) for Wednesdays, Thursdays, and Fridays only, within a date range of May 05, 2020, and May 15, 2020.
 
 `curl "http://new.portal.its.pdx.edu:8080/highways/api/freewaydata/?start_date=2020-05-04&end_date=2020-05-15&days_of_week=3&days_of_week=4&days_of_week=5&format=csv&highway_id=3&highway_id=54&resolution=01"%"3A00"%"3A00" -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o highways_data.csv'`
 
@@ -39,7 +38,7 @@ The following sample request for data from the Travel Time dataset returns CSV f
 
 #### Curl Example \#4 - Trimet Data
 
-The following request for data from the TriMet ridership dataset returns the TriMet for the selected quarter; zip is selected here as that is how the file is served through the website - when unzipped, the data is available in .csv format _only_.
+The following request for data from the TriMet ridership dataset returns the TriMet for the selected quarter; zip is selected here as that is how the file is served through the website - when unzipped, the data is available in CSV format _only_.
 
 `curl "http://new.portal.its.pdx.edu:8080/transit/downloadquarterlydata?agency=trimet&quarter=2019-q3-summer" -H 'Host: new.portal.its.pdx.edu:8080' -H 'Referer: http://new.portal.its.pdx.edu:8080/downloads/ -o trimet.zip'`
 
@@ -53,7 +52,7 @@ The following request for data from the TriMet ridership dataset returns the Tri
 
 #### Python Example \#1 - Highways Data, Single Day
 
-The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 54 (I-205 NB, and I-205 NB Washington) for May 11, 2020.  It then saves that data into a csv file using -o.
+The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 54 (I-205 NB, and I-205 NB Washington) for May 11, 2020.  It then saves that data into a CSV file using -o.
 
 ```
 import requests
@@ -89,7 +88,7 @@ with open('highways_data.csv', 'w+') as file:
 
 #### Python Example \#2 - Highways Data, Limited by Days of Week Over a Range of Dates
 
-The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 51 (I-205 NB and I-205 NB Washington) for Wednesdays, Thursdays and Fridays only, within a date range of May 05, 2020 and May 15, 2020.
+The following sample request for data from the Highways dataset returns CSV formatted data with a 15 minute resolution for the highways with ID values 3 and 51 (I-205 NB and I-205 NB Washington) for Wednesdays, Thursdays, and Fridays only, within a date range of May 05, 2020, and May 15, 2020.
 
 ```
 import requests
@@ -164,7 +163,7 @@ with open('travel_time_data.csv', 'w+') as file:
 
 #### Python Example \#4 - Trimet Data
 
-The following request for data from the TriMet ridership dataset returns the TriMet for the selected quarter; zip is selected here as that is how the file is served through the website - when unzipped, the data is available in .csv format _only_.
+The following request for data from the TriMet ridership dataset returns the TriMet for the selected quarter; zip is selected here as that is how the file is served through the website - when unzipped, the data is available in CSV format _only_.
 
 ```
 import requests
@@ -197,4 +196,4 @@ with open('transit_data.zip', 'wb') as zipfile:
 </p>
 </details>
 
-Last Updated: 2020-08-17
+Last Updated: 2025-02-19
