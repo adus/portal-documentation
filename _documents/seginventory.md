@@ -1,9 +1,9 @@
 ---
 title: "Segment Inventory"
 ---
-The _/traveltime/api/seginventory_ end point returns segment data for each segment in the network.
+The _/traveltime/api/seginventory_ endpoint returns segment data for each segment in the network.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Travel Time Segment Inventory_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Travel Time Segment Inventory_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the Downloads page.
 
 
 ## Parameters
@@ -11,7 +11,7 @@ Detector Metadata takes the following Parameters
 
 | Name         | Required  | Description                                        | Type   | Example      |
 | ------------ | --------- | -------------------------------------------------- | ------ | ------------ |
-|  format      | No        | File format. Acceptable values are CSV or JSON     | String | CSV          |
+|  format      | No        | File format. Acceptable values are `csv` or `json`     | String | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/traveltime/api/seginventory?format=csv```
@@ -39,4 +39,4 @@ True,532,10,30,531,,3,2478,100,600,10,Barbur Blvd SB at Hamilton to Bertha,1,Tra
 True,546,10,30,535,,3,2512,100,600,10,Holgate Blvd WB at SE 17th to Powell WB at SE 8th,1,TravelTime,1.65,30,,True
 True,499,15,60,498,,6,2454,14467,3600,60,Construction Zone NB DC,1,TravelTime,1.65,20,,True
 ```
-Last Updated: 2020-09-02
+Last Updated: 2025-02-19
