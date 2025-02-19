@@ -3,7 +3,7 @@ title: "Station Metadata"
 ---
 The _/highways/api/stationmetadata_ endpoint returns station data for each individual station in the network. This information can be constrained within a date range through the use of the `start_date` and `end_date` parameters.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Highway Data dropdown menu on the Downloads page.
 
 ## Parameters
 Stations Metadata takes the following Parameters
@@ -12,7 +12,7 @@ Stations Metadata takes the following Parameters
 | ------------ | -------- | -------------------------------------------------- | ----------------- | ------------ |
 |  start_date  | No       | Beginning Date for Data Query                      | YYYY-MM-DD String | 2020-05-10   |
 |  end_date    | No       | End Date for Data Query in                         | YYYY-MM-DD String | 2020-05-16   |
-|  format      | No       | File format. Acceptable values are CSV or JSON     | String            | CSV          |
+|  format      | No       | File format. Acceptable values are `csv` or `json` | String            | `csv`        |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/highways/api/stationmetadata/?start_date=2020-05-10&end_date=2020-05-16&format=csv```
@@ -35,4 +35,4 @@ stationid,highwayid,milepost,locationtext,length,numberlanes,agencyid,x_coord,y_
 1075,10,4.35,Scholls Ferry (2R332) to SB OR 217,0.805,,18,-122.7847,45.45004,"{""lower"": ""2012-03-01"", ""upper"": null, ""bounds"": ""[)""}"
 ```
 
-Last Updated: 2022-10-13
+Last Updated: 2025-02-19
