@@ -1,13 +1,13 @@
 ---
 title: "Aggregated Travel Time"
 ---
-The _/traveltime/api/aggregatedsegmentcalcs_ endpoint returns aggregated travel time and count readings for one or more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment or segments returned are specified using the `segment_id` parameter, which takes an integer. A list of valid segment IDs can be obtained by making a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
+The _/traveltime/api/aggregatedsegmentcalcs_ endpoint returns aggregated travel time and count readings for one or more segments (each of which is defined as a route between a set of starting coordinates and a set of ending coordinates). The segment, or segments, returned are specified using the `segment_id` parameter, which takes an integer. A list of valid segment IDs can be obtained by making a call to the [_seginventory_]({{ site.url }}{{ site.baseurl }}/documents/seginventory/) endpoint.
 
 Due to the quantity of data in the database, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
 Valid resolutions for this endpoint are 5 minutes and 1 hour. If not specified, the default resolution is 5 minutes.
 
-This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Aggregated Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the downloads page.
+This endpoint returns data in JSON format by default. An overview of the data returned by this endpoint, including attribute descriptions, can be found on the Downloads page, in the [_Aggregated Travel Time_]({{ site.url }}{{ site.baseurl }}/documents/downloads/) section of the Travel Time Data dropdown menu on the Downloads page.
 
 ## Parameters
 Aggregated Segment Calcs takes the following parameters:
@@ -16,9 +16,9 @@ Aggregated Segment Calcs takes the following parameters:
 | ------------ | --------- | ------------------------------------------------- | --------------------- | ------------ |
 | start_date   | Yes       | Beginning Date for Data Query                     | Date formatted string | 2019-07-10   |
 | end_date     | Yes       | End Date for Data Query                           | Date formatted string | 2019-07-16   |
-| resolution   | No        | URL encoded time value used to divide data points | URL Encoded String    | 00%3A15%3A00 |
+| resolution   | No        | URL encoded time value used to divide data point: `00:00:20` (20 sec), `00:05:00` (5 min), `00:15:00` (15 min), `01:00:00` (1 hour), `1 00:00:00` (1 day). NOTE: make sure to encode the character `:` to `%3A`  | URL Encoded String    | 00%3A15%3A00 |
 | segment_id   | No        | The ID value of a segment.                        | Integer               | 2264         |
-| format       | No        | File format. Acceptable values are CSV or JSON    | String                | CSV          |
+| format       | No        | File format. Acceptable values are `csv` or `json`    | String                | `csv`          |
 
 ## Example Request
 ```https://new.portal.its.pdx.edu/traveltime/api/aggregatedsegmentcalcs/?start_date=2019-07-10&end_date=2019-07-16&segment_id=2264&format=csv```
