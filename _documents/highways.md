@@ -46,4 +46,4 @@ _Ungrouped/Standard_
 Figure 2 shows data as a continuous time series for only the start and end times selected (15:00 through 19:00). Details of each point or chloropleth cell are pop up as you scroll over a data point of interest. Of all the days selected in February, 2018-02-04, is the only date to to show speeds averaging above 50 mph throughout the selected I-84 EB corridor between 15:00 and 19:00. Go Eagles!  
 
 
-Last updated: 2019-10-31
+Last updated: 2025-02-19
