@@ -14,4 +14,7 @@ __Agenda__
     - General registration registration found on event page.
   - Status update on upcoming Ramp data visualization tool.
 - Upcoming enhancement projects and workshops for 2025-2026.
-- Discussion on updating the Arterials page.
+- Discussion on updating the Arterials page:
+  - Adding data availability visualization tool.
+  - Visualize multiple stations.
+  - Add vehicle length classification filters.
