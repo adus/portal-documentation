@@ -1,10 +1,10 @@
 ---
-title: "PUG Meeting 2025-08-07"
+title: "PUG Meeting 2025-11-06"
 tags:
   - notices
 ---
 
-The next PUG meeting is scheduled for Thursday, August 7, at 11 am. [Register here for meeting call-in information](https://pdx.zoom.us/meeting/register/kaOYtThwSUaT5lcrW3oAkQ#/registration).  
+The next PUG meeting is scheduled for Thursday, November 6, at 11 am. [Register here for meeting call-in information](https://pdx.zoom.us/meeting/register/kaOYtThwSUaT5lcrW3oAkQ#/registration).  
 
 __Agenda__
 - General Updates & Announcements
