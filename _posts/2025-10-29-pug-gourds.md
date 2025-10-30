@@ -18,3 +18,5 @@ __Agenda__
   - Adding data availability visualization tool.
   - Visualize multiple stations.
   - Add vehicle length classification filters.
+
+Sign-up to receive monthly updates about PORTAL and BikePed Portal [here](https://share.hsforms.com/1RAfypg6SRDOl3DWUaYgvNw4bv60).
