@@ -34,7 +34,7 @@ Use the "+" icon under the station name listed under "Stations View" to add it t
 
 For additional information about a specific station, toggle the "i" icon to display and hide the station metadata.
 
-_Using the metadata table_
+_Using the metadata table_  
 If you know the name(s) of the station(s) of interest, you can select the stations by using the metadata table. Click the graph icon located at the bottom left corner of the map and then select the "Metadata" tab (Fig. 3). Within this window, you can use the filters on the left side to narrow down your search or you can use the search bar to find a specific station. Once you find the station(s) you're looking for, select one station at a time by clicking on the row and then clicking the "+ Add to Analysis Stations" button located at the top of the window. Selected stations for data exploration and analysis will then be listed under "Analysis Stations"
 
 <figure class="align-left">
