@@ -17,7 +17,7 @@ To select a station, use either the map or the metadata table.
 
 _Using the map_  
 The map legend shows how to distinguish between ODOT and WSDOT maintained mainline and ramp stations (Fig. 1). 
-
+  
 <figure class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/highsta-fig1.png" alt="">
   <figcaption>Figure 1. Map of ODOT and WSDOT managed mainline and ramp stations. The legend indicates the station type of ownership.  </figcaption>
