@@ -13,25 +13,23 @@ By the end of the tutorial, users will be able to:
 * understand, navigate, and use the filters for comparing single quantity historical data
 
 ### Step 1: Select a mainline or ramp station
-There are two ways to select a station:
-1) use a the map,
-2) use the metadata table.
+To select a station, use either the map or the metadata table.
 
-_Using the map_
+_Using the map_  
 The map legend shows how to distinguish between ODOT and WSDOT maintained mainline and ramp stations (Fig. 1). 
 
 <figure class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/highsta-fig1.png" alt="">
   <figcaption>Figure 1. Map of ODOT and WSDOT managed mainline and ramp stations. The legend indicates the station type of ownership.  </figcaption>
-</figure>
-
-As you zoom into the map the icons will begin to disaggregate from approximate locations closer to actual locations of detection of either in-ground loops or radar detectors. (If you notice that the location is incorrect please let us know.) The numbers within each icon indicates the number of stations within that area. Once you find the station(s) of interest, click on the icon. Each time an icon is clicked, the selected icon will change color and a list of stations will show up on the right sidebar menu under "Stations View" (Fig. 2).
-
+</figure>  
+  
+As you zoom into the map the icons will begin to disaggregate from approximate locations closer to actual locations of detection of either in-ground loops or radar detectors. (If you notice that the location is incorrect please let us know.) The numbers within each icon indicates the number of stations within that area. Once you find the station(s) of interest, click on the icon. Each time an icon is clicked, the selected icon will change color and a list of stations will show up on the right sidebar menu under "Stations View" (Fig. 2).  
+  
 <figure class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/highsta-fig1.png" alt="">
   <figcaption>Figure 2. Once a station, or cluster of stations, is selected the icon will change color and the list of stations will show up under "Stations View" in the right sidebar menu. </figcaption>
 </figure>
-
+  
 Use the "+" icon under the station name listed under "Stations View" to add it to the "Analysis Stations" list. Stations listed under "Analysis Stations" are selected stations for further data exploration and analysis. To remove a station from the list of "Analysis Stations", click the "-" icon under the station name.
 
 For additional information about a specific station, toggle the "i" icon to display and hide the station metadata.
