@@ -13,12 +13,12 @@ __Agenda__
 - We will be discussing an inquiry from ODOT about how PORTAL users are using station volume and station occupancy data. There are several stations that are located just past the gore where the auxiliary lane merges with the mainline. In these cases, lane 1 (the right most lane in the direction of travel) is being treated as a mainline lane and exhibits low volume and occupancy most likely attributed to vehicles merging to lane 2 before the end of the auxiliary lane. The treatment of lane 1 as a mainline lane affects the average station volumes and average station occupancy (especially during congested periods).
     - Below is an example of SB Wilsonville Rd (2DS184) @ SB 1-5 MP 283.42 showing four lanes:  
   <figure class="align-center">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pug-20250113-img1.png" alt="">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pug-20260113-img1.png" alt="">
   </figure>  
 
     - A solution could be to combine lanes 1 and 2, and rebale the lanes as shown below:  
   <figure class="align-center">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pug-20250113-img2.png" alt="">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pug-20260113-img2.png" alt="">
   </figure>
   
   
