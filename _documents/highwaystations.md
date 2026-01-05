@@ -38,7 +38,7 @@ _Using the metadata table_
 If you know the name(s) of the station(s) of interest, you can select the stations by using the metadata table. Click the graph icon located at the bottom left corner of the map and then select the "Metadata" tab (Fig. 3). Within this window, you can use the filters on the left side to narrow down your search or you can use the search bar to find a specific station. Once you find the station(s) you're looking for, select one station at a time by clicking on the row and then clicking the "+ Add to Analysis Stations" button located at the top of the window. Selected stations for data exploration and analysis will then be listed under "Analysis Stations"
 
 <figure class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/highsta-fig1.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/highsta-fig3.png" alt="">
   <figcaption>Figure 3. The arrow shows the location of the "graph" icon that will display a new window with three tabs. The "Metadata" tab will display a list of all the ramp and mainline stations. You can either use the filter option on the left side or the search bar to find the station(s) of interest. Click the "+ Add to Analysis Stations" button to add to the list of "Analysis Stations" for further data exploration and analysis. </figcaption>
 </figure>
 
