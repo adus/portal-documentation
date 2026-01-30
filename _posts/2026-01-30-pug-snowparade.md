@@ -8,7 +8,7 @@ February's PORTAL Users Group meeting is set for Thursday, February 5, at 11 am.
   
 __Agenda__
 - General Updates & Announcements
-    - Recap of last week's meeting.
+    - Recap and update of last month's meeting regarding stations located just after the merge and mainline lanes.
     - Eco-Counter updates
 - BikePed Portal demonstration of the user login site and the different visualizations and tools available to the Portland Metro region transportation agencies. A total of four agencies and ~28 count locations will be included in the region.  
   
