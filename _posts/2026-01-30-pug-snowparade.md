@@ -4,7 +4,7 @@ tags:
   - notices
 ---
 
-We have rescheduled January's meeting for Tuesday, January 13, at 11 am. [Register here for meeting information.](https://pdx.zoom.us/meeting/register/kaOYtThwSUaT5lcrW3oAkQ) Double check that the meeting ID is 893 6103 3852.  
+We have rescheduled January's meeting for Thursday, February 5, at 11 am. [Register here for meeting information.](https://pdx.zoom.us/meeting/register/kaOYtThwSUaT5lcrW3oAkQ) Double check that the meeting ID is 893 6103 3852.  
   
 __Agenda__
 - General Updates & Announcements
