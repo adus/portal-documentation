@@ -1,7 +1,7 @@
 ---
 title: "Vehicle Length (Freight)"
 ---
-The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four 'bins'.  A table of the different bin lengths can be found in the [_Other Download Categories_]({{ site.url }}{{ site.baseurl }}/documents/downloads) dropdown menu on the Downloads page.  The `stationid` parameter corresponds to each station's unique station ID. These are viewable by making a call to the [_Stations Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationsmetadata) endpoint.
+The _/freight/api/aggregatedbindata_ endpoint returns records of vehicle length, sorted into one of four 'bins'.  A table of the different bin lengths can be found in the [_Other Download Categories_]({{ site.url }}{{ site.baseurl }}/documents/downloads) dropdown menu on the Downloads page.  The `stationid` parameter corresponds to each station's unique station ID. These are viewable by making a call to the [_Station Metadata_]({{ site.url }}{{ site.baseurl }}/documents/stationmetadata) endpoint.
 
 Due to the quantity of data available, API calls to this endpoint must be constrained within a date range through the use of the `start_date` and `end_date` parameters in order to reliably return any data.
 
