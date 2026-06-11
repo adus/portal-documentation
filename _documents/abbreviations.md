@@ -7,6 +7,7 @@ title: "Abbreviations"
 | APC | Automatic Passenger Count |
 | ATSPM | Automated Traffic Signal Performance |
 | AVL | Automatic Vehicle Location |
+| CLS | Classified Length & Speed |
 | DriveNET | Digital Roadway Interactive Visualization and Evaluation Network |
 | DCU | Data Collection Unit |
 | FHWA | Federal Highway Administration |
